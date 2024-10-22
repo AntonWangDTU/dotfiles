@@ -1,0 +1,341 @@
+[13:47:03.606] Log Level: 2
+[13:47:03.625] VS Code version: 1.94.0
+[13:47:03.625] Remote-SSH version: remote-ssh@0.114.3
+[13:47:03.625] linux x64
+[13:47:03.628] SSH Resolver called for "ssh-remote+dtuhpc", attempt 1
+[13:47:03.629] "remote.SSH.useLocalServer": true
+[13:47:03.629] "remote.SSH.useExecServer": true
+[13:47:03.629] "remote.SSH.path": undefined
+[13:47:03.629] "remote.SSH.configFile": undefined
+[13:47:03.629] "remote.SSH.useFlock": true
+[13:47:03.629] "remote.SSH.lockfilesInTmp": false
+[13:47:03.630] "remote.SSH.localServerDownload": auto
+[13:47:03.630] "remote.SSH.remoteServerListenOnSocket": false
+[13:47:03.630] "remote.SSH.showLoginTerminal": false
+[13:47:03.630] "remote.SSH.defaultExtensions": []
+[13:47:03.630] "remote.SSH.loglevel": 2
+[13:47:03.630] "remote.SSH.enableDynamicForwarding": true
+[13:47:03.630] "remote.SSH.enableRemoteCommand": false
+[13:47:03.630] "remote.SSH.serverPickPortsFromRange": {}
+[13:47:03.630] "remote.SSH.serverInstallPath": {}
+[13:47:03.630] "remote.SSH.permitPtyAllocation": false
+[13:47:03.630] "remote.SSH.preferredLocalPortRange: undefined
+[13:47:03.630] "remote.SSH.useCurlAndWgetConfigurationFiles: false
+[13:47:03.636] SSH Resolver called for host: dtuhpc
+[13:47:03.636] Setting up SSH remote "dtuhpc"
+[13:47:03.639] Acquiring local install lock: /tmp/vscode-remote-ssh-55237ef1-install.lock
+[13:47:03.640] Looking for existing server data file at /home/aws/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-55237ef1-d78a74bcdfad14d5d3b1b782f87255d802b57511-0.114.3-es/data.json
+[13:47:03.640] No existing data file
+[13:47:03.641] Using commit id "d78a74bcdfad14d5d3b1b782f87255d802b57511" and quality "stable" for server
+[13:47:03.643] Script variables:
+ {
+  "InstallExitCode.24": "AlreadyInProgress",
+  "InstallExitCode.25": "ServerDownloadFailed",
+  "InstallExitCode.26": "NoDownloaderAvailable",
+  "InstallExitCode.27": "UnsupportedArch",
+  "InstallExitCode.28": "StatusCheckFailed",
+  "InstallExitCode.29": "NeedInsidersArch",
+  "InstallExitCode.30": "NoDownloaderAvailableForStatusCheck",
+  "InstallExitCode.31": "ServerTransferFailed",
+  "InstallExitCode.32": "ServerFailedToStart",
+  "InstallExitCode.33": "NeedInsidersWindows",
+  "InstallExitCode.34": "CreateInstallDirFailed",
+  "InstallExitCode.35": "UnsupportedPlatform",
+  "InstallExitCode.36": "ServerTerminatedCVE20201416",
+  "InstallExitCode.37": "UnpackFailed",
+  "InstallExitCode.38": "ChangeDirFailed",
+  "InstallExitCode.AlreadyInProgress": "24",
+  "InstallExitCode.ServerDownloadFailed": "25",
+  "InstallExitCode.NoDownloaderAvailable": "26",
+  "InstallExitCode.NoDownloaderAvailableForStatusCheck": "30",
+  "InstallExitCode.UnsupportedArch": "27",
+  "InstallExitCode.StatusCheckFailed": "28",
+  "InstallExitCode.NeedInsidersArch": "29",
+  "InstallExitCode.ServerTransferFailed": "31",
+  "InstallExitCode.ServerFailedToStart": "32",
+  "InstallExitCode.NeedInsidersWindows": "33",
+  "InstallExitCode.CreateInstallDirFailed": "34",
+  "InstallExitCode.UnsupportedPlatform": "35",
+  "InstallExitCode.ServerTerminatedCVE20201416": "36",
+  "InstallExitCode.UnpackFailed": "37",
+  "InstallExitCode.ChangeDirFailed": "38",
+  "InstallUnpackCode.Success": "success",
+  "InstallUnpackCode.Error": "error",
+  "InstallUnpackCode.MissingFiles": "missingFiles",
+  "uuid": "09827dfd0816",
+  "startMarker": "09827dfd0816: running",
+  "commitId": "d78a74bcdfad14d5d3b1b782f87255d802b57511",
+  "quality": "stable",
+  "token": "111aa1aa-aaaa-11a1-1111-1a11a11a1a11",
+  "vscodeAgentFolder": "$HOME/.vscode-server",
+  "allowClientDownload": "1",
+  "forceClientDownload": "0",
+  "cliNameInArchive": "code",
+  "ignoreWgetConfigFlag": " --no-config ",
+  "ignoreCurlConfigFlag": " --disable ",
+  "wgetTriesSegment": "--tries=1",
+  "listenArgs": "--on-host=127.0.0.1 --on-port",
+  "getDownloadServerStartTrigger": "09827dfd0816:trigger_server_download",
+  "getDownloadServerEndTrigger": "09827dfd0816:trigger_server_download_end",
+  "getProgressDownloading": "09827dfd0816%%1%%",
+  "getProgressInstalling": "09827dfd0816%%2%%"
+}
+[13:47:03.645] Install and start server if needed
+[13:47:03.648] PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+[13:47:03.648] Checking ssh with "ssh -V"
+[13:47:03.664] > OpenSSH_9.9p1, OpenSSL 3.3.2 3 Sep 2024
+
+[13:47:03.668] askpass server listening on /run/user/1000/vscode-ssh-askpass-b4e38ca3996e83dd5fc7f81eb863b560731d35dc.sock
+[13:47:03.668] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-fc44ca3b78be1ce98ef3ccafe53f36a64ecaa47f.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","41521","-o","ConnectTimeout=15","dtuhpc"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/aws/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-55237ef1-d78a74bcdfad14d5d3b1b782f87255d802b57511-0.114.3-es/data.json"}
+[13:47:03.668] Local server env: {"SHELL":"/usr/bin/zsh","DISPLAY":":1","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"","VSCODE_SSH_ASKPASS_MAIN":"/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-b4e38ca3996e83dd5fc7f81eb863b560731d35dc.sock"}
+[13:47:03.677] Spawned 68593
+[13:47:03.793] > local-server-1> Running ssh connection command: ssh -v -T -D 41521 -o ConnectTimeout=15 dtuhpc
+[13:47:03.800] > local-server-1> Spawned ssh, pid=68601
+[13:47:03.807] stderr> OpenSSH_9.9p1, OpenSSL 3.3.2 3 Sep 2024
+[13:47:03.922] stderr> debug1: Server host key: ssh-ed25519 SHA256:vfc+kYH+/Vjgk9Ifq1ZsxPm2bOFfC/Z535T7sMSO1ps
+[13:47:04.090] stderr> 
+[13:47:04.091] stderr> When connecting from _outside_ of DTU (and not using DTU-VPN) one is 
+[13:47:04.091] stderr> required to authenticate with a ssh-key + ssh-key-keyphrase + DTU-password.
+[13:47:04.091] stderr> 
+[13:47:04.091] stderr> From inside of DTU (or connecting via DTU-VPN) one can also connect 
+[13:47:04.091] stderr> with password or ssh-key.
+[13:47:04.091] stderr> 
+[13:47:04.091] stderr> Info page on SSH: https://www.hpc.dtu.dk/?page_id=4317
+[13:47:04.091] stderr> 
+[13:47:04.091] stderr> ---
+[13:47:04.091] stderr> For ThinLinc users: 
+[13:47:04.091] stderr> Please make sure that your TL client is at least version 4.16 - else you 
+[13:47:04.091] stderr> cannot connect to this system!
+[13:47:04.091] stderr> 
+[13:47:04.092] stderr> This is not an error-message, it's just a way to give you some information. 
+[13:47:04.092] stderr> Click 'Close' to continue ...
+[13:47:04.092] stderr> ---
+[13:47:04.092] stderr> 
+[13:47:04.092] stderr> Info page on the system update 08/2024: https://www.hpc.dtu.dk/?page_id=5209
+[13:47:04.092] stderr> 
+[13:47:04.092] stderr> 
+[13:47:04.265] stderr> Authenticated to login.hpc.dtu.dk ([192.38.95.132]:22) using "publickey".
+[13:47:04.704] > ready: 09827dfd0816
+[13:47:04.718] > Linux 6.1.112-1.el9.elrepo.x86_64 #1 SMP PREEMPT_DYNAMIC Mon Sep 30 13:59:36 EDT 2024
+[13:47:04.719] Platform: linux
+[13:47:04.732] > /bin/bash
+[13:47:04.732] Parent Shell: bash
+[13:47:04.732] Parent Shell pid: 68593
+[13:47:04.747] > 3794937
+[13:47:04.747] Waiting for pid of spawned 'sh' subshell: '3794937'...
+[13:47:04.760] > 09827dfd0816: running
+> Script executing under PID: 3794937
+[13:47:04.773] > Found existing installation at /zhome/1a/4/136247/.vscode-server...
+> Starting VS Code CLI...
+> printenv:
+>     SHELL=/bin/bash
+>     NODE_UMEMLMT=16G
+>     I_MPI_SHM_LMT=shm
+>     HEADNODE=hnode41
+>     LESSCHARSET=latin1
+>     HISTCONTROL=ignoredups
+>     LSB_HMS_TIME_FORMAT=y
+>     HOSTNAME=hpclogin1
+>     HISTSIZE=1000
+>     NODE_TYPE=login
+>     DOTNET_CLI_TELEMETRY_OPTOUT=1
+>     MAILNAME=Anton Wang Strandberg
+>     _LMFILES__modshare=/apps/dcc/etc/ModulesAlma92/modulefiles/latex/TexLive24:1
+>     MANPATH_modshare=:1:/appl9/latex/TexLive24/texmf/doc/man:1
+>     ENV=/appl/Modules/4.8.0/init/profile.sh
+>     PWD=/zhome/1a/4/136247
+>     LOGNAME=s183220
+>     XDG_SESSION_TYPE=tty
+>     MODULESHOME=/appl/Modules/4.8.0
+>     MANPATH=/lsf/10.1/man:/appl9/latex/TexLive24/texmf/doc/man:::/opt/puppetlabs/puppet/share/man
+>     TEXLIVE_INSTALL_NO_DISKCHECK=1
+>     OPENBLAS_NUM_THREADS=1
+>     MOTD_SHOWN=pam
+>     HOME=/zhome/1a/4/136247
+>     CPUVENDOR=GenuineIntel
+>     SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+>     LANG=C
+>     MODULES_LMALTNAME=latex/TexLive24&as|latex/default&as|latex/latest
+>     OPENBLAS_MAIN_FREE=1
+>     CPUSOCKETS=1
+>     MODULES_ADVANCED_VERSION_SPEC=1
+>     SSH_CONNECTION=10.209.188.192 55682 192.38.95.132 22
+>     MODULE_VERSION=4.8.0
+>     CPUTYPEV=XeonGold6226R
+>     ANS_IGNOREOS=1
+>     LSF_SERVERDIR=/lsf/10.1/linux3.10-glibc2.17-x86_64/etc
+>     HTTPS_CA_FILE=/appl9/latex/TexLive24/installer/install-tl-20240717/tlpkg/installer/curl/curl-ca-bundle.crt
+>     DCC_ETC_PROFILE_LOADED=1
+>     PATH_modshare=/bin:1:/apps9/dcc/bin:1:/usr/bin:1:/appl9/latex/TexLive24/bin/x86_64-linux:1:/appl/Modules/4.8.0/bin:1:/usr/local/bin:1
+>     MODULEPATH_modshare=/appl/Modules/versions:1:/apps/dcc/etc/Modules$DCC_MODULE_SUFFIX/modulefiles:1:/appl/Modules/$MODULE_VERSION/modulefiles:1
+>     XDG_SESSION_CLASS=user
+>     MODULES_LMALTNAME_modshare=latex/TexLive24&as|latex/default&as|latex/latest:1
+>     LOADEDMODULES_modshare=latex/TexLive24:1
+>     LESSOPEN=||/usr/bin/lesspipe.sh %s
+>     USER=s183220
+>     CPUTYPE=XeonGold6226R
+>     DCC_MODULE_SUFFIX=Alma92
+>     MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD
+>     LOADEDMODULES=latex/TexLive24
+>     VISUAL=emacs
+>     CUDA_MPS_LOG_DIRECTORY=/tmp
+>     SHLVL=2
+>     BASH_ENV=/appl/Modules/4.8.0/init/bash
+>     PAGER=less
+>     CVS_RSH=ssh
+>     MAILUSER=s183220
+>     XDG_SESSION_ID=12202
+>     LSF_LIBDIR=/lsf/10.1/linux3.10-glibc2.17-x86_64/lib
+>     LD_LIBRARY_PATH=/lsf/10.1/linux3.10-glibc2.17-x86_64/lib
+>     LC_CTYPE=en_US.utf8
+>     BLACKHOLE=/dtu/blackhole/17/136247
+>     XDG_RUNTIME_DIR=/run/user/236247
+>     S_COLORS=auto
+>     SSH_CLIENT=10.209.188.192 55682 22
+>     DEBUGINFOD_URLS=https://debuginfod.centos.org/ 
+>     MAILADDR=s183220@student.dtu.dk
+>     OMP_NUM_THREADS=1
+>     which_declare=declare -f
+>     LC_ALL=en_US.utf-8
+>     NODE_EXTRA=
+>     LSF_BINDIR=/lsf/10.1/linux3.10-glibc2.17-x86_64/bin
+>     MAILHOST=student.dtu.dk
+>     PATH=/usr/share/Modules/bin:/lsf/local/bin/:/lsf/10.1/linux3.10-glibc2.17-x86_64/etc:/lsf/10.1/linux3.10-glibc2.17-x86_64/bin:/appl9/latex/TexLive24/bin/x86_64-linux:/appl/Modules/4.8.0/bin:/apps9/dcc/bin:/usr/bin:/bin:/usr/local/bin:/opt/puppetlabs/bin:.
+>     LSB_BJOBS_FORMAT=jobid: user: queue: name: slots:- stat: start_time: time_left:
+>     MODULEPATH=/etc/scl/modulefiles:/appl/Modules/versions:/appl/Modules/$MODULE_VERSION/modulefiles:/apps/dcc/etc/Modules$DCC_MODULE_SUFFIX/modulefiles
+>     _LMFILES_=/apps/dcc/etc/ModulesAlma92/modulefiles/latex/TexLive24
+>     DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/236247/bus
+>     LSF_ENVDIR=/lsf/conf
+>     MODULE_VERSION_STACK=4.8.0
+>     MAIL=/zhome/1a/4/136247/Maildir/
+>     CVSEDITOR=nano -w
+>     DCC_PROFILE=20100806
+>     BINARY_TYPE_HPC=
+>     MODULES_PAGER=
+>     MODULES_CMD=/appl/Modules/4.8.0/libexec/modulecmd.tcl
+>     I_MPI_FABRICS_LIST=ofa
+>     BASH_FUNC_ml%%=() {  module ml "$@"
+>     }
+>     BASH_FUNC_which%%=() {  ( alias;
+>      eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+>     }
+>     BASH_FUNC_module%%=() {  unset _mlshdbg;
+>      if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+>      case "$-" in 
+>      *v*x*)
+>      set +vx;
+>      _mlshdbg='vx'
+>      ;;
+>      *v*)
+>      set +v;
+>      _mlshdbg='v'
+>      ;;
+>      *x*)
+>      set +x;
+>      _mlshdbg='x'
+>      ;;
+>      *)
+>      _mlshdbg=''
+>      ;;
+>      esac;
+>      fi;
+>      unset _mlre _mlIFS;
+>      if [ -n "${IFS+x}" ]; then
+>      _mlIFS=$IFS;
+>      fi;
+>      IFS=' ';
+>      for _mlv in ${MODULES_RUN_QUARANTINE:-};
+>      do
+>      if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+>      if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+>      _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+>      fi;
+>      _mlrv="MODULES_RUNENV_${_mlv}";
+>      _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+>      fi;
+>      done;
+>      if [ -n "${_mlre:-}" ]; then
+>      eval `eval ${_mlre} /usr/bin/tclsh /appl/Modules/4.8.0/libexec/modulecmd.tcl bash '"$@"'`;
+>      else
+>      eval `/usr/bin/tclsh /appl/Modules/4.8.0/libexec/modulecmd.tcl bash "$@"`;
+>      fi;
+>      _mlstatus=$?;
+>      if [ -n "${_mlIFS+x}" ]; then
+>      IFS=$_mlIFS;
+>      else
+>      unset IFS;
+>      fi;
+>      unset _mlre _mlv _mlrv _mlIFS;
+>      if [ -n "${_mlshdbg:-}" ]; then
+>      set -$_mlshdbg;
+>      fi;
+>      unset _mlshdbg;
+>      return $_mlstatus
+>     }
+>     BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+>      eval "module $@";
+>      else
+>      /usr/bin/scl "$@";
+>      fi
+>     }
+>     BASH_FUNC__module_raw%%=() {  eval "$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash "$@")";
+>      _mlstatus=$?;
+>      return $_mlstatus
+>     }
+>     _=/usr/bin/printenv
+> Removing old logfile at /zhome/1a/4/136247/.vscode-server/.cli.d78a74bcdfad14d5d3b1b782f87255d802b57511.log
+[13:47:04.784] > Spawned remote CLI: 3794955
+> Waiting for server log...
+[13:47:04.924] > Waiting for server log...
+> 09827dfd0816: start
+> listeningOn==127.0.0.1:32823==
+> osReleaseId==almalinux==
+> arch==x86_64==
+> vscodeArch==x64==
+> bitness==64==
+> tmpDir==/run/user/236247==
+> platform==linux==
+> unpackResult====
+> didLocalDownload==0==
+> downloadTime====
+> installTime====
+> serverStartTime==75==
+> execServerToken==111aa1aa-aaaa-11a1-1111-1a11a11a1a11==
+> platformDownloadPath==cli-alpine-x64==
+> 09827dfd0816: end
+[13:47:04.924] Received install output: 
+listeningOn==127.0.0.1:32823==
+osReleaseId==almalinux==
+arch==x86_64==
+vscodeArch==x64==
+bitness==64==
+tmpDir==/run/user/236247==
+platform==linux==
+unpackResult====
+didLocalDownload==0==
+downloadTime====
+installTime====
+serverStartTime==75==
+execServerToken==111aa1aa-aaaa-11a1-1111-1a11a11a1a11==
+platformDownloadPath==cli-alpine-x64==
+
+[13:47:04.925] Remote server is listening on port 32823
+[13:47:04.925] Parsed server configuration: {"serverConfiguration":{"remoteListeningOn":{"port":32823},"osReleaseId":"almalinux","arch":"x86_64","tmpDir":"/run/user/236247","platform":"linux","execServerToken":"111aa1aa-aaaa-11a1-1111-1a11a11a1a11"},"serverStartTime":75,"installUnpackCode":""}
+[13:47:04.926] Persisting server connection details to /home/aws/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-55237ef1-d78a74bcdfad14d5d3b1b782f87255d802b57511-0.114.3-es/data.json
+[13:47:04.928] Starting forwarding server. local port 37617 -> socksPort 41521 -> remotePort 32823
+[13:47:04.928] Forwarding server listening on port 37617
+[13:47:04.928] Waiting for ssh tunnel to be ready
+[13:47:04.929] [Forwarding server port 37617] Got connection 0
+[13:47:04.930] Tunneled port 32823 to local port 37617
+[13:47:04.930] Resolved "ssh-remote+dtuhpc" to "port 37617"
+[13:47:04.940] Initizing new exec server for ssh-remote+dtuhpc
+[13:47:04.940] Resolving exec server at port 37617
+[13:47:04.960] [Forwarding server port 37617] Got connection 1
+[13:47:05.027] Exec server for ssh-remote+dtuhpc created and cached
+[13:47:05.033] ------
+
+
+
+
+[13:47:05.144] [server] Checking /zhome/1a/4/136247/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/log.txt and /zhome/1a/4/136247/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/pid.txt for a running server...
+[13:47:05.144] [server] Found running server (pid=3783311)

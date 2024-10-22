@@ -1,0 +1,267 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "./scripts/Background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "./assets/img/owl.png",
+      "default_popup": "./Popup.html",
+      "default_title": "__MSG_Ext_Name__"
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "{da6554a8-470c-4d6a-a6ca-904740683552}"
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "./assets/styles/Pearson.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/Pearson.js" ],
+      "matches": [ "https://*.mathxl.com/Student/PlayerTest.aspx*", "https://mylab.pearson.com/Student/PlayerTest.aspx*", "https://mylabsxl-dev.pearson.com/Student/PlayerTest.aspx*", "https://mylabsxl-stg.pearson.com/Student/PlayerTest.aspx*", "https://mylabsxl-ppe.pearson.com/Student/PlayerTest.aspx*", "https://mylabsxl-qa.pearson.com/Student/PlayerTest.aspx*", "https://mylabschool.pearson.com/Student/PlayerTest.aspx*", "https://mylabglobal.pearson.com/Student/PlayerTest.aspx*", "https://*.mathxl.com/Student/PlayerTest2.aspx*", "https://mylab.pearson.com/Student/PlayerTestV2.aspx*", "https://mylabsxl-dev.pearson.com/Student/PlayerTestV2.aspx*", "https://mylabsxl-stg.pearson.com/Student/PlayerTestV2.aspx*", "https://mylabsxl-ppe.pearson.com/Student/PlayerTestV2.aspx*", "https://mylabsxl-qa.pearson.com/Student/PlayerTestV2.aspx*", "https://mylabschool.pearson.com/Student/PlayerTestV2.aspx*", "https://mylabglobal.pearson.com/Student/PlayerTest2.aspx*", "https://*.mathxl.com/Student/WritingSpaceLaunch.aspx*", "https://mylab.pearson.com/Student/WritingSpaceLaunch.aspx*", "https://mylabschool.pearson.com/Student/WritingSpaceLaunch.aspx*", "https://mylabglobal.pearson.com/Student/WritingSpaceLaunch.aspx*", "https://mylabsxl-qa.pearson.com/Student/WritingSpaceLaunch.aspx*", "https://mylabsxl-ppe.pearson.com/Student/WritingSpaceLaunch.aspx*", "https://mylabsxl-dev.pearson.com/Student/WritingSpaceLaunch.aspx*", "https://mylabsxl-stg.pearson.com/Student/WritingSpaceLaunch.aspx*", "https://pegcon.gateway.prd.pearsoncmg.com/ITTools.js", "https://pegcon.prd.pearsoncmg.com/ITTools.js", "https://pegcon.gateway.stg.pearsoncmg.com/ITTools.js", "https://pegcon.stg.pearsoncmg.com/ITTools.js", "https://pegcon.gateway.dev.pearsoncmg.com/ITTools.js", "https://pegcon.dev.pearsoncmg.com/ITTools.js", "https://pegcon.gateway.ppe.pearsoncmg.com/ITTools.js", "https://pegcon.ppe.pearsoncmg.com/ITTools.js", "https://gradeitpctgradeit.pearsoncmg.com/PCTInterface/pctgateway.aspx*", "https://gradeit.ppe.pearsoncmg.com/PCTInterface/pctgateway.aspx*", "https://pct.gradeit.qa.pearsoncmg.com/PCTInterface/pctgateway.aspx*", "https://pct.gradeit.pearsoncmg.com/peg/reportingmodule/IntegratedReportCard.aspx*", "https://pct.gradeit.ppe.pearsoncmg.com/peg/reportingmodule/IntegratedReportCard.aspx*", "https://sim5.lms-qaint.pearsoncmg.com/SIM5Services/ServerCode/AssemblerToolLaunch.aspx*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/PearsonDetectExtension.js" ],
+      "matches": [ "https://*.mathxl.com/Student/ProctorUPreCheck.aspx*", "https://mylab.pearson.com/Student/ProctorUPreCheck.aspx*", "https://mylabsxl-qa.pearson.com/Student/ProctorUPreCheck.aspx*", "https://mylabsxl-dev.pearson.com/Student/ProctorUPreCheck.aspx*", "https://mylabsxl-stg.pearson.com/Student/ProctorUPreCheck.aspx*", "https://mylabsxl-ppe.pearson.com/Student/ProctorUPreCheck.aspx*", "https://mylabschool.pearson.com/Student/ProctorUPreCheck.aspx*", "https://mylabglobal.pearson.com/Student/ProctorUPreCheck.aspx*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/PearsonReviewPageSecurityInitializer.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/PearsonReviewPageSecurityInitializer.js" ],
+      "matches": [ "https://*.mathxl.com/Student/OverviewTest.aspx*", "https://*.mathxl.com/Student/PlayerTest.aspx*", "https://mylab.pearson.com/Student/OverviewTest.aspx*", "https://mylab.pearson.com/Student/PlayerTest.aspx*", "https://mylabsxl-qa.pearson.com/Student/OverviewTest.aspx*", "https://mylabsxl-qa.pearson.com/Student/PlayerTest.aspx*", "https://mylabsxl-dev.pearson.com/Student/OverviewTest.aspx*", "https://mylabsxl-dev.pearson.com/Student/PlayerTest.aspx*", "https://mylabsxl-stg.pearson.com/Student/OverviewTest.aspx*", "https://mylabsxl-stg.pearson.com/Student/PlayerTest.aspx*", "https://mylabsxl-ppe.pearson.com/Student/OverviewTest.aspx*", "https://mylabsxl-ppe.pearson.com/Student/PlayerTest.aspx*", "https://mylabschool.pearson.com/Student/OverviewTest.aspx*", "https://mylabschool.pearson.com/Student/PlayerTest.aspx*", "https://mylabglobal.pearson.com/Student/OverviewTest.aspx*", "https://mylabglobal.pearson.com/Student/PlayerTest.aspx*", "https://*.mathxl.com/Student/OverviewTest.aspx*", "https://*.mathxl.com/Student/PlayerTest.aspx*", "https://mylab.pearson.com/Student/OverviewTestV2.aspx*", "https://mylab.pearson.com/Student/PlayerTestV2.aspx*", "https://mylabsxl-qa.pearson.com/Student/OverviewTestV2.aspx*", "https://mylabsxl-qa.pearson.com/Student/PlayerTestV2.aspx*", "https://mylabsxl-dev.pearson.com/Student/OverviewTestV2.aspx*", "https://mylabsxl-dev.pearson.com/Student/PlayerTestV2.aspx*", "https://mylabsxl-stg.pearson.com/Student/OverviewTestV2.aspx*", "https://mylabsxl-stg.pearson.com/Student/PlayerTestV2.aspx*", "https://mylabsxl-ppe.pearson.com/Student/OverviewTestV2.aspx*", "https://mylabsxl-ppe.pearson.com/Student/PlayerTestV2.aspx*", "https://mylabschool.pearson.com/Student/OverviewTestV2.aspx*", "https://mylabschool.pearson.com/Student/PlayerTestV2.aspx*", "https://mylabglobal.pearson.com/Student/OverviewTestV2.aspx*", "https://mylabglobal.pearson.com/Student/PlayerTestV2.aspx*", "https://*.mathxl.com/Student/WritingSpaceLaunch.aspx*", "https://mylab.pearson.com/Student/WritingSpaceLaunch.aspx*", "https://mylabschool.pearson.com/Student/WritingSpaceLaunch.aspx*", "https://mylabglobal.pearson.com/Student/WritingSpaceLaunch.aspx*", "https://mylabsxl-ppe.pearson.com/Student/WritingSpaceLaunch.aspx*", "https://mylabsxl-dev.pearson.com/Student/WritingSpaceLaunch.aspx*", "https://mylabsxl-qa.pearson.com/Student/WritingSpaceLaunch.aspx*", "https://mylabsxl-stg.pearson.com/Student/WritingSpaceLaunch.aspx*", "https://pegcon.gateway.prd.pearsoncmg.com/ITTools.js", "https://pegcon.prd.pearsoncmg.com/ITTools.js", "https://pegcon.gateway.stg.pearsoncmg.com/ITTools.js", "https://pegcon.stg.pearsoncmg.com/ITTools.js", "https://pegcon.gateway.dev.pearsoncmg.com/ITTools.js", "https://pegcon.ppe.pearsoncmg.com/ITTools.js", "https://pegcon.gateway.ppe.pearsoncmg.com/ITTools.js", "https://pegcon.dev.pearsoncmg.com/ITTools.js", "https://gradeitpctgradeit.pearsoncmg.com/PCTInterface/pctgateway.aspx*", "https://gradeit.ppe.pearsoncmg.com/PCTInterface/pctgateway.aspx*", "https://pct.gradeit.pearsoncmg.com/peg/reportingmodule/IntegratedReportCard.aspx*", "https://pct.gradeit.ppe.pearsoncmg.com/peg/reportingmodule/IntegratedReportCard.aspx*", "https://pct.gradeit.qa.pearsoncmg.com/PCTInterface/pctgateway.aspx*", "https://sim5.lms-qaint.pearsoncmg.com/SIM5Services/ServerCode/AssemblerToolLaunch.aspx*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/BlackBoard.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BlackBoard.js" ],
+      "matches": [ "https://*/webapps/assessment/take/launch.jsp*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/BlackBoardSessionConfiguration.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BlackBoardSessionConfiguration.js" ],
+      "matches": [ "https://*/webapps/assessment/do/content/assessment*", "https://*/webapps/assessment/do/content/addAssessment*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "./assets/styles/ExamSaveToastNotification.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/ExamSaveToastNotification.js" ],
+      "matches": [ "https://*/webapps/blackboard/content/listContentEditable.jsp?course_id=*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/BlackBoardInstructorFlaggedSession.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BlackBoardInstructorFlaggedSession.js" ],
+      "matches": [ "https://*/webapps/gradebook/do/instructor/enterGradeCenter?*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/BlackBoardSecurityInitializer.css" ],
+      "exclude_matches": [ "https://partner-smoke-test-b.blackboard.com/*" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BlackBoardSecurityInitializer.js" ],
+      "matches": [ "https://*/webapps/assessment/take/launch.jsp*", "https://*/webapps/assessment/take/take.jsp*course_assessment_id=*&course_id=*&content_id=*&question_num*=*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BlackBoardUserEventsController.js", "./scripts/MediaQueryListTracking.js" ],
+      "matches": [ "https://*/webapps/assessment/take/launch.jsp*isPasswordAttempted=true*", "https://*/webapps/assessment/take/take.jsp*course_assessment_id=*&course_id=*&content_id=*&question_num*=*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_matches": [ "https://*/internal/proctoru_auto/UtilityTabPage" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BlackBoardModifyEditTestOptionsLink.js" ],
+      "matches": [ "https://*.blackboard.com/*", "https://*/ultra/courses/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BlackBoardModifyOpenExamLink.js" ],
+      "matches": [ "https://*.blackboard.com/*", "https://*/ultra/courses/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/BlackBoardCourseCopySettingsPage.css" ],
+      "exclude_matches": [ "https://partner-smoke-test-b.blackboard.com/*" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BlackBoardCourseCopySettingsPage.js" ],
+      "matches": [ "https://*/webapps/blackboard/execute/*cp_copy_content*", "https://*.blackboard.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/BlackBoardCourseCopySuccessPage.css" ],
+      "exclude_matches": [ "https://partner-smoke-test-b.blackboard.com/*" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BlackBoardCourseCopySuccessPage.js" ],
+      "matches": [ "https://*/webapps/blackboard/landingPage.jsp*", "https://*/webapps/blackboard/execute/courseManager*", "https://*.blackboard.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/BlackBoardUltra.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BlackBoardUltra.js", "./scripts/MediaQueryListTracking.js" ],
+      "matches": [ "https://partner-smoke-test-b.blackboard.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/BlackBoardUltra.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BlackBoardCourseCopySettingsPage.js", "./scripts/MediaQueryListTracking.js" ],
+      "matches": [ "https://*/webapps/blackboard/execute/courseManager" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/BlackBoardCourseCopySuccessPage.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BlackBoardCourseCopySuccessPage.js" ],
+      "matches": [ "https://*/webapps/blackboard/execute/courseManager*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/BrightSpace.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BrightSpace.js" ],
+      "matches": [ "https://*/d2l/lms/quizzing/user/quiz_summary*", "https://*/d2l/le/content/*/viewContent/*/View" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/BrightSpaceSessionConfiguration.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BrightSpaceSessionConfiguration.js" ],
+      "matches": [ "https://*/d2l/lms/quizzing/admin/modify/quiz_newedit_*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BrightSpaceInstructorFlaggedSession.js" ],
+      "matches": [ "https://*/d2l/lms/grades/admin/enter/user_list_view.d2l?*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/BrightSpaceSecurityInitializer.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BrightSpaceSecurityInitializer.js" ],
+      "matches": [ "https://*/d2l/le/content/*/viewContent/*/View", "https://*/d2l/lms/quizzing/user/quiz_summary*", "https://*/d2l/lms/quizzing/user/quiz_submissions.d2l*", "https://*/d2l/lms/quizzing/user/attempt/quiz_start_frame*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BrightSpaceTrackExam.js", "./scripts/MediaQueryListTracking.js" ],
+      "matches": [ "https://*/d2l/lms/quizzing/user/attempt/quiz_start_frame*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BrightSpaceCourseCopySettingsPage.js" ],
+      "matches": [ "https://*/d2l/lms/importExport/import_export.d2l*", "https://*/d2l/lms/importexport/import_export.d2l*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/BrightSpaceCourseCopySelectComponentsPage.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BrightSpaceCourseCopySelectComponentsPage.js" ],
+      "matches": [ "https://*/d2l/lms/importExport/copy/copy_select_components.d2l*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/BrightSpaceCourseCopySelectConfirmPage.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BrightSpaceCourseCopySelectConfirmPage.js" ],
+      "matches": [ "https://*/d2l/lms/importExport/copy/copy_select_confirm.d2l*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/BrightSpaceCourseCopySuccessPage.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/BrightSpaceCourseCopySuccessPage.js" ],
+      "matches": [ "https://*/d2l/le/conversion/copy/*/History", "https://*/d2l/le/conversion/copy/*/history" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/Canvas.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/Canvas.js" ],
+      "matches": [ "https://*/courses/*/quizzes/*/take", "https://*/courses/*/quizzes/*/take/*", "https://*/courses/*/quizzes/*/take?user_id=*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/ExamSaveToastNotification.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/ExamSaveToastNotification.js" ],
+      "matches": [ "https://*/courses/*/quizzes/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/CanvasSessionConfiguration.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/CanvasSessionConfiguration.js" ],
+      "matches": [ "https://*/courses/*/quizzes/*/edit" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "./assets/styles/CanvasInstructorFlaggedSession.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/CanvasInstructorFlaggedSession.js" ],
+      "matches": [ "https://*/courses/*/gradebook" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/CanvasSecurityInitializer.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/CanvasSecurityInitializer.js" ],
+      "matches": [ "https://*/courses/*/quizzes/*/take?user_id=*", "https://*/courses/*/quizzes/*/take/*", "https://*/courses/*/quizzes/*/take", "https://*/courses/*/quizzes/*/edit", "https://*/courses/*/gradebook" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/CanvasUserEventsController.js", "./scripts/MediaQueryListTracking.js" ],
+      "matches": [ "https://*/courses/*/quizzes/*/take", "https://*/courses/*/quizzes/*/take/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "./assets/styles/CanvasCourseCopy.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/CanvasCourseCopy.js" ],
+      "matches": [ "https://*/courses/*/copy" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/RemoveExtensionDownloadLink.js" ],
+      "matches": [ "https://*/course/view.php?id=*", "https://*/*/course/view.php?id=*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/Moodle.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/Moodle.js" ],
+      "matches": [ "https://*/mod/quiz/view.php*id=*", "https://*/*/mod/quiz/view.php*id=*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/MoodleSessionConfiguration.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/MoodleSessionConfiguration.js" ],
+      "matches": [ "https://*/course/modedit.php*", "https://*/*/course/modedit.php*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "./assets/styles/ExamSaveToastNotification.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/ExamSaveToastNotification.js" ],
+      "matches": [ "https://*/mod/quiz/view.php?id=*", "https://*/*/mod/quiz/view.php?id=*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/MoodleSecurityInitializer.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/MoodleSecurityInitializer.js" ],
+      "matches": [ "https://*/mod/quiz/view.php*id=*", "https://*/mod/quiz/summary.php*", "https://*/mod/quiz/attempt.php*", "https://*/*/mod/quiz/view.php*id=*", "https://*/*/mod/quiz/summary.php*", "https://*/*/mod/quiz/attempt.php*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/MoodleTrackExam.js", "./scripts/MoodleUserEventsController.js", "./scripts/MediaQueryListTracking.js" ],
+      "matches": [ "https://*/mod/quiz/attempt.php*", "https://*/*/mod/quiz/attempt.php*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/LiveChat.js" ],
+      "matches": [ "https://*.proctoru.com/*", "https://*.livechatinc.com/*", "https://*.proctoru-qa.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/AutomatedUnintegratedSecurityInitializer.css", "./assets/styles/UnintegratedSession.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/AutomatedUnintegratedSecurityInitializer.js", "./scripts/UnintegratedSession.js" ],
+      "matches": [ "https://*.proctoru.com/students/fulfillments/*/auto", "https://*.proctoru.com/students/fulfillments/*/auto?*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/AutomatedUnintegratedSecurityInitializer.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/AutomatedUnintegratedSecurityInitializer.js" ],
+      "matches": [ "https://accounts.google.com/*", "https://appengine.google.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/AncorisUnintegrated.css", "./assets/styles/AutomatedUnintegratedSecurityInitializer.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/AncorisUnintegrated.js", "./scripts/AncorisUserEventsController.js", "./scripts/AutomatedUnintegratedSecurityInitializer.js" ],
+      "matches": [ "https://ancoris-velocity-staging.appspot.com/*", "https://exam.mycloudcert.org/*", "https://exam.mychromecert.org/*", "https://admin.exam.mycloudcert.org/*", "https://ancoris-velocity-uat.appspot.com/*", "https://myeducert-test.appspot.com/*", "https://myeducert-uat.appspot.com/*", "https://teacherator-dev.appspot.com/*", "https://teacherator-jg.appspot.com/*", "https://eduexams.withgoogle.com/*", "https://ancoris-cloud-ace-prod.appspot.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/SystemMetrics.js" ],
+      "matches": [ "https://*.proctoru.com/students/system-metrics/*", "https://*.proctoru.com/users/*/system-metrics/*", "https://*.proctoru.com/testitout" ],
+      "run_at": "document_end"
+   }, {
+      "exclude_matches": [ "https://*/courses/*/quizzes/*/edit" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/RemoveExtensionDownloadLink.js" ],
+      "matches": [ "https://*/webapps/blackboard/content/listContent*", "https://*.com/d2l/lms/quizzing/user/quiz_summary.d2l*", "https://*/courses/*/quizzes/*", "https://*/*/quiz/view.php?id=*", "https://*/course/view.php?id=*", "https://*/*/course/view.php?id=*", "https://*.com/d2l/le/content/*", "https://*.com/d2l/le/content/*/viewContent/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/ReviewPageSecurity.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/ReviewPageSecurity.js" ],
+      "matches": [ "https://*/courses/*/assignments/*/submissions/*", "https://*/courses/*/quizzes/*", "https://*/d2l/lms/quizzing/reports/quiz_report_frame.d2l*", "https://*/*/quiz/review.php?attempt=*", "https://*/*/quiz/reviewquestion.php?attempt=*", "https://*/*/*/quiz/review.php?attempt=*", "https://*/*/*/quiz/reviewquestion.php?attempt=*", "https://*/webapps/assessment/review/review.jsp*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/Survey.js" ],
+      "matches": [ "https://docs.google.com/forms/d/e/1FAIpQLSfRr0or26NSnFGs0xYIqCMjoQyTgvGcN_KqI0wiuq6BZ2hpDw/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/AutoSubmitScript.js" ],
+      "matches": [ "https://*.cirrusplatform.com/delivery/*", "https://*.cirrusbeta.com/delivery/*", "https://*.cirrusrc.eu/delivery/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/FirefoxPrivacy.js" ],
+      "matches": [ "file://*/FirefoxPrivacy.html" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "./assets/styles/UtilityTab.css" ],
+      "js": [ "./scripts/vendor.js", "./scripts/config.js", "./scripts/UtilityTab.js" ],
+      "matches": [ "https://*.proctoru.com/internal/proctoru_auto/UtilityTabPage" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_Ext_Description__",
+   "devtools_page": "./DevTools.html",
+   "externally_connectable": {
+      "matches": [ "https://*.proctoru.com/*" ]
+   },
+   "icons": {
+      "128": "assets/img/owl.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoEsJ1yzJZVxr4rPtPuAxXEvB/RsGCktSjhqxLULTTbnCXQ2umMk4io94xhCtFznguLfBHktoqwRd64yubR0GJS6QVPjncc6QSLVbfmG3nj3Vvxl54dL8vD5aQPZ1TT8lsVnYP04k9TX0AlkVLKuF91ZDOwgyNO41obXGa85TAVkFLwE9DPzgu3OLyN6BxSnijDOl538/2TmDLRujuPWxIClqfOHqPlrU9i56/EWjeS1IWu3IYVdcAOwiTUca8AUceXgfLSCTgwi/CNwVEXVK7LyZG8Z8MsGlvOhFFUfhYy089v+CEsI3EqOnr1QzjViyWRZ1G6txFIaDkTbielKpFwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_Ext_Name__",
+   "permissions": [ "tabs", "storage", "management", "cookies", "notifications", "webRequest", "webNavigation", "geolocation", "browsingData", "clipboardRead", "clipboardWrite", "privacy", "*://*/*", "desktopCapture", "system.display", "system.cpu", "system.memory", "system.storage", "contentSettings" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.145.0",
+   "web_accessible_resources": [ "assets/img/*.png", "assets/img/*.svg", "assets/img/*.gif", "assets/sound/*.mp3", "assets/fonts/*.ttf", "assets/fonts/*.woff", "assets/styles/*.css", "assets/img/*.gif" ]
+}

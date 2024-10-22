@@ -1,0 +1,11 @@
+2024-10-09 09:36:53.027 [info] update#setState idle
+2024-10-09 09:37:23.031 [info] update#setState checking for updates
+2024-10-09 09:37:23.038 [info] update#setState available for download
+2024-10-09 12:47:56.413 [info] Extension host with pid 2463 exited with code: 0, signal: unknown.
+2024-10-09 12:48:30.236 [info] Extension host with pid 7248 exited with code: 0, signal: unknown.
+2024-10-09 12:48:30.259 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072516910000, signal: unknown
+2024-10-09 12:48:36.956 [info] Extension host with pid 7830 exited with code: 0, signal: unknown.
+2024-10-09 12:50:05.916 [info] Extension host with pid 7870 exited with code: 0, signal: unknown.
+2024-10-09 12:50:24.312 [info] Extension host with pid 8047 exited with code: 0, signal: unknown.
+2024-10-09 13:18:43.092 [info] Extension host with pid 8124 exited with code: 0, signal: unknown.
+2024-10-09 13:18:43.125 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072516910000, signal: unknown

@@ -1,0 +1,20 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Visual impairment simulation and auditing tools to develop for accessibility.",
+   "devtools_page": "main.html",
+   "icons": {
+      "128": "icons/chromelens2-128.png",
+      "48": "icons/chromelens2-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg3fvwO3TezEYFNx4lotZMDO964xCtjCvfHoFQ5GIT1j4vZgKl7siaW2n3bOECgRvHiyRyciK9zZFFkpSXUP3FB7mBKHm8gwmqSxajGWg6GxaeWVRy8rW8f4yChsjTdr5jCCVuIrzCYced3J0UWCX25kdLRODGWtzIGbWWw8Xxl5kWeMUodAJcaORGf3i86cVxEialOvl/iEHu57ea7bHDeLOtcvYt6USF/qUGKzM4+0OLUHNQfqHItYIb9o7pkAGW5UjWJ8mHVDecrxYg5Tdha5vVm4ELosJToPWuz47X8xY3Hvivu2XNFhfK3tdai50bqL+zas9HSZRsZdHW6sW0wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "42",
+   "name": "ChromeLens",
+   "permissions": [ "http://*/*", "https://*/*", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.10",
+   "web_accessible_resources": [ "main.html", "panel.html", "build/backend.js" ]
+}

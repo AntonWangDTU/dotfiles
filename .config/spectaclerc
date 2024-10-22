@@ -1,0 +1,9 @@
+[GuiConfig]
+captureMode=0
+
+[ImageSave]
+lastImageSaveLocation=file:///home/aws/Pictures/Screenshots/Screenshot_20241004_104855.png
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts

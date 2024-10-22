@@ -1,0 +1,166 @@
+2024-10-08 16:46:28.088 [info] Started local extension host with pid 3009.
+2024-10-08 16:46:28.642 [info] Invoking resolveAuthority(ssh-remote)...
+2024-10-08 16:46:28.643 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][0ms] obtaining proxy...
+2024-10-08 16:46:28.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][0ms] invoking...
+2024-10-08 16:46:29.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][1000ms] waiting...
+2024-10-08 16:46:30.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][2000ms] waiting...
+2024-10-08 16:46:31.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][3000ms] waiting...
+2024-10-08 16:46:32.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][4000ms] waiting...
+2024-10-08 16:46:33.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][5000ms] waiting...
+2024-10-08 16:46:34.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][6000ms] waiting...
+2024-10-08 16:46:35.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][7001ms] waiting...
+2024-10-08 16:46:36.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][8001ms] waiting...
+2024-10-08 16:46:37.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][9000ms] waiting...
+2024-10-08 16:46:38.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][10000ms] waiting...
+2024-10-08 16:46:39.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][11000ms] waiting...
+2024-10-08 16:46:40.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][12000ms] waiting...
+2024-10-08 16:46:41.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][13000ms] waiting...
+2024-10-08 16:46:42.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][14000ms] waiting...
+2024-10-08 16:46:43.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][15000ms] waiting...
+2024-10-08 16:46:44.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][16000ms] waiting...
+2024-10-08 16:46:45.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][17000ms] waiting...
+2024-10-08 16:46:46.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][18000ms] waiting...
+2024-10-08 16:46:47.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][19000ms] waiting...
+2024-10-08 16:46:48.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][20000ms] waiting...
+2024-10-08 16:46:49.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][21000ms] waiting...
+2024-10-08 16:46:50.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][22001ms] waiting...
+2024-10-08 16:46:51.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][23000ms] waiting...
+2024-10-08 16:46:52.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][24000ms] waiting...
+2024-10-08 16:46:53.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][25000ms] waiting...
+2024-10-08 16:46:54.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][26000ms] waiting...
+2024-10-08 16:46:55.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][27000ms] waiting...
+2024-10-08 16:46:56.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][28000ms] waiting...
+2024-10-08 16:46:57.644 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][29000ms] waiting...
+2024-10-08 16:46:58.014 [error] [LocalProcess0][resolveAuthority(ssh-remote,1)][29370ms] returned an error {"code":"NotAvailable","message":"Permission denied (password).","detail":true}
+2024-10-08 16:46:58.014 [error] resolveAuthority(ssh-remote) returned an error after 29372 ms Permission denied (password).
+2024-10-08 16:46:58.015 [error] Error received from starting extension host (kind: Remote)
+2024-10-08 16:46:58.015 [error] CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.015 [error] [remote-connection][attempt 1] An error occurred in initial connection! Will retry... Error:
+2024-10-08 16:46:58.016 [error] CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.017 [error] [remote-connection][attempt 2] An error occurred in initial connection! Will retry... Error:
+2024-10-08 16:46:58.017 [error] CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.081 [error] [remote-connection][attempt 3] An error occurred in initial connection! Will retry... Error:
+2024-10-08 16:46:58.082 [error] CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.116 [error] [remote-connection][attempt 4] An error occurred in initial connection! Will retry... Error:
+2024-10-08 16:46:58.116 [error] CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.118 [error] [remote-connection][attempt 5]  An error occurred in initial connection! It will be treated as a permanent error. Error:
+2024-10-08 16:46:58.118 [error] CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.119 [error] CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.120 [error] Cannot register remote filesystem provider. Error while fetching remote environment. Permission denied (password).
+2024-10-08 16:46:58.120 [error] CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.121 [error] CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.121 [error] CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.121 [error] CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.122 [error] CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.131 [error] CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.132 [error] CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.134 [warning] Ignoring the error while validating workspace folder vscode-remote://ssh-remote%2Bdtuhpc/zhome/1a/4/136247 - ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bdtuhpc/zhome/1a/4/136247'
+2024-10-08 16:46:58.134 [error] CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bdtuhpc/zhome/1a/4/136247'
+    at qit.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:64896)
+    at async qit.bb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:75182)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:74908
+2024-10-08 16:46:58.135 [error] ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bdtuhpc/zhome/1a/4/136247/.git/config': CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bdtuhpc/zhome/1a/4/136247/.git/config'
+    at qit.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:64896)
+    at async qit.exists (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:66919)
+    at async Promise.all (index 0)
+2024-10-08 16:46:58.141 [error] ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bdtuhpc/zhome/1a/4/136247/pom.xml': CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bdtuhpc/zhome/1a/4/136247/pom.xml'
+    at qit.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:64896)
+    at async qit.exists (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:66919)
+    at async Promise.all (index 0)
+2024-10-08 16:46:58.142 [error] CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bdtuhpc/zhome/1a/4/136247/.vscode/extensions'
+    at qit.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:64896)
+    at async qit.bb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:75182)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:74908
+2024-10-08 16:46:58.166 [error] Permission denied (password).: CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.166 [error] ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bdtuhpc/zhome/1a/4/136247': CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bdtuhpc/zhome/1a/4/136247'
+    at qit.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:64896)
+    at async qit.s (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:65586)
+    at async qit.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:65467)
+    at async Ytt.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3050:27257)
+2024-10-08 16:46:58.167 [error] ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bdtuhpc/zhome/1a/4/136247/.vscode': CodeExpectedError: ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bdtuhpc/zhome/1a/4/136247/.vscode'
+    at qit.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:64896)
+    at async qit.exists (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3072:66919)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:490:21805
+    at async Promise.all (index 0)
+    at async iNe.v (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:490:21912)
+2024-10-08 16:46:58.175 [error] Permission denied (password).: CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:46:58.319 [error] CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:47:00.152 [error] Permission denied (password).: CodeExpectedError: Permission denied (password).
+    at Wnt.qb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:15363)
+    at async Wnt.pb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:14729)
+    at async Wnt.Nb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3120:3437)
+    at async Wnt.ib (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3114:12438)
+2024-10-08 16:47:02.575 [warning] [backup tracker] suspended, ignoring dirty change event vscode-remote://ssh-remote%2Bdtuhpc/zhome/1a/4/136247/DeepLearning/02456-deep-learning-with-PyTorch/3_Feedforward_PyTorch/3.3-FFN-Half-Moon.ipynb notebook/jupyter-notebook/jupyter-notebook
+2024-10-08 16:47:02.989 [info] Started local extension host with pid 3158.
+2024-10-08 16:47:05.744 [info] [perf] Render performance baseline is 158ms
+2024-10-08 16:47:13.540 [info] Started local extension host with pid 3227.
+2024-10-08 16:47:16.288 [info] [perf] Render performance baseline is 158ms
+2024-10-08 16:47:38.948 [error] [network] #9: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled

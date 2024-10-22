@@ -1,0 +1,12 @@
+2024/10/22-15:46:50.600 4 Reusing MANIFEST /home/aws/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2024/10/22-15:46:50.605 4 Recovering log #632
+2024/10/22-15:46:50.605 4 Reusing old log /home/aws/.config/google-chrome/Default/Local Storage/leveldb/000632.log 
+2024/10/22-15:47:02.606 5 Level-0 table #637: started
+2024/10/22-15:47:02.614 5 Level-0 table #637: 32093 bytes OK
+2024/10/22-15:47:02.617 5 Delete type=0 #632
+2024/10/22-15:47:53.366 5 Level-0 table #639: started
+2024/10/22-15:47:53.374 5 Level-0 table #639: 20467 bytes OK
+2024/10/22-15:47:53.378 5 Delete type=0 #636
+2024/10/22-15:48:53.366 5 Level-0 table #641: started
+2024/10/22-15:48:53.374 5 Level-0 table #641: 30991 bytes OK
+2024/10/22-15:48:53.378 5 Delete type=0 #638

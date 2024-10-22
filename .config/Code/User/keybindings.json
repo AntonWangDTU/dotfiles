@@ -1,0 +1,39 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "capslock",
+        "command": "vim.remap",
+        "when": "editorTextFocus && vim.mode == 'Insert'",
+        "args": { "after": ["<Esc>"] }
+    },
+    {
+        "key": "capslock",
+        "command": "vim.remap",
+        "when": "editorTextFocus && vim.mode == 'Visual'",
+        "args": { "after": ["<Esc>"] }
+    },
+    {
+        "key": "capslock",
+        "command": "vim.remap",
+        "when": "editorTextFocus && vim.mode == 'VisualLine'",
+        "args": { "after": ["<Esc>"] }
+    },
+    {
+        "key": "capslock",
+        "command": "vim.remap",
+        "when": "editorTextFocus && vim.mode == 'VisualBlock'",
+        "args": { "after": ["<Esc>"] }
+    },
+    {
+        "key": "capslock",
+        "command": "vim.remap",
+        "when": "editorTextFocus && vim.mode == 'Normal'",
+        "args": { "after": ["<Esc>"] }
+    },
+    {
+        "key": "capslock",
+        "command": "vim.remap",
+        "when": "editorTextFocus && vim.mode == 'CommandlineInProgress'",
+        "args": { "after": ["<Esc>"] }
+    }
+]

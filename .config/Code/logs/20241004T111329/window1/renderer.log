@@ -1,0 +1,8 @@
+2024-10-04 11:13:31.232 [info] Started local extension host with pid 61741.
+2024-10-04 11:13:31.294 [info] Started initializing default profile extensions in extensions installation folder. file:///home/aws/.vscode/extensions
+2024-10-04 11:13:31.670 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/aws/.vscode/extensions
+2024-10-04 11:13:34.457 [info] [perf] Render performance baseline is 39ms
+2024-10-04 11:14:01.863 [info] Started local extension host with pid 61869.
+2024-10-04 11:14:04.603 [info] [perf] Render performance baseline is 41ms
+2024-10-04 11:14:18.618 [error] [network] #7: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-10-04 11:14:30.551 [error] ENOENT: no such file or directory, open '/home/aws/.config/Code/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/aws/.config/Code/User/globalStorage/vscodevim.vim/.registers'

@@ -1,0 +1,6 @@
+2024-09-24 11:32:20.013 [info] Started local extension host with pid 7956.
+2024-09-24 11:32:20.054 [info] Started initializing default profile extensions in extensions installation folder. file:///home/aws/.vscode-oss/extensions
+2024-09-24 11:32:20.413 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/aws/.vscode-oss/extensions
+2024-09-24 11:32:23.276 [info] [perf] Render performance baseline is 166ms
+2024-09-24 11:33:34.160 [error] Extension 'jeanp413.open-remote-ssh CANNOT USE these API proposals 'resolvers, contribViewsRemote'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-09-24 11:33:34.173 [warning] [jeanp413.open-remote-ssh]: View container 'remote' requires 'enabledApiProposals: ["contribViewsRemote"]' to be added to 'Remote'.

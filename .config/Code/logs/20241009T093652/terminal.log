@@ -1,0 +1,12 @@
+2024-10-09 12:49:29.601 [info] Latency measurements for ssh-remote+computerome backend
+window<->ptyhostservice<->ptyhost: 77.80ms
+ptyhostservice<->ptyhost: 15.53ms []
+2024-10-09 12:49:29.607 [info] Latency measurements for ssh-remote+computerome backend
+window<->ptyhostservice<->ptyhost: 57.40ms
+ptyhostservice<->ptyhost: 1.34ms []
+2024-10-09 12:49:29.608 [info] Latency measurements for ssh-remote+computerome backend
+window<->ptyhostservice<->ptyhost: 57.20ms
+ptyhostservice<->ptyhost: 1.21ms []
+2024-10-09 12:49:29.608 [info] Latency measurements for ssh-remote+computerome backend
+window<->ptyhostservice<->ptyhost: 57.10ms
+ptyhostservice<->ptyhost: 1.15ms []

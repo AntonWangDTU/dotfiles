@@ -1,0 +1,9 @@
+2024/10/22-15:41:30.069 930 Reusing MANIFEST /home/aws/.config/google-chrome/Default/shared_proto_db/MANIFEST-000001
+2024/10/22-15:41:30.069 930 Recovering log #17
+2024/10/22-15:41:30.069 930 Reusing old log /home/aws/.config/google-chrome/Default/shared_proto_db/000017.log 
+2024/10/22-15:43:23.241 930 Compacting 1@1 + 1@2 files
+2024/10/22-15:43:23.244 930 Generated table #20@1: 337 keys, 39947 bytes
+2024/10/22-15:43:23.244 930 Compacted 1@1 + 1@2 files => 39947 bytes
+2024/10/22-15:43:23.246 930 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/10/22-15:43:23.246 930 Delete type=2 #15
+2024/10/22-15:43:23.247 930 Delete type=2 #18

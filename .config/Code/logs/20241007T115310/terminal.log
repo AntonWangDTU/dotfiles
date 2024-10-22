@@ -1,0 +1,12 @@
+2024-10-07 11:53:31.474 [info] Latency measurements for ssh-remote+dtuhpc backend
+window<->ptyhostservice<->ptyhost: 77.10ms
+ptyhostservice<->ptyhost: 0.91ms []
+2024-10-07 11:53:31.474 [info] Latency measurements for ssh-remote+dtuhpc backend
+window<->ptyhostservice<->ptyhost: 76.90ms
+ptyhostservice<->ptyhost: 0.83ms []
+2024-10-07 11:53:31.474 [info] Latency measurements for ssh-remote+dtuhpc backend
+window<->ptyhostservice<->ptyhost: 76.80ms
+ptyhostservice<->ptyhost: 0.79ms []
+2024-10-07 11:53:31.474 [info] Latency measurements for ssh-remote+dtuhpc backend
+window<->ptyhostservice<->ptyhost: 76.40ms
+ptyhostservice<->ptyhost: 0.71ms []

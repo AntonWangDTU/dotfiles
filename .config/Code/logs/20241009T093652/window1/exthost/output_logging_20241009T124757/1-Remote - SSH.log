@@ -1,0 +1,211 @@
+[12:47:57.524] Log Level: 2
+[12:47:57.542] SSH Resolver called for "ssh-remote+computerome", attempt 1
+[12:47:57.543] "remote.SSH.useLocalServer": true
+[12:47:57.543] "remote.SSH.useExecServer": true
+[12:47:57.543] "remote.SSH.path": undefined
+[12:47:57.543] "remote.SSH.configFile": undefined
+[12:47:57.543] "remote.SSH.useFlock": true
+[12:47:57.543] "remote.SSH.lockfilesInTmp": false
+[12:47:57.543] "remote.SSH.localServerDownload": auto
+[12:47:57.544] "remote.SSH.remoteServerListenOnSocket": false
+[12:47:57.544] "remote.SSH.showLoginTerminal": false
+[12:47:57.544] "remote.SSH.defaultExtensions": []
+[12:47:57.544] "remote.SSH.loglevel": 2
+[12:47:57.544] "remote.SSH.enableDynamicForwarding": true
+[12:47:57.544] "remote.SSH.enableRemoteCommand": false
+[12:47:57.544] "remote.SSH.serverPickPortsFromRange": {}
+[12:47:57.544] "remote.SSH.serverInstallPath": {}
+[12:47:57.544] "remote.SSH.permitPtyAllocation": false
+[12:47:57.544] "remote.SSH.preferredLocalPortRange: undefined
+[12:47:57.544] "remote.SSH.useCurlAndWgetConfigurationFiles: false
+[12:47:57.551] VS Code version: 1.94.0
+[12:47:57.551] Remote-SSH version: remote-ssh@0.115.0
+[12:47:57.551] linux x64
+[12:47:57.553] SSH Resolver called for host: computerome
+[12:47:57.553] Setting up SSH remote "computerome"
+[12:47:57.559] Acquiring local install lock: /tmp/vscode-remote-ssh-e62abcb7-install.lock
+[12:47:57.560] Looking for existing server data file at /home/aws/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-e62abcb7-d78a74bcdfad14d5d3b1b782f87255d802b57511-0.115.0-es/data.json
+[12:47:57.561] No existing data file
+[12:47:57.561] Using commit id "d78a74bcdfad14d5d3b1b782f87255d802b57511" and quality "stable" for server
+[12:47:57.564] Script variables:
+ {
+  "InstallExitCode.24": "AlreadyInProgress",
+  "InstallExitCode.25": "ServerDownloadFailed",
+  "InstallExitCode.26": "NoDownloaderAvailable",
+  "InstallExitCode.27": "UnsupportedArch",
+  "InstallExitCode.28": "StatusCheckFailed",
+  "InstallExitCode.29": "NeedInsidersArch",
+  "InstallExitCode.30": "NoDownloaderAvailableForStatusCheck",
+  "InstallExitCode.31": "ServerTransferFailed",
+  "InstallExitCode.32": "ServerFailedToStart",
+  "InstallExitCode.33": "NeedInsidersWindows",
+  "InstallExitCode.34": "CreateInstallDirFailed",
+  "InstallExitCode.35": "UnsupportedPlatform",
+  "InstallExitCode.36": "ServerTerminatedCVE20201416",
+  "InstallExitCode.37": "UnpackFailed",
+  "InstallExitCode.38": "ChangeDirFailed",
+  "InstallExitCode.AlreadyInProgress": "24",
+  "InstallExitCode.ServerDownloadFailed": "25",
+  "InstallExitCode.NoDownloaderAvailable": "26",
+  "InstallExitCode.NoDownloaderAvailableForStatusCheck": "30",
+  "InstallExitCode.UnsupportedArch": "27",
+  "InstallExitCode.StatusCheckFailed": "28",
+  "InstallExitCode.NeedInsidersArch": "29",
+  "InstallExitCode.ServerTransferFailed": "31",
+  "InstallExitCode.ServerFailedToStart": "32",
+  "InstallExitCode.NeedInsidersWindows": "33",
+  "InstallExitCode.CreateInstallDirFailed": "34",
+  "InstallExitCode.UnsupportedPlatform": "35",
+  "InstallExitCode.ServerTerminatedCVE20201416": "36",
+  "InstallExitCode.UnpackFailed": "37",
+  "InstallExitCode.ChangeDirFailed": "38",
+  "InstallUnpackCode.Success": "success",
+  "InstallUnpackCode.Error": "error",
+  "InstallUnpackCode.MissingFiles": "missingFiles",
+  "uuid": "c6afc700a4c1",
+  "startMarker": "c6afc700a4c1: running",
+  "commitId": "d78a74bcdfad14d5d3b1b782f87255d802b57511",
+  "quality": "stable",
+  "token": "1111a111-1111-1aa1-111a-111a111aa111",
+  "vscodeAgentFolder": "$HOME/.vscode-server",
+  "allowClientDownload": "1",
+  "forceClientDownload": "0",
+  "cliNameInArchive": "code",
+  "ignoreWgetConfigFlag": " --no-config ",
+  "ignoreCurlConfigFlag": " --disable ",
+  "wgetTriesSegment": "--tries=1",
+  "listenArgs": "--on-host=127.0.0.1 --on-port",
+  "getDownloadServerStartTrigger": "c6afc700a4c1:trigger_server_download",
+  "getDownloadServerEndTrigger": "c6afc700a4c1:trigger_server_download_end",
+  "getProgressDownloading": "c6afc700a4c1%%1%%",
+  "getProgressInstalling": "c6afc700a4c1%%2%%"
+}
+[12:47:57.567] Install and start server if needed
+[12:47:57.571] PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+[12:47:57.571] Checking ssh with "ssh -V"
+[12:47:57.580] > OpenSSH_9.9p1, OpenSSL 3.3.2 3 Sep 2024
+
+[12:47:57.586] askpass server listening on /run/user/1000/vscode-ssh-askpass-d9726beef223ebe3972ac40c0d4ac1179c4ca3a6.sock
+[12:47:57.587] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-12c8455d818b0e092f0ba6b3436c36d6f2f7cbcb.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","38011","-o","ConnectTimeout=15","computerome"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/aws/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-e62abcb7-d78a74bcdfad14d5d3b1b782f87255d802b57511-0.115.0-es/data.json"}
+[12:47:57.587] Local server env: {"SHELL":"/usr/bin/zsh","DISPLAY":":1","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"","VSCODE_SSH_ASKPASS_MAIN":"/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-d9726beef223ebe3972ac40c0d4ac1179c4ca3a6.sock"}
+[12:47:57.594] Spawned 7281
+[12:47:57.595] Using connect timeout of 17 seconds
+[12:47:57.715] > local-server-1> Running ssh connection command: ssh -v -T -D 38011 -o ConnectTimeout=15 computerome
+[12:47:57.723] > local-server-1> Spawned ssh, pid=7289
+[12:47:57.730] stderr> OpenSSH_9.9p1, OpenSSL 3.3.2 3 Sep 2024
+[12:47:57.811] stderr> debug1: Server host key: ssh-ed25519 SHA256:/jcI3Nuz+YK1qquVvfR1AmhLB3wdkKiWagV2IqJ2TZk
+[12:47:57.892] stderr> #############################################################
+[12:47:57.892] stderr> #                                                           #
+[12:47:57.892] stderr> #                 Welcome to Computerome 2.0                #
+[12:47:57.892] stderr> #                                                           #
+[12:47:57.892] stderr> #                         NOTICE !!!                        #
+[12:47:57.892] stderr> #        This system requires 2-factor authentication       #
+[12:47:57.892] stderr> #                                                           #
+[12:47:57.893] stderr> #       To login, type your password and press Enter.       #
+[12:47:57.893] stderr> #     This sends either an SMS passcode to your mobile      #
+[12:47:57.893] stderr> #    or a push-notification to Entrust IdentityGuard app.   #
+[12:47:57.893] stderr> #   If the push-notification times out, a new prompt line   #
+[12:47:57.893] stderr> #    asks for the 8 digit security code shown in the app.   #
+[12:47:57.893] stderr> #                                                           #
+[12:47:57.893] stderr> #           BY LOGGING INTO THIS SYSTEM YOU ACCEPT          #
+[12:47:57.893] stderr> #         COMPUTEROME'S TERMS AND CONDITIONS OF USE.        #
+[12:47:57.894] stderr> #                                                           #
+[12:47:57.894] stderr> #        Send support requests to computerome@dtu.dk        #
+[12:47:57.894] stderr> #                                                           #
+[12:47:57.894] stderr> #############################################################
+[12:47:58.025] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Password: "}
+[12:47:58.027] Showing password prompt
+[12:47:58.029] Listening for interwindow password on /run/user/1000/vscode-ssh-askpass-f3fd9a770efd89ccd149499c0ffed10b538db1fc.sock
+[12:47:58.029] Writing password prompt to globalState
+[12:48:04.000] Got password response
+[12:48:04.000] Interactor gave response: ************
+[12:48:04.001] Cleaning up other-window auth server
+[12:48:04.004] Using connect timeout of 17 seconds
+[12:48:04.457] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Enter your one-time password."}
+[12:48:04.459] Listening for interwindow password on /run/user/1000/vscode-ssh-askpass-df39c920c03085e91ed6396352f6ad469b45cf09.sock
+[12:48:04.459] Writing password prompt to globalState
+[12:48:23.805] Interactor signaled cancel
+[12:48:23.805] Cleaning up other-window auth server
+[12:48:23.806] Using connect timeout of 17 seconds
+[12:48:23.972] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:23.973] Using connect timeout of 17 seconds
+[12:48:24.125] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:24.126] Using connect timeout of 17 seconds
+[12:48:24.298] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:24.298] Using connect timeout of 17 seconds
+[12:48:24.455] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:24.455] Using connect timeout of 17 seconds
+[12:48:24.610] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:24.611] Using connect timeout of 17 seconds
+[12:48:24.763] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:24.764] Using connect timeout of 17 seconds
+[12:48:24.914] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:24.915] Using connect timeout of 17 seconds
+[12:48:25.068] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:25.068] Using connect timeout of 17 seconds
+[12:48:25.214] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:25.214] Using connect timeout of 17 seconds
+[12:48:25.372] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:25.372] Using connect timeout of 17 seconds
+[12:48:25.542] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:25.543] Using connect timeout of 17 seconds
+[12:48:25.694] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:25.694] Using connect timeout of 17 seconds
+[12:48:25.843] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:25.844] Using connect timeout of 17 seconds
+[12:48:25.991] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:25.991] Using connect timeout of 17 seconds
+[12:48:26.141] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:26.141] Using connect timeout of 17 seconds
+[12:48:26.291] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:26.291] Using connect timeout of 17 seconds
+[12:48:26.442] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:26.443] Using connect timeout of 17 seconds
+[12:48:26.592] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:26.592] Using connect timeout of 17 seconds
+[12:48:26.746] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:26.747] Using connect timeout of 17 seconds
+[12:48:26.892] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:26.893] Using connect timeout of 17 seconds
+[12:48:27.047] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:27.047] Using connect timeout of 17 seconds
+[12:48:27.208] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:27.208] Using connect timeout of 17 seconds
+[12:48:27.378] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:27.379] Using connect timeout of 17 seconds
+[12:48:27.525] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:27.525] Using connect timeout of 17 seconds
+[12:48:27.678] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:27.679] Using connect timeout of 17 seconds
+[12:48:27.825] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:27.826] Using connect timeout of 17 seconds
+[12:48:27.969] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:27.969] Using connect timeout of 17 seconds
+[12:48:28.124] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:28.124] Using connect timeout of 17 seconds
+[12:48:28.271] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:28.272] Using connect timeout of 17 seconds
+[12:48:28.419] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:28.420] Using connect timeout of 17 seconds
+[12:48:28.580] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:28.581] Using connect timeout of 17 seconds
+[12:48:28.727] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:28.727] Using connect timeout of 17 seconds
+[12:48:28.873] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:28.874] Using connect timeout of 17 seconds
+[12:48:29.025] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:29.025] Using connect timeout of 17 seconds
+[12:48:29.175] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:29.176] Using connect timeout of 17 seconds
+[12:48:29.321] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:29.322] Using connect timeout of 17 seconds
+[12:48:29.482] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:29.482] Using connect timeout of 17 seconds
+[12:48:29.645] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:29.646] Using connect timeout of 17 seconds
+[12:48:29.809] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:29.810] Using connect timeout of 17 seconds
+[12:48:29.964] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:29.964] Using connect timeout of 17 seconds
+[12:48:30.114] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Failed authentication for user default/antstr. Invalid response to a challenge. Enter your one-time password."}
+[12:48:30.114] Using connect timeout of 17 seconds

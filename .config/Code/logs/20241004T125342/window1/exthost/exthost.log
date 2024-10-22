@@ -1,0 +1,384 @@
+2024-10-04 12:53:44.909 [info] Extension host with pid 65027 started
+2024-10-04 12:53:44.909 [info] Skipping acquiring lock for /home/aws/.config/Code/User/workspaceStorage/55770fb17e6a37bbe573e7ecbfa541f8.
+2024-10-04 12:53:45.110 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-04 12:53:45.386 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-04 12:53:45.397 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-04 12:53:45.501 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-04 12:53:45.648 [info] Eager extensions activated
+2024-10-04 12:53:45.674 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 12:53:45.677 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 12:53:45.701 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 12:53:46.243 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-04 12:53:46.936 [error] Error: ENOENT: no such file or directory, open '/home/aws/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2024-10-04 12:54:51.751 [info] ExtensionService#_doActivateExtension ms-vscode.remote-explorer, startup: false, activationEvent: 'onView:remoteTargets'
+2024-10-04 12:54:51.780 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onCommand:remote-internal.getActiveSshRemote'
+2024-10-04 12:55:01.134 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-04 12:55:01.163 [error] Canceled: Canceled
+	at new eA (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:109321)
+	at Zb.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113933)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:111427)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32325)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at r.registerCommand.description (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31156)
+	at T0.h (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32845)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31919)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at Object.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37049)
+	at gh.O [as value] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:953034)
+	at T.B (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.C (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:802)
+	at T.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1019)
+	at Object.p [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:973612)
+	at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:979734
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:979720)
+	at D1.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:19996)
+	at D1.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20092)
+	at D1.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:955332)
+	at D1.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20092)
+	at Si (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14995
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at hB.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11922)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11603)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-04 12:55:01.165 [error] Canceled: Canceled
+	at new eA (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:109321)
+	at Zb.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113933)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:111427)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32325)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at r.registerCommand.description (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31156)
+	at T0.h (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32845)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31919)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at Object.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37049)
+	at set hasGitHubRepositories (/opt/visual-studio-code/resources/app/extensions/github/dist/extension.js:2:321578)
+	at /opt/visual-studio-code/resources/app/extensions/github/dist/extension.js:2:322537
+	at gh.value (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1061875)
+	at T.B (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.C (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:802)
+	at T.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1019)
+	at Object.p [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:973612)
+	at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:979734
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:979720)
+	at D1.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:19996)
+	at D1.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20092)
+	at D1.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:955332)
+	at D1.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:20092)
+	at Si (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14995
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at hB.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11922)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11603)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-04 12:55:01.167 [error] Canceled: Canceled
+	at new eA (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:109321)
+	at Zb.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113933)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:111427)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32325)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at r.registerCommand.description (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31156)
+	at T0.h (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32845)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31919)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at Object.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37049)
+	at t.shutdown (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:578518)
+	at e.deactivate (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:847960)
+	at hB.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11727)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11603)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-04 12:55:01.167 [error] Error: ENOENT: no such file or directory, open '/home/aws/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2024-10-04 12:55:01.167 [info] Extension host with pid 65027 exiting with code 0
+2024-10-04 12:55:02.546 [info] Extension host with pid 65277 started
+2024-10-04 12:55:02.546 [info] [resolveAuthority(ssh-remote,1)][0ms] activating remote resolvers ssh-remote+dtuhpc
+2024-10-04 12:55:02.546 [info] [resolveAuthority(ssh-remote,1)][0ms] activating resolver for ssh-remote+dtuhpc...
+2024-10-04 12:55:02.596 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onResolveRemoteAuthority:ssh-remote'
+2024-10-04 12:55:02.698 [info] [resolveAuthority(ssh-remote,1)][156ms] invoking final resolve()...
+2024-10-04 12:55:03.698 [info] [resolveAuthority(ssh-remote,1)][1156ms] waiting...
+2024-10-04 12:55:04.699 [info] [resolveAuthority(ssh-remote,1)][2156ms] waiting...
+2024-10-04 12:55:05.699 [info] [resolveAuthority(ssh-remote,1)][3157ms] waiting...
+2024-10-04 12:55:06.700 [info] [resolveAuthority(ssh-remote,1)][4158ms] waiting...
+2024-10-04 12:55:07.701 [info] [resolveAuthority(ssh-remote,1)][5159ms] waiting...
+2024-10-04 12:55:08.702 [info] [resolveAuthority(ssh-remote,1)][6160ms] waiting...
+2024-10-04 12:55:09.703 [info] [resolveAuthority(ssh-remote,1)][7161ms] waiting...
+2024-10-04 12:55:10.704 [info] [resolveAuthority(ssh-remote,1)][8162ms] waiting...
+2024-10-04 12:55:11.705 [info] [resolveAuthority(ssh-remote,1)][9162ms] waiting...
+2024-10-04 12:55:12.704 [info] [resolveAuthority(ssh-remote,1)][10162ms] waiting...
+2024-10-04 12:55:13.705 [info] [resolveAuthority(ssh-remote,1)][11163ms] waiting...
+2024-10-04 12:55:14.706 [info] [resolveAuthority(ssh-remote,1)][12164ms] waiting...
+2024-10-04 12:55:15.707 [info] [resolveAuthority(ssh-remote,1)][13165ms] waiting...
+2024-10-04 12:55:16.708 [info] [resolveAuthority(ssh-remote,1)][14166ms] waiting...
+2024-10-04 12:55:17.709 [info] [resolveAuthority(ssh-remote,1)][15167ms] waiting...
+2024-10-04 12:55:18.709 [info] [resolveAuthority(ssh-remote,1)][16167ms] waiting...
+2024-10-04 12:55:19.709 [info] [resolveAuthority(ssh-remote,1)][17167ms] waiting...
+2024-10-04 12:55:19.844 [info] [resolveAuthority(ssh-remote,1)][17302ms] setting tunnel factory...
+2024-10-04 12:55:19.845 [info] [resolveAuthority(ssh-remote,1)][17303ms] returned managed authority
+2024-10-04 12:55:31.159 [info] Eager extensions activated
+2024-10-04 12:55:31.326 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 12:55:31.468 [info] ExtensionService#_doActivateExtension ms-vscode.remote-explorer, startup: false, activationEvent: 'onCommand:remote-explorer.refresh'
+2024-10-04 12:55:32.498 [error] Error: ENOENT: no such file or directory, open '/home/aws/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2024-10-04 12:56:32.408 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-04 12:56:32.427 [error] Canceled: Canceled
+	at new eA (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:109321)
+	at Zb.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113933)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:111427)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32325)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at r.registerCommand.description (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31156)
+	at T0.h (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32845)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31919)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at Object.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37049)
+	at t.shutdown (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:578518)
+	at e.deactivate (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:847960)
+	at hB.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11727)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11603)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-04 12:56:32.428 [error] Error: ENOENT: no such file or directory, open '/home/aws/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2024-10-04 12:56:32.428 [info] Extension host with pid 65277 exiting with code 0
+2024-10-04 12:56:33.856 [info] Extension host with pid 65396 started
+2024-10-04 12:56:33.856 [info] Skipping acquiring lock for /home/aws/.config/Code/User/workspaceStorage/0f1e620c603228c2139229eda45173b8.
+2024-10-04 12:56:33.856 [info] $getCanonicalURI invoked for authority (ssh-remote)
+2024-10-04 12:56:33.867 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onResolveRemoteAuthority:ssh-remote'
+2024-10-04 12:56:33.992 [info] [resolveAuthority(ssh-remote,1)][0ms] activating remote resolvers ssh-remote+dtuhpc
+2024-10-04 12:56:33.992 [info] [resolveAuthority(ssh-remote,1)][0ms] activating resolver for ssh-remote+dtuhpc...
+2024-10-04 12:56:33.992 [info] [resolveAuthority(ssh-remote,1)][0ms] invoking final resolve()...
+2024-10-04 12:56:34.178 [info] [resolveAuthority(ssh-remote,1)][186ms] setting tunnel factory...
+2024-10-04 12:56:34.179 [info] [resolveAuthority(ssh-remote,1)][187ms] returned managed authority
+2024-10-04 12:56:35.029 [info] Eager extensions activated
+2024-10-04 12:56:35.257 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 12:56:35.401 [info] ExtensionService#_doActivateExtension ms-vscode.remote-explorer, startup: false, activationEvent: 'onCommand:remote-internal.setActiveFolders'
+2024-10-04 12:56:36.438 [error] Error: ENOENT: no such file or directory, open '/home/aws/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2024-10-04 12:56:43.799 [info] $getCanonicalURI invoked for authority (ssh-remote)
+2024-10-04 13:00:04.051 [info] $getCanonicalURI invoked for authority (ssh-remote)
+2024-10-04 13:02:53.116 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2024-10-04 13:26:28.742 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-04 13:26:28.760 [error] TypeError: r.some is not a function
+	at d.saveToDisk (/home/aws/.vscode/extensions/vscodevim.vim-1.28.1/out/extension.js:2:646151)
+	at t.deactivate (/home/aws/.vscode/extensions/vscodevim.vim-1.28.1/out/extension.js:2:176792)
+	at hB.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11727)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11603)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619)
+2024-10-04 13:26:28.763 [error] Canceled: Canceled
+	at new eA (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:109321)
+	at Zb.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113933)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:111427)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32325)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at r.registerCommand.description (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31156)
+	at T0.h (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32845)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31919)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at Object.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37049)
+	at t.shutdown (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:578518)
+	at e.deactivate (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:847960)
+	at hB.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11727)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11603)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-04 13:26:28.763 [info] Extension host with pid 65396 exiting with code 0
+2024-10-04 13:26:30.220 [info] Extension host with pid 67127 started
+2024-10-04 13:26:30.271 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-04 13:26:30.346 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-04 13:26:30.463 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-04 13:26:30.619 [info] Eager extensions activated
+2024-10-04 13:26:30.672 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 13:26:30.675 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 13:26:30.701 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 13:26:31.893 [error] Error: ENOENT: no such file or directory, open '/home/aws/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2024-10-04 13:35:48.573 [info] ExtensionService#_doActivateExtension ms-vscode.remote-explorer, startup: false, activationEvent: 'onView:remoteTargets'
+2024-10-04 13:35:48.589 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onCommand:remote-internal.getActiveSshRemote'
+2024-10-04 13:35:57.862 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-04 13:35:57.876 [error] Canceled: Canceled
+	at new eA (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:109321)
+	at Zb.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113933)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:111427)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32325)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at r.registerCommand.description (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31156)
+	at T0.h (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32845)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31919)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at Object.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37049)
+	at t.shutdown (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:578518)
+	at e.deactivate (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:847960)
+	at hB.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11727)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11603)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-04 13:35:57.876 [info] Extension host with pid 67127 exiting with code 0
+2024-10-04 13:35:58.662 [info] Extension host with pid 67452 started
+2024-10-04 13:35:58.662 [info] Skipping acquiring lock for /home/aws/.config/Code/User/workspaceStorage/0f1e620c603228c2139229eda45173b8.
+2024-10-04 13:35:58.662 [info] $getCanonicalURI invoked for authority (ssh-remote)
+2024-10-04 13:35:58.667 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onResolveRemoteAuthority:ssh-remote'
+2024-10-04 13:35:58.734 [info] [resolveAuthority(ssh-remote,1)][0ms] activating remote resolvers ssh-remote+dtuhpc
+2024-10-04 13:35:58.734 [info] [resolveAuthority(ssh-remote,1)][0ms] activating resolver for ssh-remote+dtuhpc...
+2024-10-04 13:35:58.734 [info] [resolveAuthority(ssh-remote,1)][0ms] invoking final resolve()...
+2024-10-04 13:35:59.735 [info] [resolveAuthority(ssh-remote,1)][1001ms] waiting...
+2024-10-04 13:36:00.292 [info] [resolveAuthority(ssh-remote,1)][1558ms] setting tunnel factory...
+2024-10-04 13:36:00.292 [info] [resolveAuthority(ssh-remote,1)][1558ms] returned managed authority
+2024-10-04 13:36:01.351 [info] Eager extensions activated
+2024-10-04 13:36:01.388 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 13:36:01.468 [info] ExtensionService#_doActivateExtension ms-vscode.remote-explorer, startup: false, activationEvent: 'onCommand:remote-internal.setActiveFolders'
+2024-10-04 13:40:29.650 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-04 13:40:29.665 [error] TypeError: r.some is not a function
+	at d.saveToDisk (/home/aws/.vscode/extensions/vscodevim.vim-1.28.1/out/extension.js:2:646151)
+	at t.deactivate (/home/aws/.vscode/extensions/vscodevim.vim-1.28.1/out/extension.js:2:176792)
+	at hB.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11727)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11603)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619)
+2024-10-04 13:40:29.667 [error] Canceled: Canceled
+	at new eA (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:109321)
+	at Zb.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113933)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:111427)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32325)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at r.registerCommand.description (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31156)
+	at T0.h (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32845)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31919)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at Object.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37049)
+	at t.shutdown (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:578518)
+	at e.deactivate (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:847960)
+	at hB.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11727)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11603)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-04 13:40:29.668 [info] Extension host with pid 67452 exiting with code 0
+2024-10-04 13:40:30.577 [info] Extension host with pid 67810 started
+2024-10-04 13:40:30.656 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-04 13:40:30.683 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-04 13:40:30.763 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-04 13:40:30.857 [info] Eager extensions activated
+2024-10-04 13:40:30.863 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 13:40:30.865 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 13:40:30.879 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 13:40:32.196 [info] ExtensionService#_doActivateExtension ms-vscode.remote-explorer, startup: false, activationEvent: 'onView:remoteTargets'
+2024-10-04 13:40:32.212 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onCommand:remote-internal.getActiveSshRemote'
+2024-10-04 13:41:46.284 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-04 13:41:46.314 [error] Canceled: Canceled
+	at new eA (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:109321)
+	at Zb.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113933)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:111427)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32325)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at r.registerCommand.description (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31156)
+	at T0.h (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32845)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31919)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at Object.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37049)
+	at t.shutdown (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:578518)
+	at e.deactivate (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:847960)
+	at hB.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11727)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11603)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-04 13:41:46.316 [info] Extension host with pid 67810 exiting with code 0
+2024-10-04 13:41:47.127 [info] Extension host with pid 67890 started
+2024-10-04 13:41:47.127 [info] Skipping acquiring lock for /home/aws/.config/Code/User/workspaceStorage/0f1e620c603228c2139229eda45173b8.
+2024-10-04 13:41:47.127 [info] $getCanonicalURI invoked for authority (ssh-remote)
+2024-10-04 13:41:47.133 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onResolveRemoteAuthority:ssh-remote'
+2024-10-04 13:41:47.202 [info] [resolveAuthority(ssh-remote,1)][0ms] activating remote resolvers ssh-remote+dtuhpc
+2024-10-04 13:41:47.202 [info] [resolveAuthority(ssh-remote,1)][0ms] activating resolver for ssh-remote+dtuhpc...
+2024-10-04 13:41:47.202 [info] [resolveAuthority(ssh-remote,1)][0ms] invoking final resolve()...
+2024-10-04 13:41:48.202 [info] [resolveAuthority(ssh-remote,1)][1000ms] waiting...
+2024-10-04 13:41:48.835 [info] [resolveAuthority(ssh-remote,1)][1633ms] setting tunnel factory...
+2024-10-04 13:41:48.836 [info] [resolveAuthority(ssh-remote,1)][1634ms] returned managed authority
+2024-10-04 13:41:49.515 [info] Eager extensions activated
+2024-10-04 13:41:49.689 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-10-04 13:41:49.785 [info] ExtensionService#_doActivateExtension ms-vscode.remote-explorer, startup: false, activationEvent: 'onCommand:remote-internal.setActiveFolders'
+2024-10-04 13:46:54.960 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-04 13:46:54.966 [error] Canceled: Canceled
+	at new eA (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:109321)
+	at Zb.U (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:113933)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:111427)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32325)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at r.registerCommand.description (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31156)
+	at T0.h (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:32845)
+	at T0.g (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31919)
+	at T0.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at Object.executeCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:37049)
+	at t.shutdown (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:578518)
+	at e.deactivate (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3/out/extension.js:2:847960)
+	at hB.eb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11727)
+	at file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at MessagePortMain.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:11603)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-04 13:46:54.966 [info] Extension host with pid 67890 exiting with code 0

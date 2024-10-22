@@ -1,0 +1,47 @@
+2024-10-04 12:54:43.739 [info] Getting Manifest... ms-vscode-remote.remote-ssh
+2024-10-04 12:54:43.941 [info] Installing extension: ms-vscode-remote.remote-ssh {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aws/.vscode/extensions/extensions.json","path":"/home/aws/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.0","date":"2024-10-02T13:08:12.626Z"}}
+2024-10-04 12:54:44.574 [info] Getting Manifest... ms-vscode-remote.remote-ssh-edit
+2024-10-04 12:54:44.602 [info] Getting Manifest... ms-vscode.remote-explorer
+2024-10-04 12:54:44.681 [info] Installing extension: ms-vscode-remote.remote-ssh-edit {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aws/.vscode/extensions/extensions.json","path":"/home/aws/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.0","date":"2024-10-02T13:08:12.626Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-10-04 12:54:44.682 [info] Installing extension: ms-vscode.remote-explorer {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aws/.vscode/extensions/extensions.json","path":"/home/aws/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.0","date":"2024-10-02T13:08:12.626Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-10-04 12:54:45.228 [info] Extension signature verification result for ms-vscode-remote.remote-ssh-edit: UnknownError. Executed: true. Duration: 18ms.
+2024-10-04 12:54:45.295 [info] Extracted extension to file:///home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.87.0: ms-vscode-remote.remote-ssh-edit
+2024-10-04 12:54:45.301 [info] Renamed to /home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.87.0
+2024-10-04 12:54:45.327 [info] Extension signature verification result for ms-vscode.remote-explorer: UnknownError. Executed: true. Duration: 19ms.
+2024-10-04 12:54:45.389 [info] Extracted extension to file:///home/aws/.vscode/extensions/ms-vscode.remote-explorer-0.4.3: ms-vscode.remote-explorer
+2024-10-04 12:54:45.393 [info] Renamed to /home/aws/.vscode/extensions/ms-vscode.remote-explorer-0.4.3
+2024-10-04 12:54:45.410 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aws/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aws/.vscode/extensions/extensions.json.vsctmp'
+    at lm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-04 12:54:45.476 [info] Extension signature verification result for ms-vscode-remote.remote-ssh: UnknownError. Executed: true. Duration: 16ms.
+2024-10-04 12:54:45.562 [info] Extracted extension to file:///home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3: ms-vscode-remote.remote-ssh
+2024-10-04 12:54:45.573 [info] Renamed to /home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3
+2024-10-04 12:54:45.597 [info] Extension installed successfully: ms-vscode-remote.remote-ssh-edit vscode-userdata:/home/aws/.vscode/extensions/extensions.json
+2024-10-04 12:54:45.598 [info] Extension installed successfully: ms-vscode.remote-explorer vscode-userdata:/home/aws/.vscode/extensions/extensions.json
+2024-10-04 12:54:45.598 [info] Extension installed successfully: ms-vscode-remote.remote-ssh vscode-userdata:/home/aws/.vscode/extensions/extensions.json
+2024-10-04 12:54:45.659 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aws/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aws/.vscode/extensions/extensions.json.vsctmp'
+    at lm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-04 13:03:07.914 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2024-10-04 13:03:08.087 [info] Installing extension: ms-toolsai.jupyter-keymap {"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aws/.vscode/extensions/extensions.json","path":"/home/aws/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.0","date":"2024-10-02T13:08:12.626Z"}}
+2024-10-04 13:03:08.566 [info] Extension signature verification result for ms-toolsai.jupyter-keymap: UnknownError. Executed: true. Duration: 19ms.
+2024-10-04 13:03:08.586 [info] Extracted extension to file:///home/aws/.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.2: ms-toolsai.jupyter-keymap
+2024-10-04 13:03:08.591 [info] Renamed to /home/aws/.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.2
+2024-10-04 13:03:08.614 [info] Extension installed successfully: ms-toolsai.jupyter-keymap vscode-userdata:/home/aws/.vscode/extensions/extensions.json
+2024-10-04 13:03:08.678 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aws/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aws/.vscode/extensions/extensions.json.vsctmp'
+    at lm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-04 13:26:36.943 [error] [network] #225: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NETWORK_IO_SUSPENDED
+2024-10-04 13:33:46.223 [error] [network] #227: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED

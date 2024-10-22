@@ -1,0 +1,32 @@
+[Global plugin config]
+manageProfile=false
+
+[SSH Config][computerome]
+hostname=ssh.computerome.dk
+identifier=computerome
+importedFromSshConfig=true
+port=22
+profileName=
+sshkey=~/.ssh/id_rsa
+useSshConfig=true
+username=antstr
+
+[SSH Config][dtuhpc]
+hostname=dtuhpc
+identifier=dtuhpc
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/id_rsa
+useSshConfig=true
+username=s183220
+
+[SSH Config][pupil]
+hostname=pupil1.healthtech.dtu.dk
+identifier=pupil
+importedFromSshConfig=true
+port=22
+profileName=Built-in
+sshkey=~/.ssh/id_rsa
+useSshConfig=true
+username=s183220

@@ -1,0 +1,25 @@
+2024-09-24 11:32:20.298 [info] Started initializing default profile extensions in extensions installation folder. file:///home/aws/.vscode-oss/extensions
+2024-09-24 11:32:20.405 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/aws/.vscode-oss/extensions
+2024-09-24 11:32:20.479 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aws/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aws/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)
+2024-09-24 11:33:33.413 [info] Getting Manifest... jeanp413.open-remote-ssh
+2024-09-24 11:33:33.556 [info] Installing extension: jeanp413.open-remote-ssh {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aws/.vscode-oss/extensions/extensions.json","path":"/home/aws/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.93.1","date":"2024-09-13T07:34:01.258Z"}}
+2024-09-24 11:33:34.082 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-fork.js
+2024-09-24 11:33:34.082 [info] Extension signature verification is not done: jeanp413.open-remote-ssh
+2024-09-24 11:33:34.116 [info] Extracted extension to file:///home/aws/.vscode-oss/extensions/jeanp413.open-remote-ssh-0.0.46-universal: jeanp413.open-remote-ssh
+2024-09-24 11:33:34.122 [info] Renamed to /home/aws/.vscode-oss/extensions/jeanp413.open-remote-ssh-0.0.46-universal
+2024-09-24 11:33:34.139 [info] Extension installed successfully: jeanp413.open-remote-ssh vscode-userdata:/home/aws/.vscode-oss/extensions/extensions.json
+2024-09-24 11:33:34.213 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aws/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aws/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)

@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "src/background.js", "src/jquery-1.7.2.min.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/chrome-icon.png",
+      "default_popup": "src/wolframalpha.html",
+      "default_title": "Wolfram|Alpha"
+   },
+   "description": "Instantly query Wolfram|Alpha from any page or tab.",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8aFCoMh1LK+FG1ToxCryWvB9n3TVbOQZ+/BsiXKq5hn34xSMMR17c0C8wyqICFVFe4F4NvL9+dQgLMrQhKLxSWaVk8uuUKryWlAc6cIFUUOqHD7yjGqKuN4Ld5kGhhFAKwUstVaj73epyCGFsSwpSNht0vtoFDdOpyJBYv9e49QIDAQAB",
+   "manifest_version": 2,
+   "name": "Wolfram|Alpha (Official)",
+   "omnibox": {
+      "keyword": "="
+   },
+   "permissions": [ "contextMenus", "tabs", "https://*.wolframalpha.com/*", "*://wal.wolfram.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0"
+}

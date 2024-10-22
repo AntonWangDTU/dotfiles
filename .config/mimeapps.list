@@ -1,0 +1,19 @@
+[Added Associations]
+application/pdf=google-chrome.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-X6YRU2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-X6YRU2.desktop;
+x-scheme-handler/webcal=userapp-Thunderbird-AS9NU2.desktop;
+x-scheme-handler/webcals=userapp-Thunderbird-AS9NU2.desktop;
+
+[Default Applications]
+application/pdf=google-chrome.desktop;
+application/x-extension-ics=userapp-Thunderbird-AS9NU2.desktop
+message/rfc822=userapp-Thunderbird-X6YRU2.desktop
+text/calendar=userapp-Thunderbird-AS9NU2.desktop
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-X6YRU2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-X6YRU2.desktop
+x-scheme-handler/webcal=userapp-Thunderbird-AS9NU2.desktop
+x-scheme-handler/webcals=userapp-Thunderbird-AS9NU2.desktop

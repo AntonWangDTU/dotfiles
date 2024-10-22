@@ -1,0 +1,74 @@
+2024-10-04 11:13:32.369 [info] [main] Log level: Info
+2024-10-04 11:13:32.369 [info] [main] Validating found git in: "git"
+2024-10-04 11:13:32.369 [info] [main] Using git "2.46.2" from "git"
+2024-10-04 11:13:32.369 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-04 11:13:32.369 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-04 11:14:06.943 [info] [main] Log level: Info
+2024-10-04 11:14:06.943 [info] [main] Validating found git in: "git"
+2024-10-04 11:14:06.943 [info] [main] Using git "2.46.2" from "git"
+2024-10-04 11:14:06.943 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-04 11:14:06.943 [info] > git rev-parse --show-toplevel [8ms]
+2024-10-04 11:14:06.943 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-04 11:14:06.959 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-04 11:14:06.974 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-10-04 11:14:06.988 [info] [Model][openRepository] Opened repository: /home/aws/Documents/DeepLearning
+2024-10-04 11:14:07.021 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-04 11:14:07.021 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-04 11:14:07.022 [info] > git config --get commit.template [18ms]
+2024-10-04 11:14:07.082 [info] > git rev-parse --show-toplevel [44ms]
+2024-10-04 11:14:07.083 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-04 11:14:07.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [37ms]
+2024-10-04 11:14:07.122 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aws/Documents/DeepLearning/.git/refs/remotes/origin/master'
+2024-10-04 11:14:07.123 [info] > git rev-parse --show-toplevel [14ms]
+2024-10-04 11:14:07.123 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-04 11:14:07.136 [info] > git rev-parse refs/remotes/origin/master [14ms]
+2024-10-04 11:14:07.159 [info] > git rev-parse --show-toplevel [24ms]
+2024-10-04 11:14:07.159 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-04 11:14:07.168 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2024-10-04 11:14:07.170 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-04 11:14:07.170 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-04 11:14:07.180 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-04 11:14:07.180 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-04 11:14:07.184 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-04 11:14:07.185 [info] > git status -z -uall [38ms]
+2024-10-04 11:14:07.212 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2024-10-04 11:14:07.225 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-10-04 11:14:07.226 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-04 11:14:07.235 [info] > git config --get commit.template [24ms]
+2024-10-04 11:14:07.284 [info] > git reflog master --grep-reflog=branch: Created from *. [49ms]
+2024-10-04 11:14:07.333 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [40ms]
+2024-10-04 11:14:07.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [58ms]
+2024-10-04 11:14:07.352 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aws/Documents/DeepLearning/.git/refs/remotes/origin/master'
+2024-10-04 11:14:07.353 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [11ms]
+2024-10-04 11:14:07.364 [info] > git rev-parse refs/remotes/origin/master [12ms]
+2024-10-04 11:14:07.386 [info] > git config --local branch.master.vscode-merge-base origin/master [24ms]
+2024-10-04 11:14:07.387 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms] (cancelled)
+2024-10-04 11:14:07.409 [info] > git status -z -uall [35ms] (cancelled)
+2024-10-04 11:14:07.409 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2024-10-04 11:14:07.420 [info] > git config --get commit.template [12ms]
+2024-10-04 11:14:07.421 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-10-04 11:14:07.441 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [10ms]
+2024-10-04 11:14:07.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2024-10-04 11:14:07.463 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aws/Documents/DeepLearning/.git/refs/remotes/origin/master'
+2024-10-04 11:14:07.464 [info] > git merge-base refs/heads/master refs/remotes/origin/master [13ms]
+2024-10-04 11:14:07.474 [info] > git rev-parse refs/remotes/origin/master [11ms]
+2024-10-04 11:14:07.495 [info] > git diff --name-status -z --diff-filter=ADMR 56a1e7a2f56858588ff7c3ed0b355c7478b97d22...refs/remotes/origin/master [21ms]
+2024-10-04 11:14:07.497 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-10-04 11:14:07.511 [info] > git status -z -uall [28ms]
+2024-10-04 11:14:07.539 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-04 11:14:11.196 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-04 11:14:11.196 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-04 11:14:29.177 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-04 11:14:29.177 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-04 11:14:46.311 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-04 11:14:46.311 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

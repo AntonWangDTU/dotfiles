@@ -1,0 +1,505 @@
+[12:48:37.891] Log Level: 2
+[12:48:37.909] SSH Resolver called for "ssh-remote+computerome", attempt 1
+[12:48:37.910] "remote.SSH.useLocalServer": true
+[12:48:37.910] "remote.SSH.useExecServer": true
+[12:48:37.911] "remote.SSH.path": undefined
+[12:48:37.911] "remote.SSH.configFile": undefined
+[12:48:37.911] "remote.SSH.useFlock": true
+[12:48:37.911] "remote.SSH.lockfilesInTmp": false
+[12:48:37.911] "remote.SSH.localServerDownload": auto
+[12:48:37.911] "remote.SSH.remoteServerListenOnSocket": false
+[12:48:37.911] "remote.SSH.showLoginTerminal": false
+[12:48:37.911] "remote.SSH.defaultExtensions": []
+[12:48:37.911] "remote.SSH.loglevel": 2
+[12:48:37.911] "remote.SSH.enableDynamicForwarding": true
+[12:48:37.911] "remote.SSH.enableRemoteCommand": false
+[12:48:37.912] "remote.SSH.serverPickPortsFromRange": {}
+[12:48:37.912] "remote.SSH.serverInstallPath": {}
+[12:48:37.912] "remote.SSH.permitPtyAllocation": false
+[12:48:37.912] "remote.SSH.preferredLocalPortRange: undefined
+[12:48:37.912] "remote.SSH.useCurlAndWgetConfigurationFiles: false
+[12:48:37.918] VS Code version: 1.94.0
+[12:48:37.918] Remote-SSH version: remote-ssh@0.115.0
+[12:48:37.918] linux x64
+[12:48:37.920] SSH Resolver called for host: computerome
+[12:48:37.921] Setting up SSH remote "computerome"
+[12:48:37.925] Acquiring local install lock: /tmp/vscode-remote-ssh-e62abcb7-install.lock
+[12:48:37.927] Looking for existing server data file at /home/aws/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-e62abcb7-d78a74bcdfad14d5d3b1b782f87255d802b57511-0.115.0-es/data.json
+[12:48:37.927] No existing data file
+[12:48:37.928] Using commit id "d78a74bcdfad14d5d3b1b782f87255d802b57511" and quality "stable" for server
+[12:48:37.930] Script variables:
+ {
+  "InstallExitCode.24": "AlreadyInProgress",
+  "InstallExitCode.25": "ServerDownloadFailed",
+  "InstallExitCode.26": "NoDownloaderAvailable",
+  "InstallExitCode.27": "UnsupportedArch",
+  "InstallExitCode.28": "StatusCheckFailed",
+  "InstallExitCode.29": "NeedInsidersArch",
+  "InstallExitCode.30": "NoDownloaderAvailableForStatusCheck",
+  "InstallExitCode.31": "ServerTransferFailed",
+  "InstallExitCode.32": "ServerFailedToStart",
+  "InstallExitCode.33": "NeedInsidersWindows",
+  "InstallExitCode.34": "CreateInstallDirFailed",
+  "InstallExitCode.35": "UnsupportedPlatform",
+  "InstallExitCode.36": "ServerTerminatedCVE20201416",
+  "InstallExitCode.37": "UnpackFailed",
+  "InstallExitCode.38": "ChangeDirFailed",
+  "InstallExitCode.AlreadyInProgress": "24",
+  "InstallExitCode.ServerDownloadFailed": "25",
+  "InstallExitCode.NoDownloaderAvailable": "26",
+  "InstallExitCode.NoDownloaderAvailableForStatusCheck": "30",
+  "InstallExitCode.UnsupportedArch": "27",
+  "InstallExitCode.StatusCheckFailed": "28",
+  "InstallExitCode.NeedInsidersArch": "29",
+  "InstallExitCode.ServerTransferFailed": "31",
+  "InstallExitCode.ServerFailedToStart": "32",
+  "InstallExitCode.NeedInsidersWindows": "33",
+  "InstallExitCode.CreateInstallDirFailed": "34",
+  "InstallExitCode.UnsupportedPlatform": "35",
+  "InstallExitCode.ServerTerminatedCVE20201416": "36",
+  "InstallExitCode.UnpackFailed": "37",
+  "InstallExitCode.ChangeDirFailed": "38",
+  "InstallUnpackCode.Success": "success",
+  "InstallUnpackCode.Error": "error",
+  "InstallUnpackCode.MissingFiles": "missingFiles",
+  "uuid": "e184591c07d8",
+  "startMarker": "e184591c07d8: running",
+  "commitId": "d78a74bcdfad14d5d3b1b782f87255d802b57511",
+  "quality": "stable",
+  "token": "11111111-a1aa-111a-11a1-11a11aaaaaa1",
+  "vscodeAgentFolder": "$HOME/.vscode-server",
+  "allowClientDownload": "1",
+  "forceClientDownload": "0",
+  "cliNameInArchive": "code",
+  "ignoreWgetConfigFlag": " --no-config ",
+  "ignoreCurlConfigFlag": " --disable ",
+  "wgetTriesSegment": "--tries=1",
+  "listenArgs": "--on-host=127.0.0.1 --on-port",
+  "getDownloadServerStartTrigger": "e184591c07d8:trigger_server_download",
+  "getDownloadServerEndTrigger": "e184591c07d8:trigger_server_download_end",
+  "getProgressDownloading": "e184591c07d8%%1%%",
+  "getProgressInstalling": "e184591c07d8%%2%%"
+}
+[12:48:37.933] Install and start server if needed
+[12:48:37.936] PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+[12:48:37.936] Checking ssh with "ssh -V"
+[12:48:37.946] > OpenSSH_9.9p1, OpenSSL 3.3.2 3 Sep 2024
+
+[12:48:37.950] askpass server listening on /run/user/1000/vscode-ssh-askpass-c17ff1a2e72c44db97ab1964534d3d7bb792c9c7.sock
+[12:48:37.950] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-36f453110e5477c99eff74b71682a3c4d6b5ea4c.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","44055","-o","ConnectTimeout=15","computerome"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/aws/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-e62abcb7-d78a74bcdfad14d5d3b1b782f87255d802b57511-0.115.0-es/data.json"}
+[12:48:37.950] Local server env: {"SHELL":"/usr/bin/zsh","DISPLAY":":1","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"","VSCODE_SSH_ASKPASS_MAIN":"/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-c17ff1a2e72c44db97ab1964534d3d7bb792c9c7.sock"}
+[12:48:37.957] Spawned 7902
+[12:48:37.958] Using connect timeout of 17 seconds
+[12:48:38.066] > local-server-1> Running ssh connection command: ssh -v -T -D 44055 -o ConnectTimeout=15 computerome
+[12:48:38.070] > local-server-1> Spawned ssh, pid=7911
+[12:48:38.074] stderr> OpenSSH_9.9p1, OpenSSL 3.3.2 3 Sep 2024
+[12:48:38.118] stderr> debug1: Server host key: ssh-ed25519 SHA256:/jcI3Nuz+YK1qquVvfR1AmhLB3wdkKiWagV2IqJ2TZk
+[12:48:38.178] stderr> #############################################################
+[12:48:38.179] stderr> #                                                           #
+[12:48:38.179] stderr> #                 Welcome to Computerome 2.0                #
+[12:48:38.179] stderr> #                                                           #
+[12:48:38.179] stderr> #                         NOTICE !!!                        #
+[12:48:38.179] stderr> #        This system requires 2-factor authentication       #
+[12:48:38.179] stderr> #                                                           #
+[12:48:38.179] stderr> #       To login, type your password and press Enter.       #
+[12:48:38.179] stderr> #     This sends either an SMS passcode to your mobile      #
+[12:48:38.179] stderr> #    or a push-notification to Entrust IdentityGuard app.   #
+[12:48:38.179] stderr> #   If the push-notification times out, a new prompt line   #
+[12:48:38.179] stderr> #    asks for the 8 digit security code shown in the app.   #
+[12:48:38.179] stderr> #                                                           #
+[12:48:38.179] stderr> #           BY LOGGING INTO THIS SYSTEM YOU ACCEPT          #
+[12:48:38.179] stderr> #         COMPUTEROME'S TERMS AND CONDITIONS OF USE.        #
+[12:48:38.179] stderr> #                                                           #
+[12:48:38.179] stderr> #        Send support requests to computerome@dtu.dk        #
+[12:48:38.180] stderr> #                                                           #
+[12:48:38.180] stderr> #############################################################
+[12:48:38.312] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Password: "}
+[12:48:38.314] Showing password prompt
+[12:48:38.316] Listening for interwindow password on /run/user/1000/vscode-ssh-askpass-da64067a575f54bbc3128e1f124283176a6d767b.sock
+[12:48:38.316] Writing password prompt to globalState
+[12:48:43.964] Got password response
+[12:48:43.965] Interactor gave response: ************
+[12:48:43.965] Cleaning up other-window auth server
+[12:48:43.968] Using connect timeout of 17 seconds
+[12:48:44.378] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Enter your one-time password."}
+[12:48:44.380] Listening for interwindow password on /run/user/1000/vscode-ssh-askpass-073c49bb1f11fa2d3325e1b2017ce38364cfa011.sock
+[12:48:44.380] Writing password prompt to globalState
+[12:49:14.025] Interactor gave response: ********
+[12:49:14.025] Cleaning up other-window auth server
+[12:49:14.026] Using connect timeout of 17 seconds
+[12:49:14.118] stderr> Authenticated to ssh.computerome.dk ([130.226.25.10]:22) using "keyboard-interactive".
+[12:49:14.547] > ready: e184591c07d8
+[12:49:14.554] > Linux 3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+[12:49:14.555] Platform: linux
+[12:49:14.559] > /bin/bash
+[12:49:14.560] Parent Shell: bash
+[12:49:14.560] Parent Shell pid: 7902
+[12:49:14.568] > 16867
+[12:49:14.568] Waiting for pid of spawned 'sh' subshell: '16867'...
+[12:49:14.602] > e184591c07d8: running
+> Script executing under PID: 16867
+[12:49:14.692] > Installing to /home/people/antstr/.vscode-server...
+[12:49:14.696] > e184591c07d8%%1%%
+> Downloading with wget
+[12:49:14.697] > wget is from busybox: no
+[12:49:14.704] > Detected that this version of wget does not support '--no-config'. Will not ignore wget default configuration files.
+[12:49:14.705] stderr> Program 'wget' is not available or does not appear to support flag '--no-config'
+[12:49:15.123] > Download complete
+> e184591c07d8%%2%%
+> tar --version: tar (GNU tar) 1.26
+> Copyright (C) 2011 Free Software Foundation, Inc.
+> License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+> This is free software: you are free to change and redistribute it.
+> There is NO WARRANTY, to the extent permitted by law.
+> 
+> Written by John Gilmore and Jay Fenlason.
+[12:49:15.450] > code 1.94.0 (commit d78a74bcdfad14d5d3b1b782f87255d802b57511)
+[12:49:15.454] > Starting VS Code CLI...
+> printenv:
+[12:49:15.455] >     MANPATH=/cm/local/apps/environment-modules/4.2.1//share/man:/usr/local/man:/usr/local/share/man:/usr/share/man/overrides:/usr/share/man:/cm/local/apps/environment-modules/current/share/man:/opt/thinlinc/share/man
+>     XDG_SESSION_ID=442287
+>     HOSTNAME=g-12-l0002
+>     SHELL=/bin/bash
+>     MODULES_CMD=/cm/local/apps/environment-modules/4.2.1/libexec/modulecmd.tcl
+>     HISTSIZE=1000
+>     WISECONFIGDIR=/usr/share/wise2/
+>     SSH_CLIENT=152.115.167.130 17888 22
+>     PERL5LIB=/opt/moab/lib/perl5
+>     QTDIR=/usr/lib64/qt-3.3
+>     QTINC=/usr/lib64/qt-3.3/include
+>     LC_ALL=en_US.utf-8
+>     QT_GRAPHICSSYSTEM_CHECKED=1
+>     USER=antstr
+>     ENV=/cm/local/apps/environment-modules/4.2.1//init/profile.sh
+>     PATH=/usr/local/bin:/usr/local/sbin:/usr/lib64/qt-3.3/bin:/cm/local/apps/environment-modules/4.2.1//bin:/opt/moab/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/sbin:/cm/local/apps/environment-modules/4.2.1/bin:/opt/thinlinc/bin:/home/people/antstr/.local/bin:/home/people/antstr/bin
+>     MAIL=/var/spool/mail/antstr
+>     PWD=/home/people/antstr
+>     LANG=en_US.utf-8
+>     MOABHOMEDIR=/opt/moab
+>     MODULEPATH=/cm/local/modulefiles:/cm/local/.modulefiles_cache/shared/modulefiles
+>     KDEDIRS=/usr
+>     LOADEDMODULES=
+>     ENABLE_LMOD=0
+>     HISTCONTROL=ignoredups
+>     HOME=/home/people/antstr
+>     SHLVL=2
+>     BASH_ENV=/cm/local/apps/environment-modules/4.2.1//init/bash
+>     LOGNAME=antstr
+>     QTLIB=/usr/lib64/qt-3.3/lib
+>     SSH_CONNECTION=152.115.167.130 17888 10.45.15.69 22
+>     XDG_DATA_DIRS=/home/people/antstr/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+>     MODULESHOME=/cm/local/apps/environment-modules/4.2.1/
+>     LESSOPEN=||/usr/bin/lesspipe.sh %s
+>     XDG_RUNTIME_DIR=/run/user/113802595
+>     QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+>     BASH_FUNC_module()=() {  unset _mlshdbg;
+>      if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+>      case "$-" in 
+>      *v*x*)
+>      set +vx;
+>      _mlshdbg='vx'
+>      ;;
+>      *v*)
+>      set +v;
+>      _mlshdbg='v'
+>      ;;
+>      *x*)
+>      set +x;
+>      _mlshdbg='x'
+>      ;;
+>      *)
+>      _mlshdbg=''
+>      ;;
+>      esac;
+>      fi;
+>      unset _mlre _mlIFS;
+>      if [ -n "${IFS+x}" ]; then
+>      _mlIFS=$IFS;
+>      fi;
+>      IFS=' ';
+>      for _mlv in ${MODULES_RUN_QUARANTINE:-};
+>      do
+>      if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+>      if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+>      _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+>      fi;
+>      _mlrv="MODULES_RUNENV_${_mlv}";
+>      _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+>      fi;
+>      done;
+>      if [ -n "${_mlre:-}" ]; then
+>      eval `eval ${_mlre}/usr/bin/tclsh /cm/local/apps/environment-modules/4.2.1/libexec/modulecmd.tcl bash '"$@"'`;
+>      else
+>      eval `/usr/bin/tclsh /cm/local/apps/environment-modules/4.2.1/libexec/modulecmd.tcl bash "$@"`;
+>      fi;
+>      _mlstatus=$?;
+>      if [ -n "${_mlIFS+x}" ]; then
+>      IFS=$_mlIFS;
+>      else
+>      unset IFS;
+>      fi;
+>      unset _mlre _mlv _mlrv _mlIFS;
+>      if [ -n "${_mlshdbg:-}" ]; then
+>      set -$_mlshdbg;
+>      fi;
+>      unset _mlshdbg;
+>      return $_mlstatus
+>     }
+>     BASH_FUNC_switchml()=() {  typeset swfound=1;
+>      if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then
+>      typeset swname='main';
+>      if [ -e /cm/local/apps/environment-modules/4.2.1//libexec/modulecmd.tcl ]; then
+>      typeset swfound=0;
+>      unset MODULES_USE_COMPAT_VERSION;
+>      fi;
+>      else
+>      typeset swname='compatibility';
+>      if [ -e /cm/local/apps/environment-modules/4.2.1//libexec/modulecmd-compat ]; then
+>      typeset swfound=0;
+>      MODULES_USE_COMPAT_VERSION=1;
+>      export MODULES_USE_COMPAT_VERSION;
+>      fi;
+>      fi;
+>      if [ $swfound -eq 0 ]; then
+>      echo "Switching to Modules $swname version";
+>      source /cm/local/apps/environment-modules/4.2.1//init/bash;
+>      else
+>      echo "Cannot switch to Modules $swname version, command not found";
+>      return 1;
+>      fi
+>     }
+>     _=/usr/bin/printenv
+>     OLDPWD=/home/people/antstr/.vscode-server
+[12:49:15.459] > Spawned remote CLI: 17008
+[12:49:15.462] > Waiting for server log...
+[12:49:15.497] > Waiting for server log...
+[12:49:15.535] > e184591c07d8: start
+> listeningOn==127.0.0.1:41761==
+> osReleaseId==centos==
+> arch==x86_64==
+> vscodeArch==x64==
+> bitness==64==
+> tmpDir==/run/user/113802595==
+> platform==linux==
+> unpackResult==success==
+> didLocalDownload==0==
+[12:49:15.539] > downloadTime==387==
+> installTime==351==
+> serverStartTime==75==
+> execServerToken==11111111-a1aa-111a-11a1-11a11aaaaaa1==
+> platformDownloadPath==cli-alpine-x64==
+> e184591c07d8: end
+[12:49:15.539] Received install output: 
+listeningOn==127.0.0.1:41761==
+osReleaseId==centos==
+arch==x86_64==
+vscodeArch==x64==
+bitness==64==
+tmpDir==/run/user/113802595==
+platform==linux==
+unpackResult==success==
+didLocalDownload==0==downloadTime==387==
+installTime==351==
+serverStartTime==75==
+execServerToken==11111111-a1aa-111a-11a1-11a11aaaaaa1==
+platformDownloadPath==cli-alpine-x64==
+
+[12:49:15.540] Remote server is listening on port 41761
+[12:49:15.541] Parsed server configuration: {"serverConfiguration":{"remoteListeningOn":{"port":41761},"osReleaseId":"centos","arch":"x86_64","tmpDir":"/run/user/113802595","platform":"linux","execServerToken":"11111111-a1aa-111a-11a1-11a11aaaaaa1"},"downloadTime":387,"installTime":351,"serverStartTime":75,"installUnpackCode":"success"}
+[12:49:15.542] Persisting server connection details to /home/aws/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-e62abcb7-d78a74bcdfad14d5d3b1b782f87255d802b57511-0.115.0-es/data.json
+[12:49:15.547] Starting forwarding server. local port 33523 -> socksPort 44055 -> remotePort 41761
+[12:49:15.548] Forwarding server listening on port 33523
+[12:49:15.548] Waiting for ssh tunnel to be ready
+[12:49:15.550] [Forwarding server port 33523] Got connection 0
+[12:49:15.552] Tunneled port 41761 to local port 33523
+[12:49:15.553] Resolved "ssh-remote+computerome" to "port 33523"
+[12:49:15.574] Initizing new exec server for ssh-remote+computerome
+[12:49:15.574] Resolving exec server at port 33523
+[12:49:15.576] [Forwarding server port 33523] Got connection 1
+[12:49:16.044] Exec server for ssh-remote+computerome created and cached
+[12:49:16.057] ------
+
+
+
+
+[12:49:16.080] [server] Checking /home/people/antstr/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/log.txt and /home/people/antstr/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/pid.txt for a running server...
+[12:49:16.463] [server] Installing and setting up Visual Studio Code Server...
+[12:49:16.601] [server] Downloading Visual Studio Code server -> /tmp/.tmpSL6S2v/vscode-server-linux-legacy-x64.tar.gz
+[12:49:16.601] [server] server download progress: 0/59647517 (0%)
+[12:49:16.621] [server] server download progress: 2105344/59647517 (4%)
+[12:49:16.638] [server] server download progress: 4210688/59647517 (7%)
+[12:49:16.654] [server] server download progress: 6316032/59647517 (11%)
+[12:49:16.673] [server] server download progress: 8421376/59647517 (14%)
+[12:49:16.686] [server] server download progress: 10526720/59647517 (18%)
+[12:49:16.703] [server] server download progress: 12632064/59647517 (21%)
+[12:49:16.717] [server] server download progress: 14737408/59647517 (25%)
+[12:49:16.731] [server] server download progress: 16842752/59647517 (28%)
+[12:49:16.747] [server] server download progress: 18948096/59647517 (32%)
+[12:49:16.763] [server] server download progress: 21052209/59647517 (35%)
+[12:49:16.781] [server] server download progress: 23157400/59647517 (39%)
+[12:49:16.797] [server] server download progress: 25255936/59647517 (42%)
+[12:49:16.809] [server] server download progress: 27361280/59647517 (46%)
+[12:49:16.824] [server] server download progress: 29463064/59647517 (49%)
+[12:49:16.840] [server] server download progress: 31560876/59647517 (53%)
+[12:49:16.856] [server] server download progress: 33658115/59647517 (56%)
+[12:49:16.874] [server] server download progress: 35756367/59647517 (60%)
+[12:49:16.887] [server] server download progress: 37860319/59647517 (63%)
+[12:49:16.901] [server] server download progress: 39961332/59647517 (67%)
+[12:49:16.915] [server] server download progress: 42060582/59647517 (71%)
+[12:49:16.927] [server] server download progress: 44165491/59647517 (74%)
+[12:49:16.941] [server] server download progress: 46267528/59647517 (78%)
+[12:49:16.982] [server] server download progress: 48365568/59647517 (81%)
+[12:49:16.982] [server] server download progress: 50468982/59647517 (85%)
+[12:49:16.999] [server] server download progress: 52571998/59647517 (88%)
+[12:49:17.005] [server] server download progress: 54673408/59647517 (92%)
+[12:49:17.022] [server] server download progress: 56778752/59647517 (95%)
+[12:49:17.052] [server] server download progress: 58884096/59647517 (99%)
+[12:49:17.054] [server] server download progress: 59647517/59647517 (100%)
+[12:49:18.442] [server] server inflate progress: 89/1763 (5%)
+[12:49:19.045] [server] server inflate progress: 179/1763 (10%)
+[12:49:19.286] [server] server inflate progress: 269/1763 (15%)
+[12:49:19.695] [server] server inflate progress: 359/1763 (20%)
+[12:49:20.177] [server] server inflate progress: 449/1763 (25%)
+[12:49:20.654] [server] server inflate progress: 539/1763 (31%)
+[12:49:21.039] [server] server inflate progress: 629/1763 (36%)
+[12:49:22.496] [server] server inflate progress: 719/1763 (41%)
+[12:49:22.907] [server] server inflate progress: 809/1763 (46%)
+[12:49:23.305] [server] server inflate progress: 899/1763 (51%)
+[12:49:24.042] [server] server inflate progress: 989/1763 (56%)
+[12:49:24.551] [server] server inflate progress: 1079/1763 (61%)
+[12:49:24.874] [server] server inflate progress: 1169/1763 (66%)
+[12:49:25.373] [server] server inflate progress: 1259/1763 (71%)
+[12:49:25.783] [server] server inflate progress: 1349/1763 (77%)
+[12:49:26.139] [server] server inflate progress: 1439/1763 (82%)
+[12:49:26.695] [server] server inflate progress: 1529/1763 (87%)
+[12:49:27.113] [server] server inflate progress: 1619/1763 (92%)
+[12:49:27.427] [server] server inflate progress: 1709/1763 (97%)
+[12:49:28.036] [server] server inflate progress: 1763/1763 (100%)
+[12:49:28.044] [server] Server integrity verified, version: 1.94.0 / d78a74bcdfad14d5d3b1b782f87255d802b57511 / x64 / 
+[12:49:28.045] [server] Server setup complete
+[12:49:28.045] [server] Starting server...
+[12:49:28.045] [server] Starting server with command... Command { std: "/home/people/antstr/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/bin/code-server" "--connection-token=remotessh" "--accept-server-license-terms" "--start-server" "--enable-remote-auto-shutdown" "--socket-path=/tmp/code-9be81f8b-aa7e-453f-94ab-d5820331a4ae", kill_on_drop: false }
+[12:49:28.046] [server] *
+[12:49:28.046] [server] * Visual Studio Code Server
+[12:49:28.046] [server] *
+[12:49:28.046] [server] * By using the software, you agree to
+[12:49:28.046] [server] * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+[12:49:28.047] [server] * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+[12:49:28.047] [server] *
+[12:49:28.047] [server] Server bound to /tmp/code-9be81f8b-aa7e-453f-94ab-d5820331a4ae
+[12:49:28.047] [server] Extension host agent listening on /tmp/code-9be81f8b-aa7e-453f-94ab-d5820331a4ae
+[12:49:28.047] [server] parsed location: "/tmp/code-9be81f8b-aa7e-453f-94ab-d5820331a4ae"
+[12:49:28.048] [server] 
+[12:49:28.048] [server] Server started
+[12:49:28.123] [server] [12:49:28] 
+[12:49:28.123] [server] 
+[12:49:28.124] [server] 
+[12:49:28.124] [server] 
+[12:49:28.273] [server] [12:49:28] Extension host agent started.
+[12:49:28.338] [server] [12:49:28] Started initializing default profile extensions in extensions installation folder. file:///home/people/antstr/.vscode-server/extensions
+[12:49:28.353] [server] [12:49:28] [<unknown>][87762e33][ManagementConnection] New connection established.
+[12:49:28.354] [server] [12:49:28] Completed initializing default profile extensions in extensions installation folder. file:///home/people/antstr/.vscode-server/extensions
+[12:49:28.362] [server] [12:49:28] [<unknown>][1c805b16][ExtensionHostConnection] New connection established.
+[12:49:28.765] [server] [12:49:28] [<unknown>][1c805b16][ExtensionHostConnection] <17233> Launched Extension Host Process.
+[12:49:44.155] [server] /home/people/antstr/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/server/bin/code-server: line 12: 17166 Killed                  "$ROOT/node" ${INSPECT:-} "$ROOT/out/server-main.js" "$@"
+[12:49:50.371] Exec server for ssh-remote+computerome closed (gracefully)
+[12:50:04.390] ------
+
+
+
+
+[12:50:04.390] SSH Resolver called for "ssh-remote+computerome", attempt 2, (Reconnection)
+[12:50:04.392] SSH Resolver called for host: computerome
+[12:50:04.393] Setting up SSH remote "computerome"
+[12:50:04.400] Acquiring local install lock: /tmp/vscode-remote-ssh-e62abcb7-install.lock
+[12:50:04.401] Looking for existing server data file at /home/aws/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-e62abcb7-d78a74bcdfad14d5d3b1b782f87255d802b57511-0.115.0-es/data.json
+[12:50:04.402] Found existing data file
+[12:50:04.403] Found local server running: {"remoteListeningOn":{"port":41761},"osReleaseId":"centos","arch":"x86_64","tmpDir":"/run/user/113802595","platform":"linux","execServerToken":"13124570-c8eb-467e-96c0-48c42ddebaf9","pid":7902,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-36f453110e5477c99eff74b71682a3c4d6b5ea4c.sock","socksPort":44055,"startupTime":1728470917957}
+[12:50:04.403] Running server is stale. Ignoring
+[12:50:04.404] Using commit id "d78a74bcdfad14d5d3b1b782f87255d802b57511" and quality "stable" for server
+[12:50:04.410] Script variables:
+ {
+  "InstallExitCode.24": "AlreadyInProgress",
+  "InstallExitCode.25": "ServerDownloadFailed",
+  "InstallExitCode.26": "NoDownloaderAvailable",
+  "InstallExitCode.27": "UnsupportedArch",
+  "InstallExitCode.28": "StatusCheckFailed",
+  "InstallExitCode.29": "NeedInsidersArch",
+  "InstallExitCode.30": "NoDownloaderAvailableForStatusCheck",
+  "InstallExitCode.31": "ServerTransferFailed",
+  "InstallExitCode.32": "ServerFailedToStart",
+  "InstallExitCode.33": "NeedInsidersWindows",
+  "InstallExitCode.34": "CreateInstallDirFailed",
+  "InstallExitCode.35": "UnsupportedPlatform",
+  "InstallExitCode.36": "ServerTerminatedCVE20201416",
+  "InstallExitCode.37": "UnpackFailed",
+  "InstallExitCode.38": "ChangeDirFailed",
+  "InstallExitCode.AlreadyInProgress": "24",
+  "InstallExitCode.ServerDownloadFailed": "25",
+  "InstallExitCode.NoDownloaderAvailable": "26",
+  "InstallExitCode.NoDownloaderAvailableForStatusCheck": "30",
+  "InstallExitCode.UnsupportedArch": "27",
+  "InstallExitCode.StatusCheckFailed": "28",
+  "InstallExitCode.NeedInsidersArch": "29",
+  "InstallExitCode.ServerTransferFailed": "31",
+  "InstallExitCode.ServerFailedToStart": "32",
+  "InstallExitCode.NeedInsidersWindows": "33",
+  "InstallExitCode.CreateInstallDirFailed": "34",
+  "InstallExitCode.UnsupportedPlatform": "35",
+  "InstallExitCode.ServerTerminatedCVE20201416": "36",
+  "InstallExitCode.UnpackFailed": "37",
+  "InstallExitCode.ChangeDirFailed": "38",
+  "InstallUnpackCode.Success": "success",
+  "InstallUnpackCode.Error": "error",
+  "InstallUnpackCode.MissingFiles": "missingFiles",
+  "uuid": "bf6fe4594918",
+  "startMarker": "bf6fe4594918: running",
+  "commitId": "d78a74bcdfad14d5d3b1b782f87255d802b57511",
+  "quality": "stable",
+  "token": "aaa11aaa-1aa1-1111-11a1-a1111a11a111",
+  "vscodeAgentFolder": "$HOME/.vscode-server",
+  "allowClientDownload": "1",
+  "forceClientDownload": "0",
+  "cliNameInArchive": "code",
+  "ignoreWgetConfigFlag": " --no-config ",
+  "ignoreCurlConfigFlag": " --disable ",
+  "wgetTriesSegment": "--tries=1",
+  "listenArgs": "--on-host=127.0.0.1 --on-port",
+  "getDownloadServerStartTrigger": "bf6fe4594918:trigger_server_download",
+  "getDownloadServerEndTrigger": "bf6fe4594918:trigger_server_download_end",
+  "getProgressDownloading": "bf6fe4594918%%1%%",
+  "getProgressInstalling": "bf6fe4594918%%2%%"
+}
+[12:50:04.415] Install and start server if needed
+[12:50:04.424] askpass server listening on /run/user/1000/vscode-ssh-askpass-9fb3fbd156eda423d1c609fc0570a6ba619f14c4.sock
+[12:50:04.425] Spawning local server with {"serverId":2,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-9ce9c0063e06cce9bcfa64a9082d82a3ae21ab88.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","33303","-o","ConnectTimeout=15","computerome"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/aws/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-e62abcb7-d78a74bcdfad14d5d3b1b782f87255d802b57511-0.115.0-es/data.json"}
+[12:50:04.425] Local server env: {"SHELL":"/usr/bin/zsh","DISPLAY":":1","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"","VSCODE_SSH_ASKPASS_MAIN":"/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-9fb3fbd156eda423d1c609fc0570a6ba619f14c4.sock"}
+[12:50:04.438] Spawned 8023
+[12:50:04.439] Using connect timeout of 17 seconds
+[12:50:04.550] > local-server-2> Running ssh connection command: ssh -v -T -D 33303 -o ConnectTimeout=15 computerome
+[12:50:04.556] > local-server-2> Spawned ssh, pid=8031
+[12:50:04.562] stderr> OpenSSH_9.9p1, OpenSSL 3.3.2 3 Sep 2024
+[12:50:04.614] stderr> debug1: Server host key: ssh-ed25519 SHA256:/jcI3Nuz+YK1qquVvfR1AmhLB3wdkKiWagV2IqJ2TZk
+[12:50:04.676] stderr> #############################################################
+[12:50:04.676] stderr> #                                                           #
+[12:50:04.676] stderr> #                 Welcome to Computerome 2.0                #
+[12:50:04.676] stderr> #                                                           #
+[12:50:04.677] stderr> #                         NOTICE !!!                        #
+[12:50:04.677] stderr> #        This system requires 2-factor authentication       #
+[12:50:04.677] stderr> #                                                           #
+[12:50:04.677] stderr> #       To login, type your password and press Enter.       #
+[12:50:04.677] stderr> #     This sends either an SMS passcode to your mobile      #
+[12:50:04.677] stderr> #    or a push-notification to Entrust IdentityGuard app.   #
+[12:50:04.677] stderr> #   If the push-notification times out, a new prompt line   #
+[12:50:04.678] stderr> #    asks for the 8 digit security code shown in the app.   #
+[12:50:04.678] stderr> #                                                           #
+[12:50:04.678] stderr> #           BY LOGGING INTO THIS SYSTEM YOU ACCEPT          #
+[12:50:04.678] stderr> #         COMPUTEROME'S TERMS AND CONDITIONS OF USE.        #
+[12:50:04.678] stderr> #                                                           #
+[12:50:04.678] stderr> #        Send support requests to computerome@dtu.dk        #
+[12:50:04.678] stderr> #                                                           #
+[12:50:04.679] stderr> #############################################################
+[12:50:04.807] Got askpass request: {"request":" (antstr@ssh.computerome.dk) Password: "}
+[12:50:04.807] Showing password prompt
+[12:50:04.809] Listening for interwindow password on /run/user/1000/vscode-ssh-askpass-0711d521cb6fa358188c965decbc1fd6b04efd8c.sock
+[12:50:04.809] Writing password prompt to globalState

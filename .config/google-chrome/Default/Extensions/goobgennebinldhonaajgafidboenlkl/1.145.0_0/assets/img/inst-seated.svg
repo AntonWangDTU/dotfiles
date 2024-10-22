@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130" height="120" viewBox="0 0 130 120">
+  <defs>
+    <path id="path-1" d="M60.8046875,35.8422137 L76.3466797,45.7418606 C95.610652,46.759203 104.444048,46.759203 102.846867,45.7418606"/>
+    <rect id="path-2" width="48" height="14.561" x="37" y="77.322" rx="7.28"/>
+    <path id="path-3" d="M36.0401606,28.1171548 L60.9135091,28.1171548 C65.8280631,28.1171548 70.0141695,31.6882497 70.7885796,36.5414064 L75.4487757,65.7464273 C76.3190375,71.2002782 72.6033045,76.3269844 67.1494536,77.1972462 C66.6283234,77.2804021 66.1014283,77.3221757 65.5737052,77.3221757 L40.886127,77.3221757 C35.9950218,77.3221757 31.821641,73.7842191 31.0210106,68.9590868 L26.1750442,39.7540659 C25.2710032,34.3057125 28.9548962,29.1560794 34.4032496,28.2520384 C34.9442649,28.1622681 35.4917481,28.1171548 36.0401606,28.1171548 Z"/>
+  </defs>
+  <g id="15.-During-Exam" fill="none" fill-rule="evenodd" transform="translate(-295 -345)">
+    <g id="Exam-Instructions" transform="translate(242 242)">
+      <g id="imagery" transform="translate(53 103)">
+        <g id="Group-10">
+          <g id="Group-6">
+            <rect id="Rectangle-5" width="46" height="33.138" x="79.5" y="5.021" fill="#485056" rx="3.5"/>
+            <polyline id="Path-5-Copy" stroke="#485056" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.5" points="56.5 46.695 57.76 72.179 79.104 71.244 90.049 106.761"/>
+            <path id="Line-2" stroke="#485056" stroke-linecap="square" stroke-width="5" d="M48.75,115.732218 L61.75,110.711297"/>
+            <ellipse id="Oval-3" cx="51.5" cy="12.552" fill="#485056" rx="12.5" ry="12.552"/>
+            <ellipse id="Oval-3-Copy" cx="48" cy="115.481" fill="#485056" rx="4.5" ry="4.519"/>
+            <ellipse id="Oval-3-Copy-2" cx="74" cy="115.481" fill="#485056" rx="4.5" ry="4.519"/>
+            <path id="Line-2" stroke="#485056" stroke-linecap="square" stroke-width="5" d="M61.75,115.732218 L74.75,110.711297" transform="matrix(-1 0 0 1 136.5 0)"/>
+            <rect id="Rectangle-2" width="130" height="7.029" y="49.205" fill="#485056"/>
+            <g id="Path-4" stroke="#485056" stroke-linecap="round">
+              <use stroke-width="13.5" xlink:href="#path-1"/>
+              <use stroke-width="10.5" xlink:href="#path-1"/>
+            </g>
+            <rect id="Rectangle-2-Copy" width="37" height="51.213" x="5.5" y="56.234" fill="#485056"/>
+            <rect id="Rectangle-2-Copy-4" width="5.5" height="51.213" x="119" y="56.234" fill="#485056"/>
+            <rect id="Rectangle-2-Copy-2" width="10" height="42.678" x="56.5" y="56.234" fill="#485056"/>
+            <rect id="Rectangle-2-Copy-3" width="5.5" height="44.686" x="59" y="66.778" fill="#485056"/>
+            <g id="Rectangle-4">
+              <use fill="#485056" xlink:href="#path-2"/>
+              <rect width="45.5" height="12.061" x="38.25" y="78.572" stroke="#FFF" stroke-width="2.5" rx="6.03"/>
+            </g>
+            <polyline id="Path-5" stroke="#485056" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.5" points="75 46.695 76.26 72.179 97.604 71.244 108.549 106.761"/>
+            <g id="Rectangle-3">
+              <use fill="#485056" xlink:href="#path-3"/>
+              <path stroke="#FFF" stroke-width="2.5" d="M36.0401606,29.3671548 C35.5602997,29.3671548 35.0812519,29.406629 34.6078634,29.4851779 C29.8405543,30.2762138 26.6171479,34.7821428 27.4081838,39.549452 L32.2541501,68.7544729 C32.9547018,72.9764637 36.6064099,76.0721757 40.886127,76.0721757 L65.5737052,76.0721757 C66.0354629,76.0721757 66.4964961,76.0356238 66.9524851,75.9628624 C71.7246046,75.2013833 74.975871,70.7155154 74.2143919,65.9433959 L69.5541958,36.738375 C68.876587,32.4918628 65.2137439,29.3671548 60.9135091,29.3671548 L36.0401606,29.3671548 Z"/>
+            </g>
+            <rect id="Rectangle-5" width="46" height="33.138" x="79.5" y="5.021" fill="#485056" rx="3.5"/>
+            <rect id="Rectangle-5" width="40" height="26.611" x="82" y="8.536" fill="#FFF" rx="2.8"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+2024-10-08 16:47:49.519 [info] Experiment 'pythonaacf' is active
+2024-10-08 16:47:49.519 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-08 16:47:49.519 [info] Experiment 'pythonSurveyNotification' is active
+2024-10-08 16:47:49.519 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-08 16:47:49.519 [info] Experiment 'pythonTestAdapter' is active
+2024-10-08 16:47:49.519 [warning] Dir "/home/aws/Documents/HPC/.pixi/envs" is not watchable (directory does not exist)
+2024-10-08 16:47:49.519 [info] Default formatter is set to null for workspace /home/aws/Documents/HPC
+2024-10-08 16:47:49.519 [info] Starting Environment refresh
+2024-10-08 16:47:49.519 [info] Starting Environment refresh
+2024-10-08 16:47:49.519 [info] > pixi --version
+2024-10-08 16:47:49.519 [info] > hatch env show --json
+2024-10-08 16:47:49.519 [info] cwd: .
+2024-10-08 16:47:49.524 [info] Environments refresh finished (event): 461 milliseconds
+2024-10-08 16:47:49.524 [info] Environments refresh paths discovered: 461 milliseconds
+2024-10-08 16:47:49.524 [info] Environments refresh finished (event): 459 milliseconds
+2024-10-08 16:47:49.524 [info] Environments refresh paths discovered: 459 milliseconds
+2024-10-08 16:47:49.526 [info] Environment refresh took 463 milliseconds
+2024-10-08 16:47:49.526 [info] Environment refresh took 461 milliseconds
+2024-10-08 16:47:49.535 [info] > pyenv which python
+2024-10-08 16:47:49.535 [info] cwd: .
+2024-10-08 16:47:49.621 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2024.16.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.16.0-linux-x64/python_files/interpreterInfo.py
+2024-10-08 16:47:49.663 [info] Python interpreter path: /bin/python
+2024-10-08 16:47:49.829 [info] Shell integration status changed, can confirm it's working.
+2024-10-08 16:47:59.782 [info] Starting Pylance language server.

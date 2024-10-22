@@ -1,0 +1,21 @@
+2024/10/22-15:41:30.505 92e Reusing MANIFEST /home/aws/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2024/10/22-15:41:30.510 92e Recovering log #2315
+2024/10/22-15:41:30.521 92e Reusing old log /home/aws/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/002315.log 
+2024/10/22-15:41:31.269 930 Level-0 table #2319: started
+2024/10/22-15:41:31.284 930 Level-0 table #2319: 797699 bytes OK
+2024/10/22-15:41:31.286 930 Delete type=0 #2315
+2024/10/22-15:43:22.115 930 Level-0 table #2321: started
+2024/10/22-15:43:22.128 930 Level-0 table #2321: 804809 bytes OK
+2024/10/22-15:43:22.130 930 Delete type=0 #2318
+2024/10/22-15:46:35.731 930 Level-0 table #2323: started
+2024/10/22-15:46:35.737 930 Level-0 table #2323: 809650 bytes OK
+2024/10/22-15:46:35.739 930 Delete type=0 #2320
+2024/10/22-15:46:35.740 930 Compacting 4@0 + 1@1 files
+2024/10/22-15:46:35.746 930 Generated table #2324@0: 9 keys, 91028 bytes
+2024/10/22-15:46:35.746 930 Compacted 4@0 + 1@1 files => 91028 bytes
+2024/10/22-15:46:35.747 930 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/22-15:46:35.748 930 Delete type=2 #2314
+2024/10/22-15:46:35.748 930 Delete type=2 #2316
+2024/10/22-15:46:35.748 930 Delete type=2 #2319
+2024/10/22-15:46:35.748 930 Delete type=2 #2321
+2024/10/22-15:46:35.748 930 Delete type=2 #2323

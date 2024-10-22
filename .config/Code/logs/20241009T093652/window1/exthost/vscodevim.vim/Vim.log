@@ -1,0 +1,37 @@
+2024-10-09 09:36:56.315 [info] Configuration changed
+2024-10-09 10:35:36.783 [info] Active editor: file:///home/aws/Documents/HPC/week5/compliment2.py
+2024-10-09 10:37:50.207 [info] Active editor: vscode-userdata:/home/aws/.config/Code/User/keybindings.json
+2024-10-09 10:41:30.985 [info] Executing :w
+2024-10-09 10:41:33.258 [info] Executing :q
+2024-10-09 10:41:33.294 [info] /home/aws/.config/Code/User/keybindings.json closed
+2024-10-09 10:41:33.323 [warning] getLineLength() called with out-of-bounds line 7
+2024-10-09 10:41:33.323 [warning] invalid cursor position. [[7, 4] | [7, 4]].
+2024-10-09 10:41:35.864 [info] Active editor: file:///home/aws/Documents/HPC/week5/compliment2.py
+2024-10-09 10:42:08.421 [info] Active editor: vscode-userdata:/home/aws/.config/Code/User/keybindings.json
+2024-10-09 10:42:36.158 [info] Executing :w
+2024-10-09 10:42:36.854 [info] Executing :q
+2024-10-09 10:42:36.886 [info] /home/aws/.config/Code/User/keybindings.json closed
+2024-10-09 10:42:36.908 [warning] getLineLength() called with out-of-bounds line 39
+2024-10-09 10:42:36.908 [warning] getLineLength() called with out-of-bounds line 39
+2024-10-09 10:42:38.559 [info] Active editor: file:///home/aws/Documents/HPC/week5/compliment_GPT.py
+2024-10-09 10:42:41.911 [info] Active editor: file:///home/aws/Documents/HPC/week5/compliment2.py
+2024-10-09 10:43:07.237 [info] Executing :w
+2024-10-09 10:44:00.696 [info] Active editor: file:///home/aws/Documents/HPC/week4/read_3.py
+2024-10-09 10:54:38.811 [info] Active editor: file:///home/aws/Documents/HPC/week5/all.txt
+2024-10-09 11:01:02.097 [info] Active editor: file:///home/aws/Documents/HPC/week5/compliment2.py
+2024-10-09 11:01:02.659 [info] Active editor: file:///home/aws/Documents/HPC/week5/compliment_GPT.py
+2024-10-09 12:48:33.822 [info] Configuration changed
+2024-10-09 12:49:29.195 [info] Configuration changed
+2024-10-09 12:49:29.201 [info] Configuration changed
+2024-10-09 12:49:29.206 [info] Configuration changed
+2024-10-09 12:50:08.849 [info] Configuration changed
+2024-10-09 12:50:27.263 [info] Configuration changed
+2024-10-09 13:07:31.417 [info] Active editor: file:///home/aws/Documents/HPC/week5/all.txt
+2024-10-09 13:08:15.404 [info] Executing :w
+2024-10-09 13:09:24.395 [info] Executing :w
+2024-10-09 13:10:20.100 [warning] invalid cursor position. [[26, 13] | [26, 13]].
+2024-10-09 13:10:20.100 [warning] invalid cursor position. [[26, 13] | [26, 13]].
+2024-10-09 13:10:53.838 [info] Executing :w
+2024-10-09 13:11:27.682 [info] Executing :w
+2024-10-09 13:13:42.535 [info] Executing :w
+2024-10-09 13:13:48.838 [info] Executing :w

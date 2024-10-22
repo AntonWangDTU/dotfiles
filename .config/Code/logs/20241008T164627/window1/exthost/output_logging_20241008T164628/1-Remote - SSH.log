@@ -1,0 +1,185 @@
+[16:46:28.622] Log Level: 2
+[16:46:28.642] VS Code version: 1.94.0
+[16:46:28.642] Remote-SSH version: remote-ssh@0.115.0
+[16:46:28.642] linux x64
+[16:46:28.645] SSH Resolver called for "ssh-remote+dtuhpc", attempt 1
+[16:46:28.646] "remote.SSH.useLocalServer": true
+[16:46:28.646] "remote.SSH.useExecServer": true
+[16:46:28.646] "remote.SSH.path": undefined
+[16:46:28.646] "remote.SSH.configFile": undefined
+[16:46:28.646] "remote.SSH.useFlock": true
+[16:46:28.646] "remote.SSH.lockfilesInTmp": false
+[16:46:28.646] "remote.SSH.localServerDownload": auto
+[16:46:28.646] "remote.SSH.remoteServerListenOnSocket": false
+[16:46:28.647] "remote.SSH.showLoginTerminal": false
+[16:46:28.647] "remote.SSH.defaultExtensions": []
+[16:46:28.647] "remote.SSH.loglevel": 2
+[16:46:28.647] "remote.SSH.enableDynamicForwarding": true
+[16:46:28.647] "remote.SSH.enableRemoteCommand": false
+[16:46:28.647] "remote.SSH.serverPickPortsFromRange": {}
+[16:46:28.647] "remote.SSH.serverInstallPath": {}
+[16:46:28.647] "remote.SSH.permitPtyAllocation": false
+[16:46:28.647] "remote.SSH.preferredLocalPortRange: undefined
+[16:46:28.647] "remote.SSH.useCurlAndWgetConfigurationFiles: false
+[16:46:28.654] SSH Resolver called for host: dtuhpc
+[16:46:28.654] Setting up SSH remote "dtuhpc"
+[16:46:28.667] Acquiring local install lock: /tmp/vscode-remote-ssh-55237ef1-install.lock
+[16:46:28.668] Looking for existing server data file at /home/aws/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-55237ef1-d78a74bcdfad14d5d3b1b782f87255d802b57511-0.115.0-es/data.json
+[16:46:28.668] No existing data file
+[16:46:28.669] Using commit id "d78a74bcdfad14d5d3b1b782f87255d802b57511" and quality "stable" for server
+[16:46:28.671] Script variables:
+ {
+  "InstallExitCode.24": "AlreadyInProgress",
+  "InstallExitCode.25": "ServerDownloadFailed",
+  "InstallExitCode.26": "NoDownloaderAvailable",
+  "InstallExitCode.27": "UnsupportedArch",
+  "InstallExitCode.28": "StatusCheckFailed",
+  "InstallExitCode.29": "NeedInsidersArch",
+  "InstallExitCode.30": "NoDownloaderAvailableForStatusCheck",
+  "InstallExitCode.31": "ServerTransferFailed",
+  "InstallExitCode.32": "ServerFailedToStart",
+  "InstallExitCode.33": "NeedInsidersWindows",
+  "InstallExitCode.34": "CreateInstallDirFailed",
+  "InstallExitCode.35": "UnsupportedPlatform",
+  "InstallExitCode.36": "ServerTerminatedCVE20201416",
+  "InstallExitCode.37": "UnpackFailed",
+  "InstallExitCode.38": "ChangeDirFailed",
+  "InstallExitCode.AlreadyInProgress": "24",
+  "InstallExitCode.ServerDownloadFailed": "25",
+  "InstallExitCode.NoDownloaderAvailable": "26",
+  "InstallExitCode.NoDownloaderAvailableForStatusCheck": "30",
+  "InstallExitCode.UnsupportedArch": "27",
+  "InstallExitCode.StatusCheckFailed": "28",
+  "InstallExitCode.NeedInsidersArch": "29",
+  "InstallExitCode.ServerTransferFailed": "31",
+  "InstallExitCode.ServerFailedToStart": "32",
+  "InstallExitCode.NeedInsidersWindows": "33",
+  "InstallExitCode.CreateInstallDirFailed": "34",
+  "InstallExitCode.UnsupportedPlatform": "35",
+  "InstallExitCode.ServerTerminatedCVE20201416": "36",
+  "InstallExitCode.UnpackFailed": "37",
+  "InstallExitCode.ChangeDirFailed": "38",
+  "InstallUnpackCode.Success": "success",
+  "InstallUnpackCode.Error": "error",
+  "InstallUnpackCode.MissingFiles": "missingFiles",
+  "uuid": "4325590a3906",
+  "startMarker": "4325590a3906: running",
+  "commitId": "d78a74bcdfad14d5d3b1b782f87255d802b57511",
+  "quality": "stable",
+  "token": "a1111111-1111-11aa-a1a1-111a1a1111a1",
+  "vscodeAgentFolder": "$HOME/.vscode-server",
+  "allowClientDownload": "1",
+  "forceClientDownload": "0",
+  "cliNameInArchive": "code",
+  "ignoreWgetConfigFlag": " --no-config ",
+  "ignoreCurlConfigFlag": " --disable ",
+  "wgetTriesSegment": "--tries=1",
+  "listenArgs": "--on-host=127.0.0.1 --on-port",
+  "getDownloadServerStartTrigger": "4325590a3906:trigger_server_download",
+  "getDownloadServerEndTrigger": "4325590a3906:trigger_server_download_end",
+  "getProgressDownloading": "4325590a3906%%1%%",
+  "getProgressInstalling": "4325590a3906%%2%%"
+}
+[16:46:28.674] Install and start server if needed
+[16:46:28.677] PATH: /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+[16:46:28.677] Checking ssh with "ssh -V"
+[16:46:28.686] > OpenSSH_9.9p1, OpenSSL 3.3.2 3 Sep 2024
+
+[16:46:28.690] askpass server listening on /run/user/1000/vscode-ssh-askpass-b2acfedfd5ad17c72b3234bfb4733e6d7c8bd005.sock
+[16:46:28.690] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-d078d6d61e030d58fe9a8925fa96f2f1598045ae.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","32877","-o","ConnectTimeout=15","dtuhpc"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/aws/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-55237ef1-d78a74bcdfad14d5d3b1b782f87255d802b57511-0.115.0-es/data.json"}
+[16:46:28.690] Local server env: {"SHELL":"/usr/bin/zsh","DISPLAY":":1","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"","VSCODE_SSH_ASKPASS_MAIN":"/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-b2acfedfd5ad17c72b3234bfb4733e6d7c8bd005.sock"}
+[16:46:28.697] Spawned 3026
+[16:46:28.697] Using connect timeout of 17 seconds
+[16:46:28.806] > local-server-1> Running ssh connection command: ssh -v -T -D 32877 -o ConnectTimeout=15 dtuhpc
+[16:46:28.811] > local-server-1> Spawned ssh, pid=3034
+[16:46:28.816] stderr> OpenSSH_9.9p1, OpenSSL 3.3.2 3 Sep 2024
+[16:46:29.036] stderr> debug1: Server host key: ssh-ed25519 SHA256:vfc+kYH+/Vjgk9Ifq1ZsxPm2bOFfC/Z535T7sMSO1ps
+[16:46:29.102] stderr> 
+[16:46:29.102] stderr> When connecting from _outside_ of DTU (and not using DTU-VPN) one is 
+[16:46:29.102] stderr> required to authenticate with a ssh-key + ssh-key-keyphrase + DTU-password.
+[16:46:29.103] stderr> 
+[16:46:29.103] stderr> From inside of DTU (or connecting via DTU-VPN) one can also connect 
+[16:46:29.103] stderr> with password or ssh-key.
+[16:46:29.103] stderr> 
+[16:46:29.103] stderr> Info page on SSH: https://www.hpc.dtu.dk/?page_id=4317
+[16:46:29.103] stderr> 
+[16:46:29.103] stderr> ---
+[16:46:29.103] stderr> For ThinLinc users: 
+[16:46:29.103] stderr> Please make sure that your TL client is at least version 4.16 - else you 
+[16:46:29.104] stderr> cannot connect to this system!
+[16:46:29.104] stderr> 
+[16:46:29.104] stderr> This is not an error-message, it's just a way to give you some information. 
+[16:46:29.104] stderr> Click 'Close' to continue ...
+[16:46:29.104] stderr> ---
+[16:46:29.104] stderr> 
+[16:46:29.104] stderr> Info page on the system update 08/2024: https://www.hpc.dtu.dk/?page_id=5209
+[16:46:29.104] stderr> 
+[16:46:29.104] stderr> 
+[16:46:29.147] stderr> Authenticated using "publickey" with partial success.
+[16:46:29.270] Got askpass request: {"request":" s183220@login.hpc.dtu.dk's password: "}
+[16:46:29.271] Showing password prompt
+[16:46:29.272] Listening for interwindow password on /run/user/1000/vscode-ssh-askpass-4cd4b2bf5f2a6485626f32b9a9d5a5f0b5380b26.sock
+[16:46:29.272] Writing password prompt to globalState
+[16:46:57.601] Password dialog canceled
+[16:46:57.601] Interactor signaled cancel
+[16:46:57.603] Cleaning up other-window auth server
+[16:46:57.606] Using connect timeout of 17 seconds
+[16:46:57.628] stderr> Permission denied, please try again.
+[16:46:57.751] Got askpass request: {"request":" s183220@login.hpc.dtu.dk's password: "}
+[16:46:57.751] Using connect timeout of 17 seconds
+[16:46:57.780] stderr> Permission denied, please try again.
+[16:46:57.894] Got askpass request: {"request":" s183220@login.hpc.dtu.dk's password: "}
+[16:46:57.894] Using connect timeout of 17 seconds
+[16:46:57.926] stderr> s183220@login.hpc.dtu.dk: Permission denied (password).
+[16:46:57.928] > local-server-1> ssh child died, shutting down
+[16:46:57.942] Local server exit: 0
+[16:46:57.943] Received install output: local-server-1> Running ssh connection command: ssh -v -T -D 32877 -o ConnectTimeout=15 dtuhpc
+local-server-1> Spawned ssh, pid=3034
+OpenSSH_9.9p1, OpenSSL 3.3.2 3 Sep 2024
+debug1: Server host key: ssh-ed25519 SHA256:vfc+kYH+/Vjgk9Ifq1ZsxPm2bOFfC/Z535T7sMSO1ps
+
+When connecting from _outside_ of DTU (and not using DTU-VPN) one is 
+required to authenticate with a ssh-key + ssh-key-keyphrase + DTU-password.
+
+From inside of DTU (or connecting via DTU-VPN) one can also connect 
+with password or ssh-key.
+
+Info page on SSH: https://www.hpc.dtu.dk/?page_id=4317
+
+---
+For ThinLinc users: 
+Please make sure that your TL client is at least version 4.16 - else you 
+cannot connect to this system!
+
+This is not an error-message, it's just a way to give you some information. 
+Click 'Close' to continue ...
+---
+
+Info page on the system update 08/2024: https://www.hpc.dtu.dk/?page_id=5209
+
+
+Authenticated using "publickey" with partial success.
+Permission denied, please try again.
+Permission denied, please try again.
+s183220@login.hpc.dtu.dk: Permission denied (password).
+local-server-1> ssh child died, shutting down
+
+[16:46:57.945] Resolver error: Error: Permission denied (password).
+	at v.Create (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/extension.js:2:493431)
+	at /home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/extension.js:2:489905
+	at t.handleInstallOutput (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/extension.js:2:490675)
+	at e (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/extension.js:2:545236)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async /home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/extension.js:2:567561
+	at async t.withShowDetailsEvent (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/extension.js:2:571256)
+	at async /home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/extension.js:2:541941
+	at async T (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/extension.js:2:539992)
+	at async t.resolveWithLocalServer (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/extension.js:2:541481)
+	at async P (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/extension.js:2:564693)
+	at async t.resolve (/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/extension.js:2:568667)
+	at async /home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0/out/extension.js:2:839059
+[16:46:57.950] ------
+
+
+
+

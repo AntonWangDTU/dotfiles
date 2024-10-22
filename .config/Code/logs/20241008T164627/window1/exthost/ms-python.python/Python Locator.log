@@ -1,0 +1,31 @@
+2024-10-08 16:47:49.519 [info] Starting Python Locator /home/aws/.vscode/extensions/ms-python.python-2024.16.0-linux-x64/python-env-tools/bin/pet server
+2024-10-08 16:47:49.608 [info] Discovered manager: (Conda) /home/aws/anaconda3/bin/conda
+2024-10-08 16:47:49.609 [info] Discovered env: /home/aws/anaconda3/bin/python
+2024-10-08 16:47:49.622 [info] Discovered env: /bin/python
+2024-10-08 16:47:49.622 [info] Discovered env: /usr/bin/python
+2024-10-08 16:47:49.622 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.12.6.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2024-10-08 16:47:49.622 [info] Discovered env: /sbin/python
+2024-10-08 16:47:49.623 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.12.6.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2024-10-08 16:47:49.623 [info] Discovered env: /usr/sbin/python
+2024-10-08 16:47:49.624 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.12.6.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2024-10-08 16:47:49.624 [info] Discovered env: /sbin/python3
+2024-10-08 16:47:49.625 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.12.6.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2024-10-08 16:47:49.625 [info] Discovered env: /usr/sbin/python3
+2024-10-08 16:47:49.626 [info] Env ("/sbin/python3.12") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.12", prefix: "/usr", version: "3.12.6.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.12"]) } and reported as Some(GlobalPaths)
+2024-10-08 16:47:49.626 [info] Discovered env: /sbin/python3.12
+2024-10-08 16:47:49.626 [info] Env ("/usr/sbin/python3.12") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.12", prefix: "/usr", version: "3.12.6.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.12"]) } and reported as Some(GlobalPaths)
+2024-10-08 16:47:49.626 [info] Discovered env: /usr/sbin/python3.12
+2024-10-08 16:47:49.627 [info] Locator Conda took 103.996225ms
+2024-10-08 16:47:49.627 [info] Locator Homebrew took 56.992µs
+2024-10-08 16:47:49.627 [info] Locator LinuxGlobal took 167.782395ms
+2024-10-08 16:47:49.627 [info] Locator PipEnv took 93.031µs
+2024-10-08 16:47:49.628 [info] Locator Poetry took 924.511µs
+2024-10-08 16:47:49.628 [info] Locator PyEnv took 7.313325ms
+2024-10-08 16:47:49.630 [info] Locator Venv took 72.008µs
+2024-10-08 16:47:49.630 [info] Locator VirtualEnv took 78.434µs
+2024-10-08 16:47:49.630 [info] Locator VirtualEnvWrapper took 49.169µs
+2024-10-08 16:47:49.630 [info] Locator GlobalVirtualEnvs took 842.795µs
+2024-10-08 16:47:49.630 [info] Locator Locators took 169.715998ms
+2024-10-08 16:47:49.630 [info] Locator Path took 353.360985ms
+2024-10-08 16:47:49.630 [info] Locator Workspaces took 2.121969ms
+2024-10-08 16:47:49.630 [info] Refresh completed in 353ms

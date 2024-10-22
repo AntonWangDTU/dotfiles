@@ -1,0 +1,224 @@
+{
+   "checksum": "3d97b67b282bd8791cb22b2154ac924c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13360166063032498",
+            "date_last_used": "13371288614617188",
+            "guid": "9fd124fd-b8c7-4063-b089-9e27a689ef16",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "3.12.3 Documentation",
+            "type": "url",
+            "url": "file:///C:/Users/hostp/22110/eksamen/python-3.12.3-docs-html/index.html"
+         }, {
+            "date_added": "13360844963271759",
+            "date_last_used": "0",
+            "guid": "623cb0e4-f2ba-4574-b5f0-7351d94149db",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "02450_Book.pdf",
+            "type": "url",
+            "url": "file:///C:/Users/hostp/OneDrive/MachineLearning&Data/02450_Book.pdf"
+         }, {
+            "date_added": "13363349730128359",
+            "date_last_used": "13371987036114875",
+            "guid": "0e6a46e6-629c-48a9-83a5-ff0f26ad0ea4",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "The Missing Semester of Your CS Education",
+            "type": "url",
+            "url": "https://missing.csail.mit.edu/"
+         }, {
+            "date_added": "13363430614462284",
+            "date_last_used": "0",
+            "guid": "77742486-dee8-4b64-97a4-5b1dc51fb83f",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Blindskrift. Gratis kursus i tifingersystem / touchmetoden",
+            "type": "url",
+            "url": "https://www.skrivhurtigt.dk/"
+         }, {
+            "date_added": "13365871991023353",
+            "date_last_used": "0",
+            "guid": "e9ccd1f3-4c08-494f-bbaf-8d7f6650cbfe",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Miro",
+            "type": "url",
+            "url": "https://miro.com/app/dashboard/?link=logo-header"
+         }, {
+            "date_added": "13366306896219439",
+            "date_last_used": "13372766038688384",
+            "guid": "a244c0ab-9d57-41c8-9274-97ff986af19b",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Profil - DTU Candidate Site Karrierer",
+            "type": "url",
+            "url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/da/sites/CX_1/my-profile"
+         }, {
+            "date_added": "13369998752338614",
+            "date_last_used": "0",
+            "guid": "b9981428-022a-4ec2-bc7d-fc57ed855201",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "New Tab",
+            "type": "url",
+            "url": "chrome://newtab/"
+         }, {
+            "date_added": "13371119571590533",
+            "date_last_used": "0",
+            "guid": "1c02e64b-9850-4a8c-be3a-66268aa1de2a",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "C++ Shell",
+            "type": "url",
+            "url": "https://cpp.sh/"
+         } ],
+         "date_added": "13371495110200781",
+         "date_last_used": "0",
+         "date_modified": "13371119571590533",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13340299628927027",
+            "date_last_used": "13340738023296509",
+            "guid": "7de17570-9d2b-453a-a2ad-2fbd586784f6",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "2023 Revybandet - Google Drev",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/19nsgdo8_DXBxIpJaTTiJvC9mGjHJYQUm"
+         }, {
+            "date_added": "13340448161199391",
+            "date_last_used": "0",
+            "guid": "55cc053e-fe3d-4de3-ae1d-0852b5ae2672",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Gangregninger - Google Drev",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1HA8WvIl15E3BNFilnHaUZ5WkIJJRpouP"
+         }, {
+            "date_added": "13342815495659627",
+            "date_last_used": "0",
+            "guid": "ce8c8f4f-a461-4c50-80e3-253e3c182c28",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Vegansk græsk gyros med karameliseret auberginefyld | Planteæderen",
+            "type": "url",
+            "url": "https://planteaederen.dk/vegansk-graesk-gyros/"
+         }, {
+            "date_added": "13344893916918594",
+            "date_last_used": "0",
+            "guid": "9f325dc5-5656-45ce-91d4-cbefe9a5c360",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Problems - LeetCode",
+            "type": "url",
+            "url": "https://leetcode.com/problemset/all/"
+         }, {
+            "date_added": "13344965797429155",
+            "date_last_used": "0",
+            "guid": "882ba549-d52c-467a-aa75-15ad03ccb5e2",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "AU Bestyrelsen - Google Drev",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/0BxKbtJ6cyf2MUExDUVJpdVg3clU"
+         }, {
+            "date_added": "13346086288568768",
+            "date_last_used": "0",
+            "guid": "d9626716-fedb-4c69-b2f2-a42a566dbc2d",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "intro_system_biologi · RStudio Server",
+            "type": "url",
+            "url": "https://teaching.healthtech.dtu.dk/22140/rstudio4/"
+         }, {
+            "date_added": "13371815593048051",
+            "date_last_used": "13371897134873083",
+            "guid": "a6a4a639-4765-4cbd-a8ed-a37cbed53ab3",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Usage: Cost - OpenAI API",
+            "type": "url",
+            "url": "https://platform.openai.com/usage"
+         }, {
+            "date_added": "13372440691778407",
+            "date_last_used": "0",
+            "guid": "8e617626-d22d-4b82-96fc-56410bba508e",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "DTUHPC_jupyter",
+            "type": "url",
+            "url": "http://localhost:8888/tree"
+         }, {
+            "date_added": "13372440731492876",
+            "date_last_used": "0",
+            "guid": "fd56caa2-0bc6-453b-89f5-231f69c698e7",
+            "id": "23",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Jupyter_port_HPC",
+            "type": "url",
+            "url": "http://localhost:8888/tree"
+         } ],
+         "date_added": "13371495110200784",
+         "date_last_used": "0",
+         "date_modified": "13372440731492876",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13371495110200787",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CqoBCokBCIiBAhKCASAAkgF9CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCUNJ82ffIwYAEUNJ82ffIwYAKRnW82ffIwYACkUKFmFubm90YXRpb25fY2hyb21lX3N5bmMSBTUxIWJkGhIJACqmYt8jBgARACqmYt8jBgApotbzZ98jBgAwgNSYlfb7iAMSACoYN0MzaVdQemM3ay9tODNHVWV3U2wydz09SAMS6wEIBhLmAQoceEVacmptSUNhalpJbVBVaFgveEVxOVVWY2M4PRJmWjpBRHF0QVp4blBDbzQ5bUhpY0tIWHpsbXRMcitiaFRLYWkwQWd3a21LTEM2elp1bW40MTlKRjgrUWdtVWZUVllVSm5oRElwc0FrazRhZVU0NDZKbFQxVGdKdkZTdFBzTUtuZz09GAAgACgAMM+Dmsutz4EDOK+r2P+tMUCvq9j/rTFKHHhoS1JmbFVPc2hKdkwrc1o5emg1NFljdHZIST1aHiIcd1hLMTZzUWRabTNQckw4YW9keGtrY2tVRUtrPWX6kd7bEsMBCAMSvgEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFad0dhWG8yK1RmdnM5YTNiTE1vNHB2WU5ON1ZrZnF5WjU4VndhRXVTditVNXM1UlZRK3ExOGI2bmgzMUkwYy9COUF1eVdzM2xxWWxaSUp6amZlckJwYzFvSFJpV2c9PRgAIAAoADDn35zg+NaIAzgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEuwBCBAS5wEKHDlrbnlYK2lhRFQyeW5BMGt2ZDRpcElMNlNjVT0SZlo6QURxdEFaeG5QQ280OW1IaWNLSFh6bG10THIrYlYybittT3ZJWVd5MzRuUzBNbVI0TTdkSmgvYWRBaTdFWk1pd25wY1NBdW9IRzNza2xGMkxFOFc3YVVpL1JFQ1NGNkwwYUE9PRgAIAAoADCGp8GstpqIAzi8jsP0mTJAvI7D9JkyShxxSDZ0RDBxQzdoSHc2RkkzbitQaUVOTUhrV0E9Wh8iHfxmclNDZWdKbGxJL055dXJYRk1sSkVkb2E5TEU9ZbGf46sS6wEIBRLmAQocRk5ubjRaT1VoREZKZGpoZGZMRjZpNmRsdDRNPRJmWjpBRHF0QVp4blBDbzQ5bUhpY0tIWHpsbXRMcitiUHBkN0hROHFrNDQ2M1JlRi9pLyszdnRPdVhISTRucXY1cFdkVlUyaFRXOGtmZHlVeHhnV01IeG8vRVp6L0QzNXFzdDZrdz09GAAgACgAMMDV8YS934MDOIDT7ritMUCA0+64rTFKHHUwcGRzTU5yWktSeUg5cXRrZ0dqa3lueEVOdz1aHiIcYm0wWW5GazJMMmJFTkJaeGZBNW5iZlZsR1BvPWX6kd7bEuwBCAkS5wEKHGJPM3g2Mmt5enhOcERpTzlod3N3cSttOUFzRT0SZlo6QURxdEFaeG5QQ280OW1IaWNLSFh6bG10THIrYjkrOStQT3FwRXJKdWZUc2poTkJORC9NYVFOWXN3bFVpL0dXNDRQQU9Mc01oT3BZU0hTeVlJYVpsbnRIbSsyMjdaZnFMdWc9PRgAIAAoADDdqZqM69KCAzi1/O7pvjFAtfzu6b4xShxOcFJaV1ZEYnd2TUJ0bHJJMDl3N2JNOTllSzA9Wh8iHe5QNGIwTzE5Ty9vQ0l4eU9FZ0ViS21NWHoxbTQ9ZfqR3tsSwwEIAhK+AQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRJmWjpBRHF0QVp4b0p4QUNoZVZ0eFlkelRuQTRRZHdQRlFkTm1kU2s5SUR2VHgwR2hwc29IbnBKdWVENVhOREY1aUt2Z3E2elExWUNiWWd3RVRTNW5IaUhjV1lCaHMzQU41MGdCQT09GAAgACgAMOffnOD41ogDOABAAEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAAS7AEIChLnAQocTGpGQ3g5SWJyVkF4OUJYb3k0TEMzalVER1NJPRJmWjpBRHF0QVp4blBDbzQ5bUhpY0tIWHpsbXRMcitiVExLRWlVT1dEa1RRNXdKMERtRFdsSUxnemE0S2ZPL05LSm9hSUtxWGxVM0hQMFNDM2tiOVg2ZlhzYXpjTTloTGNLTEFkdz09GAAgACgAMJbwhaC584IDOLmplIDDMUC5qZSAwzFKHHluRTlSTXJrZnhXYngwYWRXSUw3dlhXTG42Yz1aHyId91dMeG8vTFA5RDgwaVFnWk8wZG13RlFab1Jtcz1lzlRQehLxAQgLEuwBChxlcTkwS2s3U3VMd2tQQU5vbFJRbWVwN1g5M1U9EmZaOkFEcXRBWnhuUENvNDltSGljS0hYemxtdExyK2JLTlVwWEJhVElEaENZUGNDODBKMWtoWDYzM3lIOFlLMmpCR3g2dmx1MktFQUZNb0w2WkRqUDZPalJOOVdnTVQrUkFaMDF3PT0YACAAKAAw7NyXnffQiAM4uMf1ufcxQLjH9bn3MUocdjFXeVpJSTBhK1lsdkpNRTg3N0ZiWlFFdHJzPVokIiKAAAAAAAJjNVpmMFZhOHordFNaWFhhSEI5czZiWXpGN009ZfGwpG8S7AEIDBLnAQocSnBUYTVyZEdUS1ZUQi9NMGxvZnlzd0h6OVo4PRJmWjpBRHF0QVp4blBDbzQ5bUhpY0tIWHpsbXRMcitidGpaUERGUk9tdWV5MUFZdHU4UkY0bDdYMGpQSmJOVnBvbXRiQkJUUmNJUTBZS3hwY1JOajNPQ3VKUWwrYmdpbkR4eVdqQT09GAAgACgAMIDfgoHnpYYDOMir0v35MUDIq9L9+TFKHDRyZktJUmd4akJ0dGV2TmpGbjBRcDgrcW9aOD1aHyIdwDIvc3VDaTkySWUvbTg1RUQyWXJFQnFJcENlVT1lAAAAABLsAQgHEucBChxDRjZDWitDUkRWSTVYcVIvM0RwTDF4Z0RFODQ9EmZaOkFEcXRBWnhuUENvNDltSGljS0hYemxtdExyK2JLT0I5Z3ErbmNsU3RGbXllSGRESlUxU21RWjZWSzNkRkJ4TDlxOTVNMmp5RWNlb2tpTnZhQVhvRWVjSVZTNEZkMWRtbHJ3PT0YACAAKAAwz6zduMyYggM46/vC6LYxQOv7wui2MUocaXNXSE96SWFKd3IxeUllWmVIWnQybHI0RjZVPVofIh27dk9BaVRUQ3pUNXRaOSt5THdkN3NXcWEwYk9rPWX7HM28EqsBCAESpgEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0STlo6QURxdEFaeDNPSXd4V1FFVWczNTdWUWtJUDFJZ3hBUmRaQ01LRlFhVGZmeUtnREY3THhRL3hnWlhKa3RjL0FVdjlPeTVSdTF1U2lFKxgAIAAoADDn35zg+NaIAzgAQABKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEuwBCBQS5wEKHHM0SzNyMzBiYzZnYW1sd2h6amNjMlg5VVMvaz0SZlo6QURxdEFaeG5QQ280OW1IaWNLSFh6bG10THIrYnhrdmFvUDQ2d3grTncyMEVEQXB4enczakY2eG9FWnlJSDFsaHBIZ05TS0NxQnRCQUlqK1dyNzFsMUFReDhiTVoxSktob3c9PRgAIAIoAjDTz7n+x+KIAzjYuOzsojJA27js7KIyShxYaXRFWllzbHFYS2QrRWtqMTBkQ2M4ZWdKMTA9Wh8iHftuSHltSjNwNFFDRjI2alFRbjI4b21BVDdEZkE9ZRCMTdkS7AEIDhLnAQocSmdJUElSWlNKbkxEQ1VWUDRieWZiY3RkODdvPRJmWjpBRHF0QVp4blBDbzQ5bUhpY0tIWHpsbXRMcitiRlc1NnZCWVA1THRMZTlqYlUwQVRPeUZaeUpjN3JuK3J3Ym8vVkJQZW1VRnIyTVBzVGhseFF3WUNqUjYyUW5JbUJLajBPQT09GAAgACgAMPmw7tut74YDOL77yc6DMkC++8nOgzJKHElUSWt5dWlRV3o0SDlBakUvSnQ4QU0yUjlWND1aHyId8HhsR0N1Qk5ibHlqSWZtSHl2KzQ3ZnRwVDZZQT1luzY3QBLsAQgIEucBChxtcHNvVVBEamc1NUtxMEFXdUVkRGh0eDZCTGM9EmZaOkFEcXRBWnhuUENvNDltSGljS0hYemxtdExyK2JXSWtqWnBXR0lPaS92NE43ZVh2eWdCV093TTZmRUtoZUJNQlRDdkdsVUU4L0ZjMjEyZ3dIUmtPSDB4ODRoYUJHcldwbkpnPT0YACAAKAAw7a3jhOvSggM49t3Lx74xQPbdy8e+MUoccGdWS204RTI2emJ4WEpxTjdHL3k3aEFGZFVNPVofIh3ddnNDOXlGL0FBdGR5cmZ0dDFDOFRRZ3IxS1JJPWWmJz3bEuwBCBES5wEKHDMyblNTenozdEVJLytSNFR3VVJSdWRHbFlhYz0SZlo6QURxdEFaeG5QQ280OW1IaWNLSFh6bG10THIrYmpGaStjYnk5dCtobTVCWEFsWVR3KzAxVW9zYUxtZTFNUi90NmRDVHB0L0lNU0tyUkd1VGlLM3hkQ0U0blgxSkNUZE1NMGc9PRgAIAAoADCF0uSOsquIAzjTpMGKnDJA06TBipwyShxqL1dDeGdZakUwTzVhY09MTkpvdlV3dE1TSmc9Wh8iHf5mZDRQM1VldzFwd3lrNzNtVnhkQk5pWlU4WjA9ZQAAAAAS7AEIDxLnAQocMXJCbzNIcUJ5V3MvS2FyZzd6cytMNC80aStVPRJmWjpBRHF0QVp4blBDbzQ5bUhpY0tIWHpsbXRMcitiUFNPVjBxUWszWmNMbHpTMEczYThCRW1vUWx6NC81MEhONTJGcUp5UU9ZRm00SXVCZ1FTd3VaVzlrNUsrdDF4VlpNMkFtZz09GAAgACgAMIanway2mogDOLyOw/SZMkC8jsP0mTJKHDVIazUrdVFPODlnYVlobStVWkdScng1a0RuMD1aHyId+DF4RldMQXhHSExac3JLSlI2QUs4cldPTzM3TT1lsQKCohLsAQgNEucBChw4MGdKQ0FaTkl4aXFXMm9SeHBQdHY5cWV4a2M9EmZaOkFEcXRBWnhuUENvNDltSGljS0hYemxtdExyK2JKT3JTWDZkclNBc0ZQMGhVclIvUUxRdFZzUXdvVjVPODFkczJiNERpejNoK05meGt5Y0tYMC9BcS83SVZZWFVXdml5TjlRPT0YACAAKAAw8Nzju+mtiAM40JaBqIMyQNCWgaiDMkocUlFjbFU3Y3JiSVd4T2JKRTdEZUFyUzRGZFpRPVofIh3gWXdtTUt6eDJLQldTYjQxZHVYREEycjdMbWVNPWWwsQFtEuwBCBYS5wEKHGF6ZEN0SUJpcmwyVjJ3UXl6cVg4ajJMSEVYUT0SZlo6QURxdEFaeG5QQ280OW1IaWNLSFh6bG10THIrYjhTVCtiekR4M29nRXVMamNGczZ6QlB5VFZVU2c1SXJmejREQWRyVkZQYnNsb0JwbW1KK2UxZ1ZaOS91ZWxmWnorNHMxVWc9PRgAIAMoAzCfxbzq6PKIAzjCuPWWpTJAi7j2lqUyShxLTzJWT1lTOUtMU0c5SDBwSUNRZzN6VlREQjQ9Wh8iHf10UU9SQVBWU0FuWEFkWjByd0s1ZkJiMmM1VTg9ZfO7d0kS7AEIEhLnAQocbU9rSm0xN2pUOTVvUE1saVlmdzhjWk80YXJzPRJmWjpBRHF0QVp4blBDbzQ5bUhpY0tIWHpsbXRMcitiaWc1RmJPMTBRM0x0dW9saExjbG93RzdUSGtPR2tudTBIRk1KSXY5djdQcDVUQlJiTzFOQlJmQU90ejdtaU1jZEx6a2Uydz09GAAgACgAMMPimb+BzIgDOIbV+qCgMkCG1fqgoDJKHC9jTlFBWis3TTcvZG1ObGVMemRzWXVweWliOD1aHyId/0MyVHlIczB4ZVFVSk9nZm9wMkdMR24xellDcz1lS0ixDxLsAQgXEucBChw5TnF5enVsOHhpMFNiaTNWUnNqQ1h6TTh2aEE9EmZaOkFEcXRBWnhuUENvNDltSGljS0hYemxtdExyK2Jkd1RwWWIxK0dydnJ4bllWRHdPcEpNaUlaUHY2SDNFa3Z6c0t2ejdrWFgxUi9kOVZyV2lEeXZaWGkzQ3ZqbVcyaVltWHVRPT0YACACKAIwn8W86ujyiAM45e73lqUyQObu95alMkocWmR3c3pXcUNsRlNFN2Z1UFVBUDE0Y1N2YWdFPVofIh3+M1gwdEo0VWplZ2hhRGtLbTQ1QjNEVWU1cFlnPWXzu3dJMAE4AA==",
+   "version": 1
+}

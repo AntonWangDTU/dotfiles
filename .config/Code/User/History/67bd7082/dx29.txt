@@ -1,0 +1,64 @@
+
+
+#####Exercise1######
+
+###Jobscript: job1.sh
+
+#!/bin/sh
+#PBS -W group_list=pr_course -A pr_course
+#PBS -l nodes=1:ppn=1,mem=2GB,walltime=1:00:00
+### Below line eliminates annoying STDIN files, but use only when program works
+#PBS -e /home/projects/pr_course/people/antstr/week5/time1.txt -o /dev/null
+### Send mail (or not)
+#PBS –m ae –M s183220@dtu.dk
+###python3 /home/projects/pr_course/people/antstr/week5/compliment.py $1 $2
+time python3 /home/projects/pr_course/people/antstr/week5/compliment1.py /home/projects/pr_course/human.fsa
+/home/projects/pr_course/people/antstr/week5/human_complement1.fsa
+
+
+###Command: qsub job1.sh
+
+
+
+
+
+
+
+
+
+#####Exercise2######
+
+
+
+#!/bin/sh
+#PBS -W group_list=pr_course -A pr_course
+#PBS -l nodes=1:ppn=1,mem=2GB,walltime=1:00:00
+### Below line eliminates annoying STDIN files, but use only when program works
+#PBS -e /home/projects/pr_course/people/antstr/week5/time2.txt -o /dev/null
+### Send mail (or not)
+#PBS –m ae –M s183220@dtu.dk
+###python3 /home/projects/pr_course/people/antstr/week5/compliment.py $1 $2
+time python3 /home/projects/pr_course/people/antstr/week5/compliment2.py /home/projects/pr_course/human.fsa /home/projects/pr_course/people/antstr/week5/human_compliment2.fsa
+
+
+###Command: qsub job2.sh
+
+
+
+#####Exercise3######
+
+
+#!/bin/sh
+#PBS -W group_list=pr_course -A pr_course
+#PBS -l nodes=1:ppn=1,mem=2GB,walltime=1:00:00
+### Below line eliminates annoying STDIN files, but use only when program works
+#PBS -e /home/projects/pr_course/people/antstr/week5/time3.txt -o /dev/null
+### Send mail (or not)
+#PBS –m ae –M s183220@dtu.dk
+###python3 /home/projects/pr_course/people/antstr/week5/compliment.py $1 $2
+time python3 /home/projects/pr_course/people/antstr/week5/compliment3.py /home/projects/pr_course/human.fsa /home/projects/pr_course/people/antstr/week5/human_compliment3.fsa
+
+
+
+
+###Command: qsub job2.sh

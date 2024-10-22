@@ -1,0 +1,7 @@
+[Libinput][2][10][TPPS/2 Elan TrackPoint]
+Enabled=true
+
+[Libinput][2][7][SynPS/2 Synaptics TouchPad]
+DisableWhileTyping=true
+Enabled=true
+PointerAcceleration=-0.020

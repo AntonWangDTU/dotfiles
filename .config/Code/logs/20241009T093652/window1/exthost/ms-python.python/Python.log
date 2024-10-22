@@ -1,0 +1,25 @@
+2024-10-09 09:36:54.922 [info] Experiment 'pythonaacf' is active
+2024-10-09 09:36:54.922 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-09 09:36:54.922 [info] Experiment 'pythonSurveyNotification' is active
+2024-10-09 09:36:54.922 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-09 09:36:54.922 [info] Experiment 'pythonTestAdapter' is active
+2024-10-09 09:36:54.922 [warning] Dir "/home/aws/Documents/HPC/.pixi/envs" is not watchable (directory does not exist)
+2024-10-09 09:36:54.922 [info] Default formatter is set to null for workspace /home/aws/Documents/HPC
+2024-10-09 09:36:54.922 [info] Python interpreter path: /bin/python
+2024-10-09 09:36:54.986 [info] > pyenv which python
+2024-10-09 09:36:54.986 [info] cwd: .
+2024-10-09 09:36:55.473 [info] > pixi --version
+2024-10-09 09:37:05.769 [info] Starting Pylance language server.
+2024-10-09 10:43:07.516 [info] Discover tests for workspace name: HPC - uri: /home/aws/Documents/HPC/week5/compliment2.py
+2024-10-09 12:50:25.709 [info] Experiment 'pythonaacf' is active
+2024-10-09 12:50:25.709 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-09 12:50:25.709 [info] Experiment 'pythonSurveyNotification' is active
+2024-10-09 12:50:25.709 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-09 12:50:25.710 [info] Experiment 'pythonTestAdapter' is active
+2024-10-09 12:50:25.710 [warning] Dir "/home/aws/Documents/HPC/.pixi/envs" is not watchable (directory does not exist)
+2024-10-09 12:50:25.710 [info] Default formatter is set to null for workspace /home/aws/Documents/HPC
+2024-10-09 12:50:25.711 [info] Python interpreter path: /bin/python
+2024-10-09 12:50:25.762 [info] > pyenv which python
+2024-10-09 12:50:25.762 [info] cwd: .
+2024-10-09 12:50:26.195 [info] > pixi --version
+2024-10-09 12:50:26.774 [info] Starting Pylance language server.

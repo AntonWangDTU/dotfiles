@@ -1,0 +1,40 @@
+2024-10-09 09:36:56.153 [info] [Info  - 9:36:56 AM] (2688) Server root directory: file:///home/aws/.vscode/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-09 09:36:56.159 [info] [Info  - 9:36:56 AM] (2688) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-09 09:36:56.159 [info] [Info  - 9:36:56 AM] (2688) Starting service instance "HPC"
+2024-10-09 09:36:56.195 [info] [Info  - 9:36:56 AM] (2688) Setting environmentName for service "HPC": "3.12.6 (global)"
+2024-10-09 09:36:56.195 [info] [Info  - 9:36:56 AM] (2688) Setting pythonPath for service "HPC": "/bin/python"
+2024-10-09 09:36:56.196 [info] [Info  - 9:36:56 AM] (2688) No include entries specified; assuming /home/aws/Documents/HPC
+2024-10-09 09:36:56.196 [info] [Info  - 9:36:56 AM] (2688) Auto-excluding **/node_modules
+2024-10-09 09:36:56.197 [info] [Info  - 9:36:56 AM] (2688) Auto-excluding **/__pycache__
+2024-10-09 09:36:56.197 [info] [Info  - 9:36:56 AM] (2688) Auto-excluding **/.*
+2024-10-09 09:36:56.247 [info] [Info  - 9:36:56 AM] (2688) Assuming Python version 3.12.6.final.0
+2024-10-09 09:36:56.335 [info] [Info  - 9:36:56 AM] (2688) Found 11 source files
+2024-10-09 09:36:56.815 [info] [Info  - 9:36:56 AM] (2688) Background analysis(1) root directory: file:///home/aws/.vscode/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-09 09:36:56.817 [info] [Info  - 9:36:56 AM] (2688) Background analysis(1) started
+2024-10-09 09:36:56.901 [info] [Info  - 9:36:56 AM] (2688) Indexer background runner(2) root directory: file:///home/aws/.vscode/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-09 09:36:56.902 [info] [Info  - 9:36:56 AM] (2688) Indexing(2) started
+2024-10-09 09:36:57.357 [info] [Info  - 9:36:57 AM] (2688) scanned(2) 60 files over 1 exec env
+2024-10-09 09:36:57.529 [info] [Info  - 9:36:57 AM] (2688) indexed(2) 60 files over 1 exec env
+2024-10-09 09:36:57.560 [info] [Info  - 9:36:57 AM] (2688) Indexing finished(2).
+2024-10-09 09:37:05.767 [info] (Client) The existing extension didn't exit within 10 seconds. New instance will start, but you might encounter issues.
+2024-10-09 09:37:05.768 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.0)
+2024-10-09 10:35:37.345 [info] [Info  - 10:35:37 AM] (2688) Found 12 source files
+2024-10-09 12:50:26.759 [info] [Info  - 12:50:26 PM] (8312) Server root directory: file:///home/aws/.vscode/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-09 12:50:26.759 [info] [Info  - 12:50:26 PM] (8312) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-09 12:50:26.759 [info] [Info  - 12:50:26 PM] (8312) Starting service instance "HPC"
+2024-10-09 12:50:26.773 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.0)
+2024-10-09 12:50:26.801 [info] [Info  - 12:50:26 PM] (8312) Setting environmentName for service "HPC": "3.12.6 (global)"
+2024-10-09 12:50:26.802 [info] [Info  - 12:50:26 PM] (8312) Setting pythonPath for service "HPC": "/bin/python"
+2024-10-09 12:50:26.802 [info] [Info  - 12:50:26 PM] (8312) No include entries specified; assuming /home/aws/Documents/HPC
+2024-10-09 12:50:26.802 [info] [Info  - 12:50:26 PM] (8312) Auto-excluding **/node_modules
+2024-10-09 12:50:26.802 [info] [Info  - 12:50:26 PM] (8312) Auto-excluding **/__pycache__
+2024-10-09 12:50:26.803 [info] [Info  - 12:50:26 PM] (8312) Auto-excluding **/.*
+2024-10-09 12:50:26.827 [info] [Info  - 12:50:26 PM] (8312) Assuming Python version 3.12.6.final.0
+2024-10-09 12:50:26.886 [info] [Info  - 12:50:26 PM] (8312) Found 12 source files
+2024-10-09 12:50:27.380 [info] [Info  - 12:50:27 PM] (8312) Background analysis(1) root directory: file:///home/aws/.vscode/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-09 12:50:27.383 [info] [Info  - 12:50:27 PM] (8312) Background analysis(1) started
+2024-10-09 12:50:27.475 [info] [Info  - 12:50:27 PM] (8312) Indexer background runner(2) root directory: file:///home/aws/.vscode/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-09 12:50:27.475 [info] [Info  - 12:50:27 PM] (8312) Indexing(2) started
+2024-10-09 12:50:27.945 [info] [Info  - 12:50:27 PM] (8312) scanned(2) 60 files over 1 exec env
+2024-10-09 12:50:28.112 [info] [Info  - 12:50:28 PM] (8312) indexed(2) 60 files over 1 exec env
+2024-10-09 12:50:28.140 [info] [Info  - 12:50:28 PM] (8312) Indexing finished(2).

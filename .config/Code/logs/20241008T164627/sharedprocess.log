@@ -1,0 +1,47 @@
+2024-10-08 16:46:30.345 [info] Deleted uninstalled extension from disk ms-vscode-remote.remote-ssh /home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3
+2024-10-08 16:46:30.416 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3.-60228250.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aws/.vscode/extensions/ms-vscode-remote.remote-ssh-0.114.3.-60228250.vsctmp'
+    at lm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-08 16:47:39.000 [info] Getting Manifest... ms-python.python
+2024-10-08 16:47:39.075 [info] Installing extension: ms-python.python {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aws/.vscode/extensions/extensions.json","path":"/home/aws/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.0","date":"2024-10-02T13:08:12.626Z"}}
+2024-10-08 16:47:39.490 [info] Getting Manifest... ms-python.vscode-pylance
+2024-10-08 16:47:39.520 [info] Getting Manifest... ms-python.debugpy
+2024-10-08 16:47:39.587 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aws/.vscode/extensions/extensions.json","path":"/home/aws/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.0","date":"2024-10-02T13:08:12.626Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-10-08 16:47:39.590 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aws/.vscode/extensions/extensions.json","path":"/home/aws/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.0","date":"2024-10-02T13:08:12.626Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-10-08 16:47:40.764 [info] Extension signature verification result for ms-python.debugpy: UnknownError. Executed: true. Duration: 25ms.
+2024-10-08 16:47:41.158 [info] Extracted extension to file:///home/aws/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64: ms-python.debugpy
+2024-10-08 16:47:41.166 [info] Renamed to /home/aws/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64
+2024-10-08 16:47:41.250 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aws/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aws/.vscode/extensions/extensions.json.vsctmp'
+    at lm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-08 16:47:41.539 [info] Extension signature verification result for ms-python.python: UnknownError. Executed: true. Duration: 10ms.
+2024-10-08 16:47:42.797 [info] Extension signature verification result for ms-python.vscode-pylance: UnknownError. Executed: true. Duration: 10ms.
+2024-10-08 16:47:43.581 [info] Extracted extension to file:///home/aws/.vscode/extensions/ms-python.python-2024.16.0-linux-x64: ms-python.python
+2024-10-08 16:47:43.595 [info] Renamed to /home/aws/.vscode/extensions/ms-python.python-2024.16.0-linux-x64
+2024-10-08 16:47:43.680 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aws/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aws/.vscode/extensions/extensions.json.vsctmp'
+    at lm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-08 16:47:48.431 [info] Extracted extension to file:///home/aws/.vscode/extensions/ms-python.vscode-pylance-2024.10.1: ms-python.vscode-pylance
+2024-10-08 16:47:48.441 [info] Renamed to /home/aws/.vscode/extensions/ms-python.vscode-pylance-2024.10.1
+2024-10-08 16:47:48.469 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/aws/.vscode/extensions/extensions.json
+2024-10-08 16:47:48.469 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/aws/.vscode/extensions/extensions.json
+2024-10-08 16:47:48.470 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/aws/.vscode/extensions/extensions.json
+2024-10-08 16:47:48.531 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aws/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aws/.vscode/extensions/extensions.json.vsctmp'
+    at lm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)

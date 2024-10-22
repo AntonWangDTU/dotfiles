@@ -1,0 +1,47 @@
+[12:56:33.959] Log Level: 2
+[12:56:33.991] VS Code version: 1.94.0
+[12:56:33.991] Remote-SSH version: remote-ssh@0.114.3
+[12:56:33.991] linux x64
+[12:56:33.993] SSH Resolver called for "ssh-remote+dtuhpc", attempt 1
+[12:56:33.995] "remote.SSH.useLocalServer": true
+[12:56:33.995] "remote.SSH.useExecServer": true
+[12:56:33.995] "remote.SSH.path": undefined
+[12:56:33.995] "remote.SSH.configFile": undefined
+[12:56:33.996] "remote.SSH.useFlock": true
+[12:56:33.996] "remote.SSH.lockfilesInTmp": false
+[12:56:33.996] "remote.SSH.localServerDownload": auto
+[12:56:33.996] "remote.SSH.remoteServerListenOnSocket": false
+[12:56:33.996] "remote.SSH.showLoginTerminal": false
+[12:56:33.996] "remote.SSH.defaultExtensions": []
+[12:56:33.996] "remote.SSH.loglevel": 2
+[12:56:33.996] "remote.SSH.enableDynamicForwarding": true
+[12:56:33.997] "remote.SSH.enableRemoteCommand": false
+[12:56:33.997] "remote.SSH.serverPickPortsFromRange": {}
+[12:56:33.997] "remote.SSH.serverInstallPath": {}
+[12:56:33.997] "remote.SSH.permitPtyAllocation": false
+[12:56:33.997] "remote.SSH.preferredLocalPortRange: undefined
+[12:56:33.997] "remote.SSH.useCurlAndWgetConfigurationFiles: false
+[12:56:34.008] SSH Resolver called for host: dtuhpc
+[12:56:34.008] Setting up SSH remote "dtuhpc"
+[12:56:34.013] Acquiring local install lock: /tmp/vscode-remote-ssh-55237ef1-install.lock
+[12:56:34.016] Looking for existing server data file at /home/aws/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-55237ef1-d78a74bcdfad14d5d3b1b782f87255d802b57511-0.114.3-es/data.json
+[12:56:34.016] Found existing data file
+[12:56:34.017] Found local server running: {"remoteListeningOn":{"port":36051},"osReleaseId":"almalinux","arch":"x86_64","tmpDir":"/run/user/236247","platform":"linux","execServerToken":"5954bdeb-eb61-42c1-ae4e-3086d97e40e0","pid":65309,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-e966a3ad3af66f28dafa4f1daa1e36e46761cda1.sock","socksPort":39109,"startupTime":1728039302767}
+[12:56:34.028] Found running server - short-circuiting install
+[12:56:34.032] Starting forwarding server. local port 44861 -> socksPort 39109 -> remotePort 36051
+[12:56:34.033] Forwarding server listening on port 44861
+[12:56:34.033] Waiting for ssh tunnel to be ready
+[12:56:34.035] [Forwarding server port 44861] Got connection 0
+[12:56:34.037] Tunneled port 36051 to local port 44861
+[12:56:34.037] Resolved "ssh-remote+dtuhpc" to "port 44861"
+[12:56:34.052] Initizing new exec server for ssh-remote+dtuhpc
+[12:56:34.052] Resolving exec server at port 44861
+[12:56:34.084] [Forwarding server port 44861] Got connection 1
+[12:56:34.169] Exec server for ssh-remote+dtuhpc created and cached
+[12:56:34.178] ------
+
+
+
+
+[12:56:34.204] [server] Checking /zhome/1a/4/136247/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/log.txt and /zhome/1a/4/136247/.vscode-server/cli/servers/Stable-d78a74bcdfad14d5d3b1b782f87255d802b57511/pid.txt for a running server...
+[12:56:34.213] [server] Found running server (pid=3740704)

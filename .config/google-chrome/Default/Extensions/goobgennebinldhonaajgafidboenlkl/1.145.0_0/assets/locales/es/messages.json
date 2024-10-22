@@ -1,0 +1,2329 @@
+{
+  "Cmp_ChatApp_ProctorName_Text": {
+    "message": " ProctorU",
+    "description": " Nombre predeterminado del supervisor para el chat."
+  },
+  "Cmp_ConnectionLost_Message_Html": {
+    "message": " Parece que has perdido la conexión. Por favor contáctenos en<br/> <a href=\"$PHONE_LINK$\">$ TELÉFONO $</a>",
+    "description": " Mensaje de texto por conexión perdida.",
+    "placeholders": {
+      "phone_link": {
+        "content": " $ 1",
+        "example": " tel: 8557728678"
+      },
+      "phone": {
+        "content": " $ 2",
+        "example": " 1 (855) 772 8678"
+      }
+    }
+  },
+  "Cmp_Footer_ProblemReportLink_Text": {
+    "message": " Reportar un problema",
+    "description": " Texto para el enlace de informe de problema."
+  },
+  "Cmp_Footer_SettingsLink_Text": {
+    "message": " Configuraciones",
+    "description": " Texto para el enlace de configuración."
+  },
+  "Cmp_LoginAction_LoginLink_Text": {
+    "message": " Iniciar sesión",
+    "description": " Texto para el botón Iniciar sesión."
+  },
+  "Cmp_Messages_ClickLink_Text": {
+    "message": " Hacer clic",
+    "description": " Texto para el enlace de clic"
+  },
+  "Cmp_Messages_HelpText_Text": {
+    "message": " Escriba si necesita ayuda.",
+    "description": " Escriba el texto si necesita ayuda."
+  },
+  "Cmp_Messages_HelpTextContinue_Text": {
+    "message": " para conectarse al soporte.",
+    "description": " Continuar con el texto de ayuda"
+  },
+  "Cmp_Navigation_GoToProctoruLink_Text": {
+    "message": " Ir a ProctorU",
+    "description": " Mensaje de texto para llegar a ProctorU."
+  },
+  "Cmp_Navigation_LogAsInstructorLink_Text": {
+    "message": " Iniciar sesión como instructor",
+    "description": " Texto para iniciar sesión como instructor."
+  },
+  "Cmp_Navigation_LogAsStudent_Text": {
+    "message": " Iniciar sesión como estudiante",
+    "description": " Texto para iniciar sesión como alumno."
+  },
+  "Cmp_Navigation_LogoutLink_Text": {
+    "message": " Cerrar sesión",
+    "description": " Texto para el botón Cerrar sesión."
+  },
+  "Cmp_Navigation_ProctoruLink_Text": {
+    "message": " ProctorU",
+    "description": " Texto para el mensaje de proctorU."
+  },
+  "Cmp_Navigation_StartBreakLink_Text": {
+    "message": " Start Break",
+    "description": " Texto para Start Break."
+  },
+  "Cmp_Navigation_ChatLink_Text": {
+    "message": " Chatear con soporte",
+    "description": " Texto para chat."
+  },
+  "Cmp_TextChatView_Calling_Text": {
+    "message": " Vocación",
+    "description": " Texto que se mostrará cuando Proctor llame"
+  },
+  "Cmp_VoiceChatView_Calling_Text": {
+    "message": " Vocación",
+    "description": " Texto que se mostrará cuando Proctor llame"
+  },
+  "Cmp_TextChatView_CallRejected_Text": {
+    "message": " Llamada rechazada",
+    "description": " Texto que se mostrará cuando se rechace la llamada"
+  },
+  "Cmp_TextChatView_CallEnded_Text": {
+    "message": " Llamada terminada",
+    "description": " Texto que se mostrará cuando finalice la llamada"
+  },
+  "Cmp_Navigation_Begin_Exam_Text": {
+    "message": " Ir al examen",
+    "description": " Texto para el botón Comenzar examen."
+  },
+  "Cmp_Navigation_Check_In_Text": {
+    "message": " Registrarse",
+    "description": " Texto para el botón Check In."
+  },
+  "Cmp_Navigation_Go_Back_Button_Text": {
+    "message": " Volver al botón de instrucciones del examen",
+    "description": " Mensaje de etiqueta alternativa para el botón de retroceso."
+  },
+  "Error_1001_Text": {
+    "message": " Debe iniciar sesión en ProctorU para poder realizar su examen. Si no tiene inicio de sesión de Arquímedes, comuníquese con nuestro soporte en vivo.",
+    "description": " Preverifica inicialización, error del servidor, ventana emergente. TT no está autorizado (GET, 'api / current_user')"
+  },
+  "Error_1001_Html": {
+    "message": " Debe <a href=\"$LINK_LOGIN$\" target=\"_blank\">iniciar sesión en</a> ProctorU para poder realizar su examen. Si no tiene inicio de sesión de Arquímedes, póngase en contacto con nuestro <a href=\"$LINK$\" target=\"_blank\">soporte en vivo</a> .",
+    "description": " TT es HTML no autorizado",
+    "placeholders": {
+      "link_login": {
+        "content": " $ 1",
+        "example": " http://example.com/"
+      },
+      "link": {
+        "content": " $ 2",
+        "example": " http://example.com/"
+      }
+    }
+  },
+  "Error_1002_Text": {
+    "message": " Debe iniciar sesión en ProctorU para poder realizar su examen.",
+    "description": " Precomproba la inicialización, error del servidor. TT no puede iniciar sesión en Archimedes desde LMS y el estado de respuesta es BAD_REQUEST."
+  },
+  "Error_1002_Html": {
+    "message": " Debe <a href=\"$LINK$\" target=\"_blank\">iniciar sesión en</a> ProctorU para poder realizar su examen. (código: 1002)",
+    "description": " Precomproba la inicialización, error del servidor. TT no puede iniciar sesión en Archimedes desde LMS y el estado de respuesta es BAD_REQUEST.",
+    "placeholders": {
+      "link": {
+        "content": " $ 1",
+        "example": " http://example.com/"
+      }
+    }
+  },
+  "Error_1003_Text": {
+    "message": " No podemos conectarnos con su examen. Comuníquese con nuestro soporte en vivo para obtener asistencia inmediata.",
+    "description": " Precomproba la inicialización, error del servidor. TT no puede iniciar sesión en Archimedes desde LMS o la función TT no es válida."
+  },
+  "Error_1003_Html": {
+    "message": " No podemos conectarnos con su examen. Comuníquese con nuestro <a href=\"$LINK$\" target=\"_blank\">soporte en vivo</a> para obtener asistencia inmediata. (código: 1003)",
+    "description": " Precomproba la inicialización, error del servidor. TT no puede iniciar sesión en Archimedes desde LMS o la función TT no es válida.",
+    "placeholders": {
+      "link": {
+        "content": " $ 1",
+        "example": " http://example.com/"
+      }
+    }
+  },
+  "Error_1101_Text": {
+    "message": " Necesita la última versión de la extensión ProctorU para poder realizar el examen. Actualícelo aquí y actualice la página.",
+    "description": " Preverifica inicialización, error del servidor, ventana emergente. La { browserName } no es la última versión."
+  },
+  "Error_1101_Html": {
+    "message": " Necesita la última versión de la extensión ProctorU para poder realizar el examen. Actualícelo <a href=\"$LINK$\" target=\"_blank\">aquí</a> y actualice la página.",
+    "description": " Preverifica inicialización, error del servidor, ventana emergente. La { browserName } no es la última versión.",
+    "placeholders": {
+      "link": {
+        "content": " $ 1",
+        "example": " http://example.com/"
+      }
+    }
+  },
+  "Error_1102_Text": {
+    "message": " No podemos conectarnos con su examen. Comuníquese con nuestro soporte en vivo para obtener asistencia inmediata.",
+    "description": " Precomproba la inicialización, error del servidor. No se puede obtener la iteración y el cumplimiento del examen desde el backend (POST, 'api / exam_initializations')."
+  },
+  "Error_1102_Html": {
+    "message": " No podemos conectarnos con su examen. Comuníquese con nuestro <a href=\"$LINK$\" target=\"_blank\">soporte en vivo</a> para obtener asistencia inmediata. (código: 1102)",
+    "description": " Precomproba la inicialización, error del servidor. No se puede obtener la iteración y el cumplimiento del examen desde el backend (POST, 'api / exam_initializations').",
+    "placeholders": {
+      "link": {
+        "content": " $ 1",
+        "example": " http://example.com/"
+      }
+    }
+  },
+  "Error_1103_Text": {
+    "message": " No podemos conectarnos con su examen. Comuníquese con nuestro soporte en vivo para obtener asistencia inmediata.",
+    "description": " Precomproba la inicialización, error del servidor. El tipo de examen actual no existe."
+  },
+  "Error_1103_Html": {
+    "message": " No podemos conectarnos con su examen. Comuníquese con nuestro <a href=\"$LINK$\" target=\"_blank\">soporte en vivo</a> para obtener asistencia inmediata. (código: 1103)",
+    "description": " Precomproba la inicialización, error del servidor. El tipo de examen actual no existe.",
+    "placeholders": {
+      "link": {
+        "content": " $ 1",
+        "example": " http://example.com/"
+      }
+    }
+  },
+  "Error_1104_Text": {
+    "message": " No podemos conectarnos con su examen. Comuníquese con nuestro soporte en vivo para obtener asistencia inmediata.",
+    "description": " Precomproba la inicialización, error del servidor. El tipo de examen actual no existe y no es CLÁSICO."
+  },
+  "Error_1104_Html": {
+    "message": " No podemos conectarnos con su examen. Comuníquese con nuestro <a href=\"$LINK$\" target=\"_blank\">soporte en vivo</a> para obtener asistencia inmediata. (código: 1104)",
+    "description": " Precomproba la inicialización, error del servidor. El tipo de examen actual no existe y no es CLÁSICO.",
+    "placeholders": {
+      "link": {
+        "content": " $ 1",
+        "example": " http://example.com/"
+      }
+    }
+  },
+  "Error_1105_Text": {
+    "message": " No podemos conectarnos con su examen. Comuníquese con nuestro soporte en vivo para obtener asistencia inmediata.",
+    "description": " Precomproba la inicialización, error del servidor. No se puede realizar un seguimiento del examen."
+  },
+  "Error_1105_Html": {
+    "message": " No podemos conectarnos con su examen. Comuníquese con nuestro <a href=\"$LINK$\" target=\"_blank\">soporte en vivo</a> para obtener asistencia inmediata. (código: 1105)",
+    "description": " Precomproba la inicialización, error del servidor. No se puede realizar un seguimiento del examen.",
+    "placeholders": {
+      "link": {
+        "content": " $ 1",
+        "example": " http://example.com/"
+      }
+    }
+  },
+  "Error_1106_Text": {
+    "message": " No podemos conectarnos con su examen. Comuníquese con nuestro soporte en vivo para obtener asistencia inmediata.",
+    "description": " Precomproba la inicialización, error del servidor. No se puede crear una sesión sobre la marcha si el estado de la respuesta es NOT_FOUND."
+  },
+  "Error_1106_Html": {
+    "message": " No podemos conectarnos con su examen. Comuníquese con nuestro soporte en vivo para obtener asistencia inmediata.",
+    "description": " Precomproba la inicialización, error del servidor. No se puede crear una sesión sobre la marcha si el estado de la respuesta es NOT_FOUND.",
+    "placeholders": {
+      "link": {
+        "content": " $ 1",
+        "example": " http://example.com/"
+      }
+    }
+  },
+  "Error_1107_Text": {
+    "message": " No podemos conectarnos con su examen. Comuníquese con nuestro soporte en vivo para obtener asistencia inmediata."
+    ,"description": "Prechecks Initialization, Server Error. Cannot create a session on the fly if the response status is BAD_REQUEST."
+  },
+  "Error_1107_Html": {
+    "message": "No podemos conectarnos con su examen. Comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a> for immediate assistance. (code: 1107)",
+    "description": "Prechecks Initialization, Server Error. Cannot create a session on the fly if the response status is BAD_REQUEST.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_1108_Text": {
+    "message": "Ha ocurrido un error inesperado. Actualice la página y vuelva a intentarlo. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "Prechecks Initialization, Server Error. Unknown error type."
+  },
+  "Error_1108_Html": {
+    "message": "Ha ocurrido un error inesperado. Actualice la página y vuelva a intentarlo. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>. (code: 1108)",
+    "description": "Prechecks Initialization, Server Error. Unknown error type.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_1109_Text": {
+    "message": "Nuestro sistema detectó que tiene otro examen en curso. Comuníquese con nuestro soporte en vivo para obtener ayuda.",
+    "description": "Prechecks, Server Error, Popup. Exam status is RUNNING."
+  },
+  "Error_1109_Html": {
+    "message": "Nuestro sistema detectó que tiene otro examen en curso. Póngase en contacto con nuestro <a href='$LINK$' target='_blank'>live support</a> for assistance.",
+    "description": "Prechecks, Server Error, Popup. Exam status is RUNNING.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_1111_Text": {
+    "message": "La sesión no está disponible. Comuníquese con su instructor para obtener más aclaraciones.",
+    "description": "Get exam iteration and fulfillment request timeout"
+  },
+  "Error_1112_Text": {
+    "message": "La sesión no está disponible. Comuníquese con su instructor para obtener más aclaraciones.",
+    "description": "Exam type is not automated unintegrated"
+  },
+  "Error_1201_Text": {
+    "message": "Este examen no ha sido pagado. Haga clic aquí para pagar. Si necesita ayuda, comuníquese con nuestro soporte en vivo.",
+    "description": "Prechecks Initialization, Server Error. Exam paid status is failed."
+  },
+  "Error_1201_Html": {
+    "message": "Este examen no ha sido pagado. Por favor haz click <a href='$PAYMENT_URL$' target='_blank'>here</a> to pay. If you need assistance, please contact our <a href='$LINK$' target='_blank'>live support</a>. (code: 1201)",
+    "description": "Prechecks Initialization, Server Error. Exam paid status is failed.",
+    "placeholders": {
+      "payment_url": {
+        "content": "$1",
+        "example": "http://example.com/"
+      },
+      "link": {
+        "content": "$2",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_1202_Text": {
+    "message": "No podemos conectarnos con su examen. Comuníquese con nuestro soporte en vivo para obtener asistencia inmediata.",
+    "description": "Prechecks Initialization, Server Error. Exam has no valid annual payment configuration."
+  },
+  "Error_1202_Html": {
+    "message": "No podemos conectarnos con su examen. Comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a> for immediate assistance.(code: 1202)",
+    "description": "Prechecks Initialization, Server Error. Exam has no valid annual payment configuration.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_1601_Text": {
+    "message": "Internet: su velocidad de Internet no es óptima.",
+    "description": "System Check. Cannot download image from backend (number of requests > 5 and internetSpeedTimeout > 10 seconds)."
+  },
+  "Error_1602_Text": {
+    "message": "Internet: su velocidad de Internet no es óptima.",
+    "description": "System Check. Internet speed is less than required."
+  },
+  "Error_1603_Text": {
+    "message": "Hubo un problema al cargar tu foto. Inténtalo de nuevo. (código: 1603)",
+    "description": "Take Your Photo Step. In case of some network error."
+  },
+  "Error_1604_Text": {
+    "message": "No pudimos reconocer un rostro en la foto. Intente tomar otra foto. (código: 1604)",
+    "description": "Take Your Photo Step. The app waiting for a response from a backend or a message with the error if face wasn't verified."
+  },
+  "Error_2401_Text": {
+    "message": "Detectamos demasiada luz en su video. Ajuste la posición de la cámara o muévase a otra área. (código: 2401)",
+    "description": "System Check. The light level in the status of 'high'."
+  },
+  "Error_2402_Text": {
+    "message": "La iluminación en su área es demasiado baja. Aumente el nivel de iluminación o muévase a un área más bien iluminada. (código: 2402)",
+    "description": "System Check. The light level in the status of 'low'."
+  },
+  "Error_2403_Text": {
+    "message": "El sistema no pudo comenzar a grabar. Actualice la página para volver a conectarse e inténtelo de nuevo. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "System Check. Recording socket openning is failed."
+  },
+  "Error_2403_Html": {
+    "message": "El sistema no pudo comenzar a grabar. Actualice la página para volver a conectarse e inténtelo de nuevo. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>.(code: 2403)",
+    "description": "System Check. Recording socket openning is failed.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_2404_Text": {
+    "message": "Hay demasiado ruido de fondo en su entorno. Múdate a un lugar más tranquilo. (código: 2404)",
+    "description": "System Check. The volume level in the status of 'high'."
+  },
+  "Error_2405_Text": {
+    "message": "Your proctor has ended the session. For immediate assistance, please contact our live support.",
+    "description": "Exam passing, Popup. Proctor stops the session."
+  },
+  "Error_2405_Html": {
+    "message": "Su supervisor ha terminado la sesión. Para obtener asistencia inmediata, comuníquese con nuestro soporte en vivo. <a href='$LINK$' target='_blank' class='no-warning suspended-session'>live support</a>.",
+    "description": "Exam passing, Popup. Proctor stops the session.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_2406_Text": {
+    "message": "Se perdió la conexión con ProctorU. Para volver a conectarse a su examen, haga clic aquí. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "Exam passing, Popup. Unknown WS connection error."
+  },
+  "Error_2406_Html": {
+    "message": "Se perdió la conexión con ProctorU. Para volver a conectarse a su examen, haga clic en <a href='$REDIRECT_LINK$' target='_blank' class='no-warning suspended-session'>here</a>. If this does not resolve the issue, please contact our <a href='$LINK$' target='_blank'>live support</a>.",
+    "description": "Exam passing, Popup. Unknown WS connection error.",
+    "placeholders": {
+      "redirect_link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      },
+      "link": {
+        "content": "$2",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_2407_Text": {
+    "message": "Se perdió la conexión con ProctorU. Para volver a conectarse a su examen, haga clic aquí. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "Exam passing, Popup. WS ping-pong failed timeout has expired."
+  },
+  "Error_2407_Html": {
+    "message": "Se perdió la conexión con ProctorU. Para volver a conectarse a su examen, haga clic en <a href='$REDIRECT_LINK$' target='_blank' class='no-warning suspended-session'>here</a>. If this does not resolve the issue, please contact our <a href='$LINK$' target='_blank'>live support</a>.",
+    "description": "Exam passing, Popup. WS ping-pong failed timeout has expired.",
+    "placeholders": {
+      "redirect_link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      },
+      "link": {
+        "content": "$2",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_2501_Text": {
+    "message": "Se perdió la conexión con ProctorU. Para volver a conectarse a su examen, haga clic aquí. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "Exam passing, Popup. Stream has been ended in case of ice servers do not exist and retry attempt connect < ice servers length."
+  },
+  "Error_2501_Html": {
+    "message": "Se perdió la conexión con ProctorU. Para volver a conectarse a su examen, haga clic en <a href='$REDIRECT_LINK$' target='_blank' class='no-warning suspended-session'>here</a>. If this does not resolve the issue, please contact our <a href='$LINK$' target='_blank'>live support</a>.",
+    "description": "Exam passing, Popup. Stream has been ended in case of ice servers do not exist and retry attempt connect < ice servers length.",
+    "placeholders": {
+      "redirect_link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      },
+      "link": {
+        "content": "$2",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3102_Text": {
+    "message": "No se le permite abrir la consola de desarrollo durante su examen. Se notificará a su institución si se producen más intentos.",
+    "description": "Exam passing, Popup.."
+  },
+  "Error_3103_Text": {
+    "message": "No intente visitar otros sitios web. Cualquier otro intento alertará a su instructor.",
+    "description": "Browser tabs are restricted to whitelist"
+  },
+  "Error_3104_Text": {
+    "message": "Desconecte la segunda pantalla.",
+    "description": "Desktop amount was changed and exam iteration is default"
+  },
+  "Error_3105_Text": {
+    "message": "No se le permite conectar dispositivos de hardware durante su sesión. Se notificará a su institución si se producen más intentos.",
+    "description": "Exam passing, Popup."
+  },
+  "Error_3303_Text": {
+    "message": "No se le permite tener abiertas ventanas de navegador separadas. Mantenga todas las pestañas en su ventana actual.",
+    "description": "Exam passing, Popup. Current tab id is not equal to moved tab id."
+  },
+  "Error_3304_Text": {
+    "message": "Se perdió la conexión con ProctorU. Para volver a conectarse a su examen, haga clic aquí. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "Exam passing, Popup. Utility tab has been removed by TT."
+  },
+  "Error_3304_Html": {
+    "message": "Se perdió la conexión con ProctorU. Para volver a conectarse a su examen, haga clic en <a href='$REDIRECT_LINK$' target='_blank' class='no-warning suspended-session'>here</a>. If this does not resolve the issue, please contact our <a href='$LINK$' target='_blank'>live support</a>.",
+    "description": "Exam passing, Popup. Utility tab has been removed by TT.",
+    "placeholders": {
+      "redirect_link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      },
+      "link": {
+        "content": "$2",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3305_Text": {
+    "message": "Se perdió la conexión de su cámara web con ProctorU. Para volver a conectarse a su examen, haga clic aquí. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "Exam passing, Popup. Webcam permission has been removed."
+  },
+  "Error_3305_Html": {
+    "message": "Se perdió la conexión de su cámara web con ProctorU. Para volver a conectarse a su examen, haga clic en <a href='$REDIRECT_LINK$' target='_blank' class='no-warning suspended-session'>here</a>. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>.",
+    "description": "Exam passing, Popup. Webcam permission has been removed.",
+    "placeholders": {
+      "redirect_link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      },
+      "link": {
+        "content": "$2",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3306_Text": {
+    "message": "Se perdió la conexión de su micrófono con ProctorU. Para volver a conectarse a su examen, haga clic aquí. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "Exam passing, Popup. Microphone permission has been removed."
+  },
+  "Error_3306_Html": {
+    "message": "Se perdió la conexión de su micrófono con ProctorU. Para volver a conectarse a su examen, haga clic en <a href='$REDIRECT_LINK$' target='_blank' class='no-warning suspended-session'>here</a>. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>.",
+    "description": "Exam passing, Popup. Microphone permission has been removed.",
+    "placeholders": {
+      "redirect_link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      },
+      "link": {
+        "content": "$2",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3307_Text": {
+    "message": "No puede realizar el examen en modo incógnito. Vuelva a intentarlo en una nueva ventana.",
+    "description": "Exam passing, Popup. By default extension doesn't work in incognito mode for Chrome which means it doesn't track it."
+  },
+  "Error_3308_Text": {
+    "message": "No se le permite salir del examen. Se notificará a su institución si se producen más intentos.",
+    "description": "Exam passing, Popup. Lost focus restricted."
+  },
+  "Error_3309_Text": {
+    "message": "No se le permite ajustar el tamaño de la ventana de su examen. Se notificará a su institución si se producen más intentos.",
+    "description": "Exam passing, Popup. Exam passing, Popup"
+  },
+  "Error_3310_Text": {
+    "message": "Se perdió la conexión a su computadora. Comparta su pantalla con nosotros.",
+    "description": "Exam passing, Popup. Re-starts stream during exam. Raise incidents and stops session in case if it's failed."
+  },
+  "Error_3401_Text": {
+    "message": "Se agotó el tiempo de verificación de puertos. Actualice la página para volver a conectarse e inténtelo de nuevo. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "System Check. Port timeout has expired."
+  },
+  "Error_3401_Html": {
+    "message": "Se agotó el tiempo de verificación de puertos. Actualice la página para volver a conectarse e inténtelo de nuevo. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>. (código: 3401)",
+    "description": "System Check. Port timeout has expired.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3402_Text": {
+    "message": "La comprobación de puertos ha fallado. Actualice la página para volver a conectarse e inténtelo de nuevo. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "System Check. Cannot perform ports checking."
+  },
+  "Error_3402_Html": {
+    "message": "La comprobación de puertos ha fallado. Actualice la página para volver a conectarse e inténtelo de nuevo. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>. (código: 3402)",
+    "description": "System Check. Cannot perform ports checking.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3403_Text": {
+    "message": "Nuestro sistema no puede establecer una conexión de video o escritorio. Actualice la página para continuar. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "System Check, Popup. In case of port connection failed."
+  },
+  "Error_3403_Html": {
+    "message": "Nuestro sistema no puede establecer una conexión de video o escritorio. Actualice la página para continuar. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>. (código: 3403)",
+    "description": "System Check, Popup. In case of port connection failed.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3404_Text": {
+    "message": "Nuestros intentos de compartir la pantalla han fallado. Haga clic en permitir para compartir la pantalla. Si necesita asistencia inmediata, comuníquese con nuestro soporte en vivo.",
+    "description": "System Check, Popup. Screen sharing failed after several attempts."
+  },
+  "Error_3404_Html": {
+    "message": "Nuestros intentos de compartir la pantalla han fallado. Haga clic en permitir para compartir la pantalla. Si necesita asistencia inmediata, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>.",
+    "description": "System Check, Popup. Screen sharing failed after several attempts.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3405_Text": {
+    "message": "Se perdió la conexión con ProctorU. Para volver a conectarse a su examen, haga clic aquí. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "Exam passing, Popup. Utility tab has been loaded in the case of taking an exam."
+  },
+  "Error_3405_Html": {
+    "message": "Se perdió la conexión con ProctorU. Para volver a conectarse a su examen, haga clic en<a href='$REDIRECT_LINK$' target='_blank' class='no-warning suspended-session'>here</a>. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>.",
+    "description": "Exam passing, Popup. Utility tab has been loaded in the case of taking an exam.",
+    "placeholders": {
+      "redirect_link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      },
+      "link": {
+        "content": "$2",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3501_Text": {
+    "message": "El sistema no puede establecer una conexión de video o escritorio. Actualice la página para volver a conectarse e inténtelo de nuevo. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "System Check. Cannot establish connection to media server."
+  },
+  "Error_3501_Html": {
+    "message": "El sistema no puede establecer una conexión de video o escritorio. Actualice la página para volver a conectarse e inténtelo de nuevo. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>. (código: 3501)",
+    "description": "System Check. Cannot establish connection to media server.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3502_Text": {
+    "message": "El sistema no puede establecer una conexión de video o escritorio. Actualice la página para volver a conectarse e inténtelo de nuevo. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "System Check. WebRTC connection helper was not created."
+  },
+  "Error_3502_Html": {
+    "message": "El sistema no puede establecer una conexión de video o escritorio. Actualice la página para volver a conectarse e inténtelo de nuevo. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>. (código: 3502)",
+    "description": "System Check. WebRTC connection helper was not created.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3504_Text": {
+    "message": "Se perdió la conexión de su cámara web con ProctorU. Para volver a conectarse a su examen, haga clic aquí. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "Exam passing, Popup. Webcam is not available after getMediaDevicesInfo in WebRTC Peer creating flow."
+  },
+  "Error_3504_Html": {
+    "message": "Se perdió la conexión de su cámara web con ProctorU. Para volver a conectarse a su examen, haga clic en <a href='$REDIRECT_LINK$' target='_blank' class='no-warning suspended-session'>here</a>. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>.",
+    "description": "Exam passing, Popup. Webcam is not available after getMediaDevicesInfo in WebRTC Peer creating flow.",
+    "placeholders": {
+      "redirect_link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      },
+      "link": {
+        "content": "$2",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3505_Text": {
+    "message": "Se perdió la conexión de su micrófono con ProctorU. Para volver a conectarse a su examen, haga clic aquí. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "Exam passing, Popup. Microphone is not available after getMediaDevicesInfo in WebRTC Peer creating flow."
+  },
+  "Error_3505_Html": {
+    "message": "Se perdió la conexión de su micrófono con ProctorU. Para volver a conectarse a su examen, haga clic en <a href='$REDIRECT_LINK$' target='_blank' class='no-warning suspended-session'>here</a>. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>.",
+    "description": "Exam passing, Popup. Microphone is not available after getMediaDevicesInfo in WebRTC Peer creating flow.",
+    "placeholders": {
+      "redirect_link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      },
+      "link": {
+        "content": "$2",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3506_Text": {
+    "message": "Se perdió la conexión con ProctorU. Para volver a conectarse a su examen, haga clic aquí. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "Utility tab has been broken during exam passing"
+  },
+  "Error_3506_Html": {
+    "message": "Se perdió la conexión con ProctorU. Para volver a conectarse a su examen, haga clic en <a href='$REDIRECT_LINK$' target='_blank' class='no-warning suspended-session'>here</a>. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>.",
+    "description": "Utility tab has been broken during exam passing HTML",
+    "placeholders": {
+      "redirect_link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      },
+      "link": {
+        "content": "$2",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3702_Text": {
+    "message": "No podemos acceder a su cámara web. Si está usando una cámara web externa, intente desconectarla y conectarla a un puerto USB diferente. Si tiene una cámara interna, verifique la configuración de su cámara para asegurarse de que esté seleccionada la cámara correcta. Cuando haya completado estos pasos, actualice la página. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "System Check. Webcam device ID does not exist."
+  },
+  "Error_3702_Html": {
+    "message": "No podemos acceder a su cámara web. Si está usando una cámara web externa, intente desconectarla y conectarla a un puerto USB diferente. Si tiene una cámara interna, verifique la configuración de su cámara para asegurarse de que esté seleccionada la cámara correcta. Cuando haya completado estos pasos, actualice la página. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>. (código: 3702)",
+    "description": "System Check. Webcam device ID does not exist.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3703_Text": {
+    "message": "No podemos acceder a su cámara web. Si está usando una cámara web externa, intente desconectarla y conectarla a un puerto USB diferente. Si tiene una cámara interna, verifique la configuración de su cámara para asegurarse de que esté seleccionada la cámara correcta. Cuando haya completado estos pasos, actualice la página. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "System Check. Webcam is not available after getMediaDevicesInfo."
+  },
+  "Error_3703_Html": {
+    "message": "No podemos acceder a su cámara web. Si está usando una cámara web externa, intente desconectarla y conectarla a un puerto USB diferente. Si tiene una cámara interna, verifique la configuración de su cámara para asegurarse de que esté seleccionada la cámara correcta. Cuando haya completado estos pasos, actualice la página. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>. (código: 3703)",
+    "description": "System Check. Webcam is not available after getMediaDevicesInfo.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3704_Text": {
+    "message": "No podemos acceder a su cámara o micrófono. Verifique su configuración para asegurarse de que estén conectados. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "System Check. In case of checking webcam and microphone failed."
+  },
+  "Error_3704_Html": {
+    "message": "No podemos acceder a su cámara o micrófono. Verifique su configuración para asegurarse de que estén conectados. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>. (código: 3704)",
+    "description": "System Check. In case of checking webcam and microphone failed.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3705_Text": {
+    "message": "No podemos acceder a su micrófono. Verifique su configuración para asegurarse de que esté seleccionado el micrófono correcto. Una vez que se selecciona el micrófono correcto, actualice la página. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "System Check. Microphone device ID does not exist."
+  },
+  "Error_3705_Html": {
+    "message": "No podemos acceder a su micrófono. Verifique su configuración para asegurarse de que esté seleccionado el micrófono correcto. Una vez que se selecciona el micrófono correcto, actualice la página. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>. (código: 3705)",
+    "description": "System Check. Microphone device ID does not exist.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3706_Text": {
+    "message": "No podemos acceder a su micrófono. Verifique su configuración para asegurarse de que esté seleccionado el micrófono correcto. Una vez que se selecciona el micrófono correcto, actualice la página. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "System Check. Microphone is not available after getMediaDevicesInfo."
+  },
+  "Error_3706_Html": {
+    "message": "No podemos acceder a su micrófono. Verifique su configuración para asegurarse de que esté seleccionado el micrófono correcto. Una vez que se selecciona el micrófono correcto, actualice la página. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>. (código: 3706)",
+    "description": "System Check. Microphone is not available after getMediaDevicesInfo.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3708_Text": {
+    "message": "No se le permite utilizar una segunda pantalla durante la prueba. Desconéctelo para continuar. (código: 3708)",
+    "description": "System Check. In case of there are several displays."
+  },
+  "Error_3710_Text": {
+    "message": "El sistema no pudo comenzar a grabar. Actualice la página para volver a conectarse e inténtelo de nuevo. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "System Check, Popup. Some system checks does not complete"
+  },
+  "Error_3711_Text": {
+    "message": "Parece que algunos de sus controles pueden fallar. Comuníquese con su maestro para obtener ayuda.",
+    "description": "System Check, Popup. Some system checks does not complete and the modality from reservation will 'k12'."
+  },
+  "Error_3713_Text": {
+    "message": "Se perdió la conexión de su cámara web con ProctorU. Para volver a conectarse a su examen, haga clic aquí. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "Exam passing, Popup. Webcam has been disconnected."
+  },
+  "Error_3713_Html": {
+    "message": "Se perdió la conexión de su cámara web con ProctorU. Para volver a conectarse a su examen, haga clic en <a href='$LINK$' target='_blank' class='no-warning suspended-session'>here</a>. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>.",
+    "description": "Exam passing, Popup. Webcam has been disconnected.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3714_Text": {
+    "message": "Se perdió la conexión de su micrófono con ProctorU. Para volver a conectarse a su examen, haga clic aquí. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "Exam passing, Popup. Microphone has been disconnected."
+  },
+  "Error_3714_Html": {
+    "message": "Se perdió la conexión de su micrófono con ProctorU. Para volver a conectarse a su examen, haga clic en <a href='$LINK$' target='_blank' class='no-warning suspended-session'>here</a>. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>.",
+    "description": "Exam passing, Popup. Microphone has been disconnected.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3715_Text": {
+    "message": "Nuestro sistema ha detectado una pestaña de grabación fija abierta. Cierre la pestaña de grabación anclada en el lado izquierdo de las pestañas del navegador y actualice la página actual. Si esto no resuelve el problema, comuníquese con nuestro soporte en vivo.",
+    "description": "Prechecks, Popup. Exam tab already exists."
+  },
+  "Error_3715_Html": {
+    "message": "Nuestro sistema ha detectado una pestaña de grabación fija abierta. Cierre la pestaña de grabación anclada en el lado izquierdo de las pestañas del navegador y actualice la página actual. Si esto no resuelve el problema, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>.",
+    "description": "Prechecks, Popup. Exam tab already exists.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Error_3716_Text": {
+    "message": "No se le permite utilizar una segunda pantalla durante la prueba. Desconéctelo para continuar.",
+    "description": "System Check. In case of an unknown display error."
+  },
+  "Ext_Description": {
+    "message": "ProctorU Auto - A fully automated proctoring solution brought to you by the global leaders of online proctoring, ProctorU.",
+    "description": "Description of the extension."
+  },
+  "Ext_Name": {
+    "message": "ProctorU",
+    "description": "Name of the extension."
+  },
+  "Ext_Name_Ancoris": {
+    "message": "ProctorU - Google",
+    "description": "Name of the Google extension."
+  },
+  "Ext_SecurityChecks_Incidents_Create_Text": {
+    "message": "No se le permite navegar fuera de su examen y hacerlo crea un incidente para que su institución lo revise. Por favor haz click \"OK\" para continuar con su examen.",
+    "description": "Incidents Create description text."
+  },
+  "Ext_SecurityChecks_Incidents_Restricted_Text": {
+    "message": "No se le permite salir de su examen. Si lo hace por segunda vez, finalizará su sesión y enviará un informe.",
+    "description": "Incidents Restricted description text."
+  },
+  "Ext_SecurityChecks_ExamSubmit_Modal_1_Title_Text": {
+    "message": "¿Ha presentado su examen?",
+    "description": "Proctor Free Submission initial modal Title"
+  },
+  "Ext_SecurityChecks_ExamSubmit_Modal_1_Description_Text": {
+    "message": "Al finalizar la sesión, se cerrará el examen y se desconectará de ProctorU.",
+    "description": "Proctor Free Submission initial modal Description 1"
+  },
+  "Ext_SecurityChecks_ExamSubmit_Modal_2_Description_Text": {
+    "message": "Asegúrese de enviar su examen antes de finalizar su sesión",
+    "description": "Proctor Free Submission initial modal Description 2"
+  },
+  "Ext_SecurityChecks_ExamSubmit_Modal_CancelButton_Text": {
+    "message": "Volver al examen",
+    "description": "Proctor Free Submission initial modal cancel button"
+  },
+  "Ext_SecurityChecks_ExamSubmit_Modal_SubmitButton_Text": {
+    "message": "Finalizar sesión",
+    "description": "Proctor Free Submission initial modal submit button"
+  },
+  "Ext_SecurityChecks_ExamTabExists_Modal_Description_Text": {
+    "message": "No puede abrir su examen en varias pestañas."
+  },
+  "Ext_SecurityChecks_ExamTabExists_Modal_Ok_Button_Text": {
+    "message": "Ok"
+  },
+  "Ext_SecurityChecks_RestartExam_Modal_Description_Text": {
+    "message": "No puede continuar con su examen sin una conexión activa a ProctorU."
+  },
+  "Ext_AutoSubmitButton_ProctorFree_Button_Active_Text": {
+    "message": "Finalizar sesión",
+    "description": "Proctor Free Submission button active"
+  },
+  "Ext_AutoSubmitButton_ProctorFree_Button_InActive_Text": {
+    "message": "Sesión finalizada",
+    "description": "Proctor Free Submission button inactive"
+  },
+  "Ext_AutoSubmitButton_ProctorFree_Button_Pending_Text": {
+    "message": "Finalizando...",
+    "description": "Proctor Free Submission button pending"
+  },
+  "Widget_ProctorUButton_Default_Text": {
+    "message": "Haga clic aquí para abrir la configuración de ProctorU",
+    "description": "LMS Widget: The text on ProctorU button tooltip."
+  },
+  "Widget_ProctorUButton_WrongKeys_Html": {
+    "message": "Hemos detectado un problema con sus claves de desarrollo configuradas incorrectamente. Comuníquese con nuestro &nbsp;<a class=\"pu-error-link\" target=\"_blank\" href=\"$LINK$\">support</a>&nbsp; equipo para obtener más ayuda.",
+    "description": "LMS Widget: The Development Warning Text on ProctorU button tooltip.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Widget_ProctorUButton_WidgetInternalError_Html": {
+    "message": "We have detected an issue. Please reach out to our &nbsp;<a class=\"pu-error-link\" target=\"_blank\" href=\"$LINK$\">support</a>&nbsp; team for further assistance.",
+    "description": "LMS Widget: The Widget Internal Error Text on ProctorU button tooltip.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Widget_WelcomeScreen_StartButton_Text": {
+    "message": "Get started",
+    "description": "LMS Widget: The start button text."
+  },
+  "Widget_WelcomeScreen_ImportButton_Text": {
+    "message": "Import existing exam",
+    "description": "LMS Widget: The import button text."
+  },
+  "Widget_WelcomeScreen_ImportButton_DisabledTooltip_Text": {
+    "message": "No exams available for import.",
+    "description": "LMS Widget: The text on import button tooltip."
+  },
+  "Widget_WelcomeScreen_StartButton_DisabledTooltip_Text": {
+    "message": "There are no active terms set-up for your Institution which are required for exam setup. Please contact your system administrator to create an active term to set up an exam.",
+    "description": "LMS Widget: The text on start button tooltip."
+  },
+  "Widget_WelcomeScreen_Description_Text": {
+    "message": "Get started to set the proctoring settings for your exam. If you have previous exam settings, you can choose to import an existing exam.",
+    "description": "LMS Widget: Step description text."
+  },
+  "Widget_WelcomeScreen_KnowMore_Html": {
+    "message": "If you'd like to know more, please visit <br /><a target=\"_blank\" href=\"$LINK$\">www.proctoru.com</a>",
+    "description": "LMS Widget: Text for know more link.",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Widget_IncidentReportNotificationCard_Notification_Label_Text": {
+    "message": "Send incident report notifications to specific contacts",
+    "description": "LMS Widget: Notification label text."
+  },
+  "Widget_IncidentReportNotificationCard_Card_Title_Text": {
+    "message": "Incident report notifications",
+    "description": "LMS Widget: Incident report notification card title text."
+  },
+  "Widget_TestTakerNotificationCard_Notification_Start_Label_Text": {
+    "message": "Choose to be notified when a test-taker starts the exam",
+    "description": "LMS Widget: Exam start notification label text."
+  },
+  "Widget_TestTakerNotificationCard_Email_Checkbox_Label_Text": {
+    "message": "Email",
+    "description": "LMS Widget: Email checkbox label text."
+  },
+  "Widget_TestTakerNotificationCard_Desktop_Checkbox_Label_Text": {
+    "message": "Desktop",
+    "description": "LMS Widget: Desktop checkbox label text."
+  },
+  "Widget_TestTakerNotificationCard_Sms_Checkbox_Label_Text": {
+    "message": "SMS",
+    "description": "LMS Widget: Sms checkbox label text."
+  },
+  "Widget_TestTakerNotificationCard_Card_Title_Text": {
+    "message": "Test-taker start notifications",
+    "description": "LMS Widget: Test-taker notification card title text."
+  },
+  "Widget_ContactInfoCard_Card_Title_Text": {
+    "message": "Contact information",
+    "description": "LMS Widget: Contact info card title text."
+  },
+  "Widget_ContactInfoCard_Description_Text": {
+    "message": "This information will be used in the event that a test-taker encounters a problem which can not be resolved solely by ProctorU.",
+    "description": "LMS Widget: Contact info card description text."
+  },
+  "Widget_ContactInfoCard_Name_Input_Label_Text": {
+    "message": "Name",
+    "description": "LMS Widget: Name Input label text."
+  },
+  "Widget_ContactInfoCard_Email_Input_Label_Text": {
+    "message": "Email",
+    "description": "LMS Widget: Email Input label text."
+  },
+  "Widget_ContactInfoCard_Phone_Input_Label_Text": {
+    "message": "Phone",
+    "description": "LMS Widget: Phone Input label text."
+  },
+  "Widget_ContactInfoCard_Notes_Input_Label_Text": {
+    "message": "Notes & Available Times",
+    "description": "LMS Widget: Notes & Available Times Input label text."
+  },
+  "Widget_ContactInfoAndNotificationsView_None_Text": {
+    "message": "None",
+    "description": "LMS Widget: Text to be shown when list is empty."
+  },
+  "Widget_ContactInfoAndNotificationsView_Contacts_Block_Text": {
+    "message": "Contact Information",
+    "description": "LMS Widget: Contact Information title text."
+  },
+  "Widget_ContactInfoAndNotificationsView_TestTaker_Block_Text": {
+    "message": "Test-taker start notifications",
+    "description": "LMS Widget: Test-taker block title text."
+  },
+  "Widget_ContactInfoAndNotificationsView_Notifications_Block_Text": {
+    "message": "Via",
+    "description": "LMS Widget: Test-taker notification block title text."
+  },
+  "Widget_ContactInfoAndNotificationsView_Incident_Report_Text": {
+    "message": "Incident report notifications",
+    "description": "LMS Widget: Incident report notification block title text."
+  },
+  "Widget_ValidationMessage_NotificationConfigurationList_NotificationSendingMethods_Text": {
+    "message": "Please choose how you would like to receive notifications.",
+    "description": "LMS Widget: Notification type validation text on Test-taker start notifications card."
+  },
+  "Widget_ValidationMessage_SelectedEmailsShouldBeNotified_Text": {
+    "message": "Must select an email address.",
+    "description": "LMS Widget: Email validation text on Test-taker start notifications card."
+  },
+  "Widget_ValidationMessage_ContactInfo_IncorrectEmail_Text": {
+    "message": "The email address is not correct.",
+    "description": "LMS Widget: Incorrect email validation text on Contact information card."
+  },
+  "Widget_ValidationMessage_ContactInfo_IncorrectPhone_Text": {
+    "message": "The phone number is not correct.",
+    "description": "LMS Widget: Incorrect phone number validation text on Contact information card."
+  },
+  "Widget_ValidationMessage_ContactInfo_RequireName_Text": {
+    "message": "Contact name can't be blank.",
+    "description": "LMS Widget: Require name validation text on Contact information card."
+  },
+  "Widget_ValidationMessage_ContactInfo_RequireEmail_Text": {
+    "message": "Contact email can't be blank.",
+    "description": "LMS Widget: Require email validation text on Contact information card."
+  },
+  "Widget_ValidationMessage_ContactInfo_RequirePhone_Text": {
+    "message": "Contact phone can't be blank.",
+    "description": "LMS Widget: Require phone validation text on Contact information card."
+  },
+  "Widget_ValidationMessage_WhitelistedUrls_Text": {
+    "message": "The URL format is invalid. URL must contain http:// or https://",
+    "description": "LMS Widget: URL validation text on Whitelisted Urls card."
+  },
+  "Widget_ValidationMessage_Password_Text": {
+    "message": "Password field can't be empty",
+    "description": "LMS Widget: Quiz password validation text on LMS page."
+  },
+  "Widget_ValidationMessage_ExamTitle_Text": {
+    "message": "Exam title field is required",
+    "description": "LMS Widget: Exam title validation text on LMS page."
+  },
+  "Widget_ValidationMessage_SessionConfigurationUCardName_Text": {
+    "message": "Name is required",
+    "description": "LMS Widget: UCard name validation text on LMS page."
+  },
+  "Widget_ValidationMessage_ImportStep_ServiceId_Text": {
+    "message": "Proctoring service must be selected.",
+    "description": "LMS Widget: Service id validation text on Import Step."
+  },
+  "Widget_ValidationMessage_ImportStep_TermId_Text": {
+    "message": "Exam term must be selected.",
+    "description": "LMS Widget: Term id validation text on Import Step."
+  },
+  "Widget_ValidationMessage_ImportStep_SelectedExamId_Text": {
+    "message": "Exam for import must be selected.",
+    "description": "LMS Widget: Selected exam id validation text on Import Step."
+  },
+  "Widget_ValidationMessage_LMSData_RequireDuration_Text": {
+    "message": "Please enter an exam duration.",
+    "description": "LMS Widget: Require duration validation text on LMS page."
+  },
+  "Widget_ValidationMessage_LMSData_Duration_Text": {
+    "message": "Duration must be greater than 0.",
+    "description": "LMS Widget: Duration validation text on LMS page."
+  },
+  "Widget_ValidationMessage_LMSData_Window_Text": {
+    "message": "Please, select a date and time in LMS.",
+    "description": "LMS Widget: Window validation text on LMS page."
+  },
+  "Widget_ValidationMessage_ExamWindows_Text": {
+    "message": "Exam Window can't be blank",
+    "description": "LMS Widget: Exam Window validation text."
+  },
+  "Widget_ValidationMessage_ExamWindowsFrom_Text": {
+    "message": "Date can't be empty",
+    "description": "LMS Widget: Exam windows from validation text."
+  },
+  "Widget_ValidationMessage_ExamWindowsTo_Text": {
+    "message": "The difference between ‘From’ and ‘To’ times must be more than",
+    "description": "LMS Widget: Exam windows to validation text."
+  },
+  "Widget_ValidationMessage_ExamWindowsToOrder_Text": {
+    "message": "‘From’ date must be set before or on the same day as ‘To’ date",
+    "description": "LMS Widget: Exam windows to order validation text."
+  },
+  "Widget_ValidationMessage_ExamWindowsToRequire_Text": {
+    "message": "Date can't be empty",
+    "description": "LMS Widget: Require exam windows to validation text."
+  },
+  "Widget_ValidationMessage_WindowSizeAllowed_Text": {
+    "message": "Windows can not be set to Maximized or Fullscreen with 3rd party application use allowed.",
+    "description": "LMS Widget: Validate window resize setting."
+  },
+  "Widget_ValidationMessage_LostFocus_Text": {
+    "message": "3rd party application use is not allowed when the Window option is set to fullscreen or maximized.",
+    "description": "LMS Widget: Validate lost focus setting."
+  },
+  "Widget_ValidationMessage_DetailsTerm_Text": {
+    "message": "You must select a term to continue.",
+    "description": "LMS Widget: Require details term validation text on Service Type card."
+  },
+  "Widget_ServiceType_Title_Text": {
+    "message": "Select a proctoring service",
+    "description": "LMS Widget: Text for proctoring service title."
+  },
+  "Widget_DetailsView_Title_Text": {
+    "message": "Your Saved Settings",
+    "description": "LMS Widget: Text for saved settings card title."
+  },
+  "Widget_DetailsView_Department_Text": {
+    "message": "Department",
+    "description": "LMS Widget: Text for department title."
+  },
+  "Widget_DetailsView_Term_Text": {
+    "message": "Term",
+    "description": "LMS Widget: Text for term title."
+  },
+  "Widget_DetailsView_Service_Text": {
+    "message": "Service",
+    "description": "LMS Widget: Text for service title."
+  },
+  "Widget_ImportScreen_TermTitle_Text": {
+    "message": "Set your term",
+    "description": "LMS Widget: Text for term card title."
+  },
+  "Widget_ImportScreen_TermPlaceholder_Text": {
+    "message": "Please select term",
+    "description": "LMS Widget: Text for term select placeholder."
+  },
+  "Widget_ImportScreen_TermName_Text": {
+    "message": "Exam Term",
+    "description": "LMS Widget: Text for exam term name."
+  },
+  "Widget_ImportScreen_ImportTitle_Text": {
+    "message": "Import existing exam",
+    "description": "LMS Widget: Text for import exam card title."
+  },
+  "Widget_ImportScreen_ImportLabel_Text": {
+    "message": "Importing an existing exam will complete the from with previously recorded settings",
+    "description": "LMS Widget: Text for import label."
+  },
+  "Widget_ImportScreen_ImportPlaceholder_Text": {
+    "message": "Enter an exam name or choose from list",
+    "description": "LMS Widget: Text for import placeholder."
+  },
+  "Widget_ImportScreen_SelectServiceTitle_Text": {
+    "message": "Select a proctoring service",
+    "description": "LMS Widget: Text for select proctoring service card title."
+  },
+  "Widget_ImportScreen_SelectService_Text": {
+    "message": "Please select service",
+    "description": "LMS Widget: Text for select service name."
+  },
+  "Widget_EditButton_Button_Text": {
+    "message": "Edit",
+    "description": "LMS Widget: Edit button text."
+  },
+  "Widget_OptionalStep_Info_Text": {
+    "message": "This step is optional. Click \"Continue\" to move to the next screen.",
+    "description": "LMS Widget: Optional step info Text."
+  },
+  "Widget_WhitelistUrl_ValidationMessage_Text": {
+    "message": "The URL format is invalid. URL must contain http:// or https://",
+    "description": "LMS Widget: Validation message text."
+  },
+  "Widget_MultiSelect_NoMatches_Text": {
+    "message": "No matches.",
+    "description": "LMS Widget: No matches text."
+  },
+  "Widget_ExamSecurityLevelCard_Title_Text": {
+    "message": "Choose exam security level",
+    "description": "LMS Widget: Text for card title."
+  },
+  "Widget_ExamSecurityLevelCard_RecommendedLabel_Html": {
+    "message": "<strong>Recommended</strong> - This is the most secure exam setting and is suggested by ProctorU for most exams",
+    "description": "LMS Widget: Text for recommended label."
+  },
+  "Widget_ExamSecurityLevelCard_CustomLabel_Html": {
+    "message": "<strong>Custom</strong> - Customize the security settings to fit your exam needs",
+    "description": "LMS Widget: Text for custom label."
+  },
+  "Widget_SecurityGuidelinesCard_Title_Text": {
+    "message": "Exam security guidelines",
+    "description": "LMS Widget: Text for card title."
+  },
+  "Widget_SecurityGuidelinesCard_BrowserTabsSelect_Text": {
+    "message": "Allow use of browser tabs",
+    "description": "LMS Widget: Text for browser tabs select."
+  },
+  "Widget_SecurityGuidelinesCard_BrowserTabsSelect_RestrictedHelper_Text": {
+    "message": "Test-taker will not be able to open new browser tabs during exam.",
+    "description": "LMS Widget: Text for restricted helper text of the browser tabs select."
+  },
+  "Widget_SecurityGuidelinesCard_BrowserTabsSelect_AllowedHelper_Text": {
+    "message": "Test-taker is permitted to open new browser tabs during exam.",
+    "description": "LMS Widget: Text for allowed helper text of the browser tabs select."
+  },
+  "Widget_SecurityGuidelinesCard_AllowCopyPasteSelect_Text": {
+    "message": "Allow copy text or images",
+    "description": "LMS Widget: Text for allow copy paste select."
+  },
+  "Widget_SecurityGuidelinesCard_AllowCopyPasteSelect_Disabled_Hint_Text": {
+    "message": "Test-taker will not be able to copy text or images during exam.",
+    "description": "LMS Widget: Disable copy text and images text."
+  },
+  "Widget_SecurityGuidelinesCard_AllowCopyPasteSelect_Enabled_Hint_Text": {
+    "message": "Test-taker is permitted to copy text or images during exam.",
+    "description": "LMS Widget: Allow copy text and images text."
+  },
+  "Widget_SecurityGuidelinesCard_WindowSizeAllowedSelect_Text": {
+    "message": "Set exam window size",
+    "description": "LMS Widget: Text for window size allowed select."
+  },
+  "Widget_SecurityGuidelinesCard_WindowSizeAllowedSelect_MaximizedHelperText_Text": {
+    "message": "Test-taker’s window will remain maximized during exam. It cannot be resized or minimized.",
+    "description": "LMS Widget: Text for maximized helper text of the window size allowed select."
+  },
+  "Widget_SecurityGuidelinesCard_WindowSizeAllowedSelect_FullscreenHelperText_Text": {
+    "message": "Test-taker exam is launched in fullscreen mode to prevent new browser tabs, windows or third party applications.",
+    "description": "LMS Widget: Text for fullscreen helper text of the window size allowed select."
+  },
+  "Widget_SecurityGuidelinesCard_WindowSizeAllowedSelect_ResizedHelperText_Text": {
+    "message": "The test-taker is permitted to resize the browser window during exam.",
+    "description": "LMS Widget: Text for resized helper text of the window size allowed select."
+  },
+  "Widget_SecurityGuidelinesCard_LostFocusSelect_Text": {
+    "message": "Third party application use",
+    "description": "LMS Widget: Text for lost focus select."
+  },
+  "Widget_SecurityGuidelinesCard_LostFocusSelect_RestrictedHelperText_Text": {
+    "message": "Test-taker is prevented from using outside programs and applications during exam.",
+    "description": "LMS Widget: Text for restricted helper text of the lost focus select."
+  },
+  "Widget_SecurityGuidelinesCard_LostFocusSelect_AllowedHelperText_Text": {
+    "message": "Test-taker is permitted to access outside programs and applications during exam.",
+    "description": "LMS Widget: Text for allowed helper text of the lost focus select."
+  },
+  "Widget_ExamSettingsCard_Title_Text": {
+    "message": "Test-taker resources",
+    "description": "LMS Widget: Text for card title."
+  },
+  "Widget_ExamSettingsCard_ToggleLabel_Text": {
+    "message": "Allow resources for this exam",
+    "description": "LMS Widget: Text for toggle label."
+  },
+  "Widget_ExamSettingsCard_LostFocusConfirmTitle_Text": {
+    "message": "Third Party Application Use Alert",
+    "description": "LMS Widget: Text for the lost focus confirm title."
+  },
+  "Widget_ExamSettingsCard_LostFocusConfirmText_Text": {
+    "message": "Allowing this application will change the Third Party Application Use Setting to \"Allowed.\" Would you like to make this change?",
+    "description": "LMS Widget: Text for the lost focus confirm text."
+  },
+  "Widget_ExamNotesCard_Title_Text": {
+    "message": "Additional exam notes",
+    "description": "LMS Widget: Text for card title."
+  },
+  "Widget_ExamNotesCard_Label_Text": {
+    "message": "Please enter any information necessary to successfully proctor this exam. Additional exam notes will be visible to proctors only.",
+    "description": "LMS Widget: Text for card label."
+  },
+  "Widget_SecuritySettingsView_Title_Text": {
+    "message": "Test-taker resources",
+    "description": "LMS Widget: Text for card title."
+  },
+  "Widget_SecuritySettingsView_AdditionalExamNotesLabel_Text": {
+    "message": "Additional exam notes",
+    "description": "LMS Widget: Text for additional exam notes label."
+  },
+  "Widget_SecuritySettingsView_BrowserTabsLabel_Text": {
+    "message": "Allow use of browser tabs",
+    "description": "LMS Widget: Text for browser tabs label."
+  },
+  "Widget_SecuritySettingsView_AllowCopyPasteLabel_Text": {
+    "message": "Allow copy text and images",
+    "description": "LMS Widget: Text for allow copy paste label."
+  },
+  "Widget_SecuritySettingsView_WindowSizeAllowedLabel_Text": {
+    "message": "Exam window size",
+    "description": "LMS Widget: Text for window size allowed label."
+  },
+  "Widget_SecuritySettingsView_LostFocusLabel_Text": {
+    "message": "Third party application use",
+    "description": "LMS Widget: Text for lost focus label."
+  },
+  "Widget_WhitelistedUrlsCard_CardTitle_Text": {
+    "message": "Allow websites (Optional)",
+    "description": "LMS Widget: Text for card title."
+  },
+  "Widget_WhitelistedUrlsCard_CardTitleTooltip_Text": {
+    "message": "This is the whitelist of URLs. Tabs with these URLs can remain open during the exam.",
+    "description": "LMS Widget: Text for card title tooltip."
+  },
+  "Widget_WhitelistedUrlsCard_CardContent_Text": {
+    "message": "These websites can be visited during an exam despite any restrictive settings.",
+    "description": "LMS Widget: Text for card content."
+  },
+  "Widget_WhitelistedUrlsCard_Item_Label_Text": {
+    "message": "Open on exam launch?",
+    "description": "LMS Widget: Text for te label of the url access checkbox."
+  },
+  "Widget_ExamSaveToastNotification_Text": {
+    "message": "Your ProctorU settings have been successfully saved.",
+    "description": "LMSWidget: Text for the toast on saving exam"
+  },
+  "ExtensionPopup_Footer_Help_Text": {
+    "message": "Ayuda",
+    "description": "ExtensionPopup: Help link text."
+  },
+  "ExtensionPopup_ChatInput_Placeholder_Text": {
+    "message": "Type and hit enter to send message",
+    "description": "ExtensionPopup: Chat input placeholder text."
+  },
+  "SessionConfiguration_Incident_Created_Text": {
+    "message": "When the use of outside programs and applications during the exam is detected, incidents will be created.",
+    "description": "SessionConfiguration: Incident created description."
+  },
+  "SessionConfiguration_Incident_Show_Text": {
+    "message": "When the use of outside programs and applications during the exam is detected, a warning will be shown. After 1 warning, the exam will be shut down and an incident report is created. Do you wish to continue?",
+    "description": "SessionConfiguration: Incident show description."
+  },
+  "SessionConfiguration_Incident_Tooltip_Default_Text": {
+    "message": "Test-taker is permitted to access outside programs and applications during the exam.",
+    "description": "SessionConfiguration: Tooltip default description."
+  },
+  "SessionConfiguration_No_Text": {
+    "message": "No",
+    "description": "SessionConfiguration: Button text description."
+  },
+  "SessionConfiguration_Yes_Text": {
+    "message": "Yes",
+    "description": "SessionConfiguration: Yes text description."
+  },
+  "SessionConfiguration_Application_Label_Text": {
+    "message": "Third party application use",
+    "description": "SessionConfiguration: Application label text description."
+  },
+  "SessionConfiguration_Restricted_Option_Text": {
+    "message": "Restricted",
+    "description": "SessionConfiguration: Restricted option text description."
+  },
+  "SessionConfiguration_Create_Incident_Option_Text": {
+    "message": "Create Incidents",
+    "description": "SessionConfiguration: Create Incidents option text description."
+  },
+  "SessionConfiguration_Allowed_Option_Text": {
+    "message": "Allowed",
+    "description": "SessionConfiguration: Allowed option text description."
+  },
+  "SessionConfiguration_BrowserTabsSelect_Allowed_Hint_Text": {
+    "message": "Test-taker is permitted to open new browser tabs during exam.",
+    "description": "SessionConfiguration: Allowed tabs hint description."
+  },
+  "SessionConfiguration_BrowserTabsSelect_Restricted_Hint_Text": {
+    "message": "Test-taker will not be able to open new browser tabs during exam.",
+    "description": "SessionConfiguration: Allowed hint default description."
+  },
+  "SessionConfiguration_Window_Maximized_Text": {
+    "message": "Test-taker’s window will remain maximized during exam. It cannot be resized or minimized.",
+    "description": "SessionConfiguration: Window maximized text."
+  },
+  "SessionConfiguration_Window_Fullscreen_Text": {
+    "message": "Test-taker exam is launched in fullscreen mode to prevent new browser tabs, windows or third party applications.",
+    "description": "SessionConfiguration: Window fullscreen text."
+  },
+  "SessionConfiguration_Window_Default_Text": {
+    "message": "The test-taker is permitted to resize the browser window during exam.",
+    "description": "SessionConfiguration: Window default text."
+  },
+  "SessionConfiguration_Allow_Browser_Tabs_Text": {
+    "message": "Allow use of browser tabs",
+    "description": "SessionConfiguration: Allow browser tabs text."
+  },
+  "SessionConfiguration_Browser_Tabs_Text": {
+    "message": "Browser Tabs",
+    "description": "SessionConfiguration: Browser Tabs text."
+  },
+  "SessionConfiguration_AllowCopyPasteSelect_Disabled_Hint_Text": {
+    "message": "Test-taker will not be able to copy text or images during exam.",
+    "description": "SessionConfiguration: Allow copy text adn images text."
+  },
+  "SessionConfiguration_AllowCopyPasteSelect_Enabled_Hint_Text": {
+    "message": "Test-taker is permitted to copy text or images during exam.",
+    "description": "SessionConfiguration: Enabled tabs hint description."
+  },
+  "SessionConfiguration_AllowCopyPasteSelect_Text": {
+    "message": "Allow copy text and image",
+    "description": "SessionConfiguration: Allow copy text adn images text."
+  },
+  "SessionConfiguration_Window_Size_Text": {
+    "message": "Set exam window size",
+    "description": "SessionConfiguration: Set exam window text."
+  },
+  "SessionConfiguration_Window_Size_Allowed_Text": {
+    "message": "Window sized allowed",
+    "description": "SessionConfiguration: Window sized allowed."
+  },
+  "SessionConfiguration_Resources_Description_Text": {
+    "message": "All resources will be restricted with no ability to be changed.",
+    "description": "SessionConfiguration: Resources description text."
+  },
+  "SessionConfiguration_Application_Lost_Focus_Text": {
+    "message": "Application lost focus",
+    "description": "SessionConfiguration: Application lost focus description text."
+  },
+  "SessionConfiguration_Footer_Text": {
+    "message": "Computer calculator, notes and desktop software will be removed from allowed resources if Lost focus is restricted",
+    "description": "SessionConfiguration: Footer description text."
+  },
+  "SessionConfiguration_Maximized_Option_Text": {
+    "message": "Maximized",
+    "description": "SessionConfiguration: Maximized option text."
+  },
+  "SessionConfiguration_Fullscreen_Option_Text": {
+    "message": "Fullscreen",
+    "description": "SessionConfiguration: Fullscreen option text."
+  },
+  "SessionConfiguration_Fullscreen_F11_Option_Text": {
+    "message": "Fullscreen (f11)",
+    "description": "SessionConfiguration: Fullscreen (f11) option text."
+  },
+  "SessionConfiguration_Resized_Option_Text": {
+    "message": "Resized",
+    "description": "SessionConfiguration: Resized option text."
+  },
+  "SessionConfiguration_Resizable_Option_Text": {
+    "message": "Resizable",
+    "description": "SessionConfiguration: Resizable option text."
+  },
+  "Prechecks_RunLMI_Title_Text": {
+    "message": "Descargar e instalar",
+    "description": "Prechecks RunLMI Component Title"
+  },
+  "Prechecks_Welcome_Title_Text": {
+    "message": "¡Bienvenido a ProctorU!",
+    "description": "Prechecks Welcome Component Title"
+  },
+  "Prechecks_Welcome_Download_Paragraph_Text": {
+    "message": "Para conectarse a un supervisor, haga clic en Descargar y comience su sesión.",
+    "description": "Prechecks Welcome Component Download Paragraph"
+  },
+  "Prechecks_Welcome_Download_Button_Text": {
+    "message": "Descargar",
+    "description": "Prechecks Welcome Component Download Button"
+  },
+  "Prechecks_ExamInstructions_Title_Text": {
+    "message": "Si necesita ayuda",
+    "description": "Prechecks ExamInstructions Component Title"
+  },
+  "Prechecks_ExamInstructions_Column1_Html": {
+    "message": "Haga clic en ProctorU \"owl\" icono a la derecha de la barra de búsqueda",
+    "description": "Prechecks ExamInstructions Component Column1"
+  },
+  "Prechecks_ExamInstructions_Column2_Html": {
+    "message": "Hacer clic \"Help\" para comunicarse con un representante de soporte",
+    "description": "Prechecks ExamInstructions Component Column2"
+  },
+  "Prechecks_ExamRules_StepTitle_Text": {
+    "message": "Verificación de reglas de examen",
+    "description": "Prechecks ExamRules Component Step Title"
+  },
+  "Prechecks_ExamRules_MoreIcon_Text": {
+    "message": "Haga clic para obtener más",
+    "description": "Prechecks ExamRules Component More Icon"
+  },
+  "Prechecks_ExamRules_Guidelines_Title_Text": {
+    "message": "Directrices",
+    "description": "Prechecks ExamRules Component Guidelines Title"
+  },
+  "Prechecks_ExamRules_Guidelines_Rule_1_Text": {
+    "message": "Permanezca sentado",
+    "description": "Prechecks ExamRules Component Guidelines Rule"
+  },
+  "Prechecks_ExamRules_Guidelines_Rule_2_Text": {
+    "message": "Mantenga su cuerpo dentro del marco",
+    "description": "Prechecks ExamRules Component Guidelines Rule"
+  },
+  "Prechecks_ExamRules_Guidelines_Rule_3_Text": {
+    "message": "Quédate tranquilo",
+    "description": "Prechecks ExamRules Component Guidelines Rule"
+  },
+  "Prechecks_ExamRules_Guidelines_Rule_4_Text": {
+    "message": "Quédate en una habitación privada",
+    "description": "Prechecks ExamRules Component Guidelines Rule"
+  },
+  "Prechecks_ExamRules_Accommodations_Title_Text": {
+    "message": "Acomodaciones",
+    "description": "Prechecks ExamRules Component Accommodations Title"
+  },
+  "Prechecks_ExamRules_Accommodations_NoAccommodations_Text": {
+    "message": "No hay alojamientos activos en su cuenta",
+    "description": "Prechecks ExamRules Component Accommodations NoAccommodations"
+  },
+  "Prechecks_ExamRules_Accomodations_Auto_NoAccomodations_Text": {
+    "message": "Please confirm any accommodations with your testing organization.",
+    "description": "Prechecks ExamRules Component Accomodations Auto NoAccomodations"
+  },
+  "Prechecks_ExamRules_Rules_Title_Text": {
+    "message": "Reglas",
+    "description": "Prechecks ExamRules Component Rules Title"
+  },
+  "Prechecks_ExamRules_Rules_Note_Text": {
+    "message": "Revise las siguientes reglas con atención",
+    "description": "Prechecks ExamRules Component Rules Note"
+  },
+  "Prechecks_ExamRules_Rules_Default_Message_Text": {
+    "message": "Revise detenidamente las demás pautas descritas en esta página.",
+    "description": "Prechecks ExamRules Component Rules Default Message"
+  },
+  "Prechecks_ExamRules_Rules_Messages_Allowed_Copy_Enabled_Text": {
+    "message": "Se le permitirá copiar texto e imágenes durante el examen.",
+    "description": "Prechecks ExamRules Component Rules Allow Copy/Paste Enabled"
+  },
+  "Prechecks_ExamRules_Rules_Messages_Allowed_Copy_Disabled_Text": {
+    "message": "No se le permitirá copiar texto e imágenes durante el examen.",
+    "description": "Prechecks ExamRules Component Rules Allow Copy/Paste Disabled"
+  },
+  "Prechecks_ExamRules_Rules_Messages_Browser_Tabs_Allowed_Text": {
+    "message": "Se le permitirá abrir nuevas pestañas del navegador durante el examen.",
+    "description": "Prechecks ExamRules Component Rules Browser Tabs Allowed"
+  },
+  "Prechecks_ExamRules_Rules_Messages_Browser_Tabs_Restricted_Text": {
+    "message": "Por favor, asegúrese de guardar y cerrar todas las pestañas del navegador.",
+    "description": "Prechecks ExamRules Component Rules Browser Tabs Restricted"
+  },
+  "Prechecks_ExamRules_Rules_Messages_Lost_Focus_Allowed_Text": {
+    "message": "Podrá cambiar de aplicación durante el examen",
+    "description": "Prechecks ExamRules Component Rules Browser Lost Focus Allowed"
+  },
+  "Prechecks_ExamRules_Rules_Messages_Lost_Focus_Restricted_Text": {
+    "message": "No podrá cambiar de aplicación durante el examen",
+    "description": "Prechecks ExamRules Component Rules Browser Lost Focus Restricted"
+  },
+  "Prechecks_ExamRules_Rules_Messages_Window_Size_Allowed_Resized_Text": {
+    "message": "La ventana de su navegador cambiará de tamaño durante el examen",
+    "description": "Prechecks ExamRules Component Rules Browser Tabs Restricted"
+  },
+  "Prechecks_ExamRules_Rules_Messages_Window_Size_Allowed_Maximized_Text": {
+    "message": "La ventana de su navegador permanecerá maximizada durante el examen",
+    "description": "Prechecks ExamRules Component Rules Browser Lost Focus Allowed"
+  },
+  "Prechecks_ExamRules_Rules_Messages_Window_Size_Allowed_Fullscreen_Text": {
+    "message": "La ventana de su navegador permanecerá en modo de pantalla completa durante el examen",
+    "description": "Prechecks ExamRules Component Rules Browser Lost Focus Restricted"
+  },
+  "Prechecks_ExamRules_Breaks_Title_Text": {
+    "message": "Pausas",
+    "description": "Prechecks ExamRules Component Breaks Title"
+  },
+  "Prechecks_ExamRules_Breaks_Breaks_Allowed_Text": {
+    "message": "Se le permiten descansos durante su examen",
+    "description": "Prechecks ExamRules Component Breaks Allowed"
+  },
+  "Prechecks_ExamRules_Breaks_No_Breaks_Allowed_Text": {
+    "message": "No se permiten descansos durante su examen",
+    "description": "Prechecks ExamRules Component Breaks Not Allowed"
+  },
+  "Prechecks_ExamRules_Allowed_Resources_Title_Text": {
+    "message": "Recursos permitidos",
+    "description": "Prechecks ExamRules Component Allowed Resources Title"
+  },
+  "Prechecks_ExamRules_Allowed_Resources_Note_Text": {
+    "message": "Se le permiten los siguientes recursos para su examen",
+    "description": "Prechecks ExamRules Component Allowed Resources Note"
+  },
+  "Prechecks_ExamRules_Allowed_Resources_Not_Allowed_Text": {
+    "message": "No se permiten recursos para este examen",
+    "description": "Prechecks ExamRules Component Allowed Resources Not Allowed"
+  },
+  "Prechecks_ExamRules_Other_Resources_Title_Text": {
+    "message": "Otros recursos",
+    "description": "Prechecks ExamRules Component Other Resources Title"
+  },
+  "Prechecks_ExamRules_Other_Resources_Not_Allowed_Text": {
+    "message": "No se permiten otros recursos para este examen",
+    "description": "Prechecks ExamRules Component Other Resources Not Allowed"
+  },
+  "InComingCallModal_Incoming_Call_Dialling_Text_Text": {
+    "message": "Vocación",
+    "description": "Incoming Call Modal: Incoming call dialling text"
+  },
+  "Ext_SecurityChecks_Lost_Focus_Modal_Content1_Text": {
+    "message": "No se le permite salir de su examen. Su sesión ya ha finalizado y se presentará un informe a su institución. Si necesita más ayuda, puede conectarse con nuestro chat en vivo",
+    "description": "Security Checks Lost Modal Content1"
+  },
+  "Ext_SecurityChecks_Lost_Focus_Modal_Content2_Text": {
+    "message": "Aquí",
+    "description": "Security Checks Lost Modal Content2"
+  },
+  "Ext_SecurityChecks_Shared_Ok_Text": {
+    "message": "Ok",
+    "description": "Security Checks Lost Focus Modal Close"
+  },
+  "Ext_SecurityChecks_Exam_Break_Modal_Content1_Text": {
+    "message": "Estás a punto de iniciar una pausa.",
+    "description": "Security Checks Exam Break Modal Content1"
+  },
+  "Ext_SecurityChecks_Exam_Break_Modal_Content2_Text": {
+    "message": "¿Desea continuar?",
+    "description": "Security Checks Exam Break Modal Content2"
+  },
+  "Ext_SecurityChecks_Exam_Break_Modal_Yes_Text": {
+    "message": "si",
+    "description": "Security Checks Exam Break Modal Yes"
+  },
+  "Ext_SecurityChecks_Exam_Break_Modal_No_Text": {
+    "message": "No",
+    "description": "Security Checks Exam Break Modal No"
+  },
+  "Ext_SecurityChecks_Exam_Break_Modal_No_Content_Text": {
+    "message": "Has elegido no tomar un descanso en este momento.",
+    "description": "Security Checks Exam Break Modal No Content"
+  },
+  "Ext_SecurityChecks_Exam_Break_Modal_Curent_Break_Content1_Text": {
+    "message": "Actualmente estás de vacaciones.",
+    "description": "Security Checks Exam Break Modal Current Break Content1"
+  },
+  "Ext_SecurityChecks_Exam_Break_Modal_Curent_Break_Content2_Text": {
+    "message": "Haga clic en el botón \"HERE\" para notificar a su supervisor que ha vuelto del descanso.",
+    "description": "Security Checks Exam Break Modal Current Break Content1"
+  },
+  "Ext_SecurityChecks_Exam_Break_Modal_Curent_Break_Here_Button_Text": {
+    "message": "Aquí.",
+    "description": "Security Checks Exam Break Modal Current Break Button Text"
+  },
+  "Ext_SecurityChecks_Exam_Break_Modal_Wait_For_Proctor_Content1_Text": {
+    "message": "Por favor sea paciente",
+    "description": "Security Checks Exam Break Modal Wait For Proctor Content1"
+  },
+  "Ext_SecurityChecks_Exam_Break_Modal_Wait_For_Proctor_Content2_Text": {
+    "message": "mientras tu supervisor te vuelve a conectar.",
+    "description": "Security Checks Exam Break Modal Wait For Proctor Content2"
+  },
+  "Ext_SecurityChecks_Extension_Disabled_Content_Html": {
+    "message": "Su sesión de examen ha finalizado porque se requiere la extensión ProctorU para realizar la prueba. Si necesita asistencia inmediata, comuníquese con nuestro <a href='$LINK$' target='_blank'>live support</a>.",
+    "description": "Security Checks Disabled Extension Text",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Ext_SecurityChecks_Extension_Disabled_Close_Button_Text": {
+    "message": "Cerrar",
+    "description": "Security Checks Extension Disabled Button"
+  },
+  "Ext_SecurityChecks_Aborted_Session_Content_Text": {
+    "message": "Tu sesión de examen ya ha finalizado. Por favor conéctese con nuestro ",
+    "description": "Security Checks Disabled Extension Text"
+  },
+  "Ext_SecurityChecks_Aborted_Session_Content_Live_Chat_Text": {
+    "message": "Chat en vivo",
+    "description": "Security Checks Disabled Extension Text"
+  },
+  "Ext_SecurityChecks_Aborted_Session_Content_Assistance_Text": {
+    "message": "si necesita más ayuda.",
+    "description": "Security Checks Disabled Extension Text"
+  },
+  "Ext_SecurityChecks_Multiple_Extensions_Modal_Title_Text": {
+    "message": "Un momento por favor",
+    "description": "Security Checks Multiple Extensions Title"
+  },
+  "Ext_SecurityChecks_Multiple_Extensions_Modal_Content_Text": {
+    "message": "Notamos que tiene instaladas varias extensiones de ProctorU. Desinstale TODAS las extensiones de ProctorU y actualice esta página para continuar.",
+    "description": "Security Checks Multiple Extensions Content"
+  },
+  "Ext_SecurityChecks_Show_Queue_Modal_Title_Text": {
+    "message": "Un momento por favor.",
+    "description": "Security Checks Show Queue Modal Title"
+  },
+  "Ext_SecurityChecks_Show_Queue_Modal_Content_Text": {
+    "message": "Estamos preparando todo para usted. Su prueba debería comenzar en breve.",
+    "description": "Security Checks Show Queue Modal Content"
+  },
+  "Ext_SecurityChecks_Exam_Submission_Success_Title_Text": {
+    "message": "Envío de exámenes",
+    "description": "Security Checks Exam Submission Success Title"
+  },
+  "Ext_SecurityChecks_Exam_Submission_Success_Content_Text": {
+    "message": "Gracias. Tu sesión ahora está completa.",
+    "description": "Security Checks Exam Submission Success Content"
+  },
+  "Ext_SecurityChecks_Exam_Submission_Success_Button_Text": {
+    "message": "Cerrar",
+    "description": "Security Checks Exam Submission Success Button"
+  },
+  "Ext_SecurityChecks_Show_Reconnect_Modal_Button_Text": {
+    "message": "Reconectar",
+    "description": "Security Checks Show Reconnect Modal Button"
+  },
+  "Ext_SecurityChecks_Ancoris_Reconnect_Modal_Title_Text": {
+    "message": "Te han desconectado",
+    "description": "Security Checks Show Reconnect Modal Button"
+  },
+  "Ext_SecurityChecks_Ancoris_Reconnect_Modal_Content_Text": {
+    "message": "Se perdió la conexión con ProctorU. Para continuar con su examen, haga clic en \"Reconectar\".\n Si sigue teniendo problemas después de intentar volver a conectarse, comuníquese con su facilitador.",
+    "description": "Security Checks Show Reconnect Modal Button"
+  },
+  "Ext_SecurityChecks_Regular_Reconnect_Modal_Title_Text": {
+    "message": "Te han desconectado",
+    "description": "Security Checks Show Reconnect Modal Button"
+  },
+  "Ext_SecurityChecks_Regular_Reconnect_Modal_Content_Text": {
+    "message": "Se perdió la conexión con ProctorU. Para continuar con su examen, haga clic en \"Reconectar\".\n Si sigue teniendo problemas después de intentar volver a conectarse, comuníquese con nuestro ",
+    "description": "Security Checks Show Regular Reconnect Modal Button"
+  },
+  "Ext_SecurityChecks_Regular_Reconnect_Modal_Live_Support_Text": {
+    "message": "Soporte Virtual (o Soporte Técnico)",
+    "description": "Security Checks Show Regular Reconnect Modal Live Support Link"
+  },
+  "Ext_SecurityChecks_Soft_Reconnection_Modal_Title_Text": {
+    "message": "Tu conexión no es estable",
+    "description": "Security Checks Show Soft Reconnect Modal Title"
+  },
+  "Ext_SecurityChecks_Soft_Reconnection_Modal_SubTitle1_Text": {
+    "message": "Estamos intentando que se vuelva a conectar. Si no podemos reconectarte en",
+    "description": "Security Checks Show Soft Reconnect Modal Subtitle 1"
+  },
+  "Ext_SecurityChecks_Soft_Reconnection_Modal_SubTitle2_Text": {
+    "message": "segundos le proporcionaremos más instrucciones",
+    "description": "Security Checks Show Soft Reconnect Modal Subtitle 2 "
+  },
+  "Ext_SecurityChecks_User_InActivity_Modal_Title_Text": {
+    "message": "Asigues aquí?",
+    "description": "Security Checks Show User Inactivity Modal Title"
+  },
+  "Ext_SecurityChecks_User_InActivity_Modal_SubTitle1_Text": {
+    "message": "Tu sesión vencerá en",
+    "description": "Security Checks Show User Inactivity Modal Subtitle 1"
+  },
+  "Ext_SecurityChecks_User_InActivity_Modal_SubTitle2_Text": {
+    "message": "si no se toma ninguna acción",
+    "description": "Security Checks Show User Inactivity Modal Subtitle 2 "
+  },
+  "Ext_SecurityChecks_User_InActivity_Modal_End_Button_Text": {
+    "message": "Finalizar sesión",
+    "description": "Security User Inactivity Button End Session Button "
+  },
+  "Ext_SecurityChecks_User_InActivity_Modal_Resume_Button_Text": {
+    "message": "Reanudar sesión",
+    "description": "Security User Inactivity Button Resume Session Button "
+  },
+  "Ext_SecurityChecks_Static_Image_Detection_Modal_Text": {
+    "message": "Su cámara no es detectada. Verifique que su cámara esté operativa para volver a conectarse a su sesión. Si necesita ayuda para solucionar problemas, haga clic en",
+    "description": "Security Static Image Detection Modal Html"
+  },
+  "Ext_SecurityChecks_Static_Image_Detection_Link_Text": {
+    "message": "AQUÍ",
+    "description": "Security Static Image Detection Modal Html"
+  },
+  "Ext_SecurityChecks_Wrong_Stream_Sources_Modal_Text": {
+    "message": "Para continuar, comparta su pantalla completa en la pestaña anclada.",
+    "description": "Security Wrong Steam Sources Modal Text"
+  },
+  "Ext_SecurityChecks_Restrictions_Modal_Rule1_Text": {
+    "message": "visitar otros sitios web",
+    "description": "Security Restrictions Modal Rule1 Text"
+  },
+  "Ext_SecurityChecks_Restrictions_Modal_Rule2_Text": {
+    "message": "navegar fuera del examen",
+    "description": "Security Restrictions Modal Rule2 Text"
+  },
+  "Ext_SecurityChecks_Restrictions_Modal_Rule3_Text": {
+    "message": "ajustar el tamaño de la ventana de su examen",
+    "description": "Security Restrictions Modal Rule3 Text"
+  },
+  "Ext_SecurityChecks_Restrictions_Modal_Content_Text": {
+    "message": "No se le permite $ RESTRICTIONS $. Se notificará a su institución si se producen más intentos.",
+    "description": "Security Restrictions Modal Content Html",
+    "placeholders": {
+      "restrictions": {
+        "content": "$1",
+        "example": ""
+      }
+    }
+  },
+  "Prechecks_Prechecks_Take_Photo_Header_Text": {
+    "message": "Toma tu foto",
+    "description": "Prechecks Take Photo Header"
+  },
+  "Prechecks_Prechecks_Take_Photo_Description_Text": {
+    "message": "Alinee su cara dentro del óvalo, desde la barbilla hasta la frente.",
+    "description": "Prechecks Take Photo Description"
+  },
+  "Prechecks_Take_Photo_New_Precheck_Title_Text": {
+    "message": "Verificación de identidad",
+    "description": "Prechecks Take Photo New Precheck Title"
+  },
+  "Prechecks_Take_Photo_New_Precheck_Subtitle_Text": {
+    "message": "Por favor, enfrente su cámara web y haga clic en el botón \"Tomar foto\"",
+    "description": "Prechecks Take Photo New Prechecks Subtitle"
+  },
+  "Prechecks_Take_Id_Header_Text": {
+    "message": "Verificación de identidad",
+    "description": "Prechecks Take Id Header"
+  },
+  "Prechecks_Take_Id_Next_Button_Text": {
+    "message": "Próximo",
+    "description": "Prechecks Take Id Next Button Description"
+  },
+  "Prechecks_Take_Id_Retake_Button_Text": {
+    "message": "Volver a tomar",
+    "description": "Prechecks Take Id Retake Photo Description"
+  },
+  "Prechecks_Take_Id_Description_Text": {
+    "message": "Mantenga su identificación con foto válida en la cámara web y haga clic en el botón \"Tomar foto\"",
+    "description": "Prechecks Take Id Description"
+  },
+  "Prechecks_Prechecks_Take_Id_Header_Text": {
+    "message": "Verificación de identidad",
+    "description": "Prechecks Take Id Header"
+  },
+  "Prechecks_Prechecks_Take_Id_Description_Text": {
+    "message": "Mantenga su identificación con foto válida en la cámara web y haga clic en el botón \"Tomar foto\"",
+    "description": "Prechecks Take Id Description"
+  },
+  "Prechecks_Prechecks_Verification_Unintegrated_Header_Text": {
+    "message": "Verificación",
+    "description": "Prechecks Verfication Unintegrated Photo Header"
+  },
+  "Prechecks_Take_Photo_Step_Passed_Text": {
+    "message": "Paso aprobado con éxito",
+    "description": "Prechecks Take Photo Component Step Passed"
+  },
+  "Prechecks_Take_Photo_Initial_Button_Text_Text": {
+    "message": "Tomar foto",
+    "description": "Prechecks Take Photo Component Initial Button Text"
+  },
+  "Prechecks_Take_Photo_Retake_Button_Text_Text": {
+    "message": "Volver a tomar",
+    "description": "Prechecks Take Photo Component Retake Button Text"
+  },
+  "Prechecks_Take_Photo_Next_Button_Text_Text": {
+    "message": "Próximo",
+    "description": "Prechecks Take Photo Component Retake Button Text"
+  },
+  "Prechecks_Take_Photo_Countdown_PreText_Text": {
+    "message": " La cámara tomará su foto automáticamente en",
+    "description": "Prechecks Take Photo Component Countdown PreText Text"
+  },
+  "Prechecks_Take_Id_Take_Photo_Step_Description_Text": {
+    "message": "Mantenga su identificación con foto válida frente a la cámara y haga clic en el botón “Tomar foto”",
+    "description": "Prechecks Take Id Component Take Photo Step Description"
+  },
+  "Prechecks_Take_Id_Government_Id_Text_Text": {
+    "message": "Identificación con foto válida",
+    "description": "Prechecks Take Id Component Take Photo Step Description"
+  },
+  "Prechecks_RunLMI_Chrome_MacOS_1_Text": {
+    "message": "1. Haga clic en el archivo LMIRescue.pkg.zip",
+    "description": "Chrome MacOS Slider Instrctions"
+  },
+  "Prechecks_RunLMI_Chrome_MacOS_2_Text": {
+    "message": "2. Haga clic en Abrir para abrir su carpeta de descargas",
+    "description": "Chrome MacOS Slider Instrctions"
+  },
+  "Prechecks_RunLMI_Chrome_MacOS_3_Text": {
+    "message": "3. Haga doble clic en Support-Logmeinrescue",
+    "description": "Chrome MacOS Slider Instrctions"
+  },
+  "Prechecks_RunLMI_Chrome_MacOS_4_Text": {
+    "message": "4. Haga clic en Abrir",
+    "description": "Chrome MacOS Slider Instrctions"
+  },
+  "Prechecks_RunLMI_Chrome_MacOS_5_Text": {
+    "message": "5. Se abrirá una ventana de mensaje instantáneo que lo conectará con su supervisor.",
+    "description": "Chrome MacOS Slider Instrctions"
+  },
+  "Prechecks_RunLMI_Firefox_MacOS_1_Text": {
+    "message": "1. Seleccione Abrir con y Aceptar",
+    "description": "Firefox MacOS Slider Instrctions"
+  },
+  "Prechecks_RunLMI_Firefox_MacOS_2_Text": {
+    "message": "2. Haga doble clic en Support-LogmeinRescue",
+    "description": "Firefox MacOS Slider Instrctions"
+  },
+  "Prechecks_RunLMI_Firefox_MacOS_3_Text": {
+    "message": "3. Haga clic en Abrir",
+    "description": "Firefox MacOS Slider Instrctions"
+  },
+  "Prechecks_RunLMI_Firefox_MacOS_4_Text": {
+    "message": "4. Se abrirá un chatbox que lo conectará con su supervisor.",
+    "description": "Firefox MacOS Slider Instrctions"
+  },
+  "Prechecks_RunLMI_Chrome_WinOS_1_Text": {
+    "message": "1. Haga clic en el archivo logmeinrescue.exe",
+    "description": "Chrome WinOS Slider Instrctions"
+  },
+  "Prechecks_RunLMI_Chrome_WinOS_2_Text": {
+    "message": "2. Haga clic en Abrir",
+    "description": "Chrome WinOS Slider Instrctions"
+  },
+  "Prechecks_RunLMI_Chrome_WinOS_3_Text": {
+    "message": "3. Se abrirá un chatbox que lo conectará con su supervisor.",
+    "description": "Chrome WinOS Slider Instrctions"
+  },
+  "Prechecks_RunLMI_Firefox_WinOS_1_Text": {
+    "message": "1. Haga clic en Guardar archivo",
+    "description": "Firefox WinS Slider Instrctions"
+  },
+  "Prechecks_RunLMI_Firefox_WinOS_2_Text": {
+    "message": "2. Haga clic para abrir el archivo Support LogmeinRescue.exe",
+    "description": "Firefox WinS Slider Instrctions"
+  },
+  "Prechecks_RunLMI_Firefox_WinOS_3_Text": {
+    "message": "3. Haga doble clic en el archivo Support-LogmeinRescue.exe para abrir",
+    "description": "Firefox WinS Slider Instrctions"
+  },
+  "Prechecks_RunLMI_Firefox_WinOS_4_Text": {
+    "message": "4. Se abrirá un chatbox que lo conectará con su supervisor.",
+    "description": "Firefox WinS Slider Instrctions"
+  },
+  "Prechecks_Payment_Title_Text": {
+    "message": "¡Ups! Parece que todavía necesitamos el pago de su examen",
+    "description": "Prechecks Payment Screen Title Text"
+  },
+  "Prechecks_Payment_Payment_Success_Html": {
+    "message": "Pago exitoso. Serás redirigido al siguiente paso en $ TIMER $ segundos.",
+    "description": "LMS Widget: Text for know more link.",
+    "placeholders": {
+      "timer": {
+        "content": "$1",
+        "example": "0"
+      }
+    }
+  },
+  "Prechecks_Payment_Refresh_Text": {
+    "message": "Actualizar",
+    "description": "Prechecks Payment Screen Refresh Button Text"
+  },
+  "Prechecks_Payment_Error_Text": {
+    "message": "¡Ups! Ocurrió un error.",
+    "description": "Prechecks Payment Screen Refresh Button Text"
+  },
+  "Prechecks_System_Environment_Checks_Comment_Checked_Text": {
+    "message": "comprobada",
+    "description": "Prechecks System Environment Checks Comment Checked description."
+  },
+  "Prechecks_System_Environment_Checks_Comment_Failed_Text": {
+    "message": "verificación fallida",
+    "description": "Prechecks System Environment Checks Comment Failed description."
+  },
+  "Prechecks_System_Environment_Internet_Speed_Text": {
+    "message": "Velocidad",
+    "description": "Prechecks System Environment Internet Speed description."
+  },
+  "Prechecks_System_Environment_Help_Button_Tag_Text": {
+    "message": "Necesita ayuda para compartir su pantalla?",
+    "description": "Prechecks System Environment Help Button Tag description."
+  },
+  "Prechecks_System_Environment_Help_Button_Text_Text": {
+    "message": "Ayuda",
+    "description": "Prechecks System Environment Help Button Text description."
+  },
+  "Prechecks_System_Environment_System_Check_Title_Text": {
+    "message": "Chequeo del sistema",
+    "description": "Prechecks System Environment System Check Title description."
+  },
+  "Prechecks_System_Environment_System_Check_Description_Text": {
+    "message": "Ahora, revisemos su sistema y entorno.",
+    "description": "Prechecks System Environment System Check Description description."
+  },
+  "Prechecks_System_Environment_System_Check_Video_Aria_Label_Text": {
+    "message": "Toma tu foto",
+    "description": "Prechecks System Environment System Check Video Aria Label description."
+  },
+  "Prechecks_System_Environment_System_Check_Rec_Text": {
+    "message": "REC",
+    "description": "Prechecks System Environment System Check Rec description."
+  },
+  "Prechecks_System_Environment_System_Check_Item_List_Aria_Label_Text": {
+    "message": "Rever",
+    "description": "Prechecks System Environment System Check Item List Aria Label description."
+  },
+  "Prechecks_System_Environment_System_Check_Item_List_Text_Text": {
+    "message": "Rever",
+    "description": "Prechecks System Environment System Check Item List Text description."
+  },
+  "Prechecks_System_Environment_System_Check_Checkmark_Message_Text": {
+    "message": "Paso aprobado con éxito",
+    "description": "Prechecks System Environment System Check Checkmark Message description."
+  },
+  "Prechecks_System_Environment_Share_Screen_Message_Title_Text": {
+    "message": "Compartir tu pantalla",
+    "description": "Prechecks System Environment Share Screen Message Title description."
+  },
+  "Prechecks_System_Environment_Share_Screen_Message_Subtitle_Text": {
+    "message": "Si está viendo esto, haga clic en la pestaña de utilidades y comparta la pantalla",
+    "description": "Prechecks System Environment Share Screen Message Subtitle description."
+  },
+  "Prechecks_System_Environment_Share_Screen_Image_Alt_Text_Text": {
+    "message": "Instrucciones para compartir pantalla",
+    "description": "Prechecks System Environment Share Screen Image Alt Text description."
+  },
+  "Prechecks_System_Environment_Share_Screen_Retry_Button_Text_Text": {
+    "message": "Rever",
+    "description": "Prechecks System Environment Share Screen Retry Button Text description."
+  },
+  "Prechecks_System_Environment_Share_Screen_Retry_Button_Aria_Label_Text": {
+    "message": "Rever",
+    "description": "Prechecks System Environment Share Screen Retry Button Aria Label description."
+  },
+  "Waiting_Screen_Title_Text_Text": {
+    "message": "Una cosa más",
+    "description": "Waiting Screen: Title text."
+  },
+  "Waiting_Screen_Title_Popout_Text_Text": {
+    "message": "¡Buena suerte en tu examen!",
+    "description": "Waiting Screen: Chat Popout Title text."
+  },
+  "Waiting_Screen_Subtitle_Text_Text": {
+    "message": "Asegúrese de que LogMeIn (LMI) se esté ejecutando",
+    "description": "Waiting Screen: Subtitle text."
+  },
+  "Waiting_Screen_Subtitle_Popout_Text_Text": {
+    "message": "Su supervisora ​​estará con usted en breve.",
+    "description": "Waiting Screen: Chat Popout Subtitle text."
+  },
+  "Waiting_Screen_Image_Name_Text_Text": {
+    "message": "descripción general de la computadora",
+    "description": "Waiting Screen: Image name text."
+  },
+  "Waiting_Screen_Help_Text_Popout_Text_Text": {
+    "message": "Mientras tanto, asegúrese de que su espacio de trabajo esté libre de desorden",
+    "description": "Waiting Screen: Chat Popout Help text text."
+  },
+  "Waiting_Screen_Help_Url_Fragment_One_Text_Text": {
+    "message": "¿Necesitas ayuda? Haga clic aquí para conectarse con Soporte.",
+    "description": "Waiting Screen: Help url fragment one text."
+  },
+  "Prechecks_BeginExam_Instruction_Heading_Text": {
+    "message": "Continúe a su sitio de prueba",
+    "description": "Begin Exam Proctorless instructions title"
+  },
+  "Prechecks_BeginExam_Instruction_SubHeading_Text": {
+    "message": "If you need assistance during your exam...",
+    "description": "Si necesita ayuda durante su examen..."
+  },
+  "Prechecks_BeginExam_Chrome_Instruction_1_Text": {
+    "message": "1. Abra la extensión del navegador junto a la barra de búsqueda y seleccione ProctorU.",
+    "description": "Begin Exam Proctorless instructions Chrome"
+  },
+  "Prechecks_BeginExam_Chrome_Instruction_2_Text": {
+    "message": "2. Haga clic en el enlace “Ayuda” en la extensión de ProctorU para ponerse en contacto con el soporte.",
+    "description": "Begin Exam Proctorless instructions Chrome"
+  },
+  "Prechecks_BeginExam_Firefox_Instruction_1_Text": {
+    "message": "1. Abra la extensión ProctorU junto a la barra de búsqueda.",
+    "description": "Begin Exam Proctorless instructions Firefox"
+  },
+  "Prechecks_BeginExam_Firefox_Instruction_2_Text": {
+    "message": "2. Haga clic en el enlace “Ayuda” en la extensión para ponerse en contacto con el soporte.",
+    "description": "Begin Exam Proctorless instructions Firefox"
+  },
+  "Prechecks_BeginExam_New_Default_Title_Text": {
+    "message": "Buena suerte en su examen",
+    "description": "Begin Exam New Default title"
+  },
+  "Prechecks_BeginExam_New_Default_SubTitle_Text": {
+    "message": "¡Gracias por usar ProctorU y buena suerte en su examen de hoy!",
+    "description": "Begin Exam New Default subtitle"
+  },
+  "Prechecks_BeginExam_New_Default_Description_Text": {
+    "message": "Después de su examen, habrá una breve encuesta a continuación. Tómese el tiempo para completarlo, ya que agradecemos enormemente sus comentarios.",
+    "description": "Begin Exam New Default description"
+  },
+  "Prechecks_BeginExam_Old_Default_Title_Text": {
+    "message": "Buena suerte en su examen",
+    "description": "Begin Exam Old Default title"
+  },
+  "Prechecks_BeginExam_Old_Default_SubTitle_Text": {
+    "message": "¡Gracias por usar ProctorU y buena suerte en su examen de hoy!",
+    "description": "Begin Exam Old Default subtitle"
+  },
+  "Prechecks_BeginExam_Old_Default_Description_Text": {
+    "message": "Después de su examen, habrá una breve encuesta a continuación. Tómese el tiempo para completarlo, ya que agradecemos enormemente sus comentarios.",
+    "description": "Begin Exam Old Default description"
+  },
+  "Prechecks_BeginExam_Auto_New_Title_Text": {
+    "message": "Buena suerte en su examen",
+    "description": "Begin Exam Auto New title"
+  },
+  "Prechecks_BeginExam_Auto_New_SubTitle_Text": {
+    "message": "¡Gracias por usar ProctorU y buena suerte en su examen de hoy!",
+    "description": "Begin Exam Auto New subtitle"
+  },
+  "Prechecks_BeginExam_Auto_New_Description_Text": {
+    "message": "Después de su examen, habrá una breve encuesta a continuación. Tómese el tiempo para completarlo, ya que agradecemos enormemente sus comentarios.",
+    "description": "Begin Exam Auto New description"
+  },
+  "Authentication_Uauth_Lmi_Prechecks_Workflow_Identity_Verification_Html": {
+    "message": "<p className=\"prechecks__title\">Verificación de identidad</p>",
+    "description": "Authentication Uauth: Lmi Prechecks Workflow Identity Verification html."
+  },
+  "Authentication_Uauth_Lmi_Prechecks_Workflow_Authentication_Quiz_Text": {
+    "message": "Cuestionario de autenticación",
+    "description": "Authentication Uauth: Lmi Prechecks Workflow Authentication Quiz html."
+  },
+  "Authentication_Uauth_Lmi_Prechecks_Workflow_Biometrics_Text": {
+    "message": "Los últimos pasos para verificar su identidad son una prueba de autenticación rápida y una medición biométrica de pulsaciones de teclas.",
+    "description": "Authentication Uauth: Lmi Prechecks Workflow Biometrics html."
+  },
+  "Authentication_Uauth_Lmi_Prechecks_Workflow_Thank_You_Text": {
+    "message": "(Gracias por ser paciente. ¡Ya casi llegamos!)",
+    "description": "Authentication Uauth: Lmi Prechecks Workflow Thank You text."
+  },
+  "Authentication_Uauth_Lmi_Prechecks_Workflow_Step_Passed_Text": {
+    "message": "Paso aprobado con éxito",
+    "description": "Authentication Uauth: Lmi Prechecks Workflow Step Passed text."
+  },
+  "Ancoris_CredentialsModal_Email_Title_Text": {
+    "message": "Tu correo electrónico",
+    "description": "Your email"
+  },
+  "Ancoris_CredentialsModal_Password_Title_Text": {
+    "message": "Tu contraseña",
+    "description": "Your password"
+  },
+  "Ancoris_CredentialsModal_Toast_Message_Text": {
+    "message": "Copiado exitosamente",
+    "description": "Ancoris Credentials copy success"
+  },
+  "Ancoris_CredentialsModal_Content_1_Text": {
+    "message": "Por favor haz click \"sign into another account\" en la pestaña anterior, luego",
+    "description": "Ancoris Modal content line 1"
+  },
+  "Ancoris_CredentialsModal_Content_2_Text": {
+    "message": "copie y pegue el nombre de usuario y la contraseña a continuación en los campos proporcionados.",
+    "description": "Ancoris Modal content line 2"
+  },
+  "Prechecks_UtilityTab_ShareScreen_Content_1_Text": {
+    "message": "Puede cambiar los dispositivos multimedia en esta página después de aprobar el paso de identificación en las comprobaciones previas",
+    "description": "Prechecks Utility Tab Share Screen Content 1"
+  },
+  "Prechecks_UtilityTab_ShareScreen_Content_2_Text": {
+    "message": "Seleccione la imagen del escritorio y luego haga clic en Compartir",
+    "description": "Prechecks Utility Tab Share Screen Content 2"
+  },
+  "Prechecks_CustomNextButtons_Need_Help_Text": {
+    "message": "¿Necesitas ayuda?",
+    "description": "Prechecks CustomNextButtons Need Help Text"
+  },
+  "Prechecks_CustomNextButtons_RecordingNotice_Agree_Text": {
+    "message": "De acuerdo",
+    "description": "Prechecks CustomNextButtons RecordingNotice Agree Text"
+  },
+  "Prechecks_CustomNextButtons_RunLMI_Chatbot_Text": {
+    "message": "Veo el chatbox",
+    "description": "Prechecks CustomNextButtons RunLMI Chatbot Text"
+  },
+  "Prechecks_CustomNextButtons_ExamRules_Disagree_Text": {
+    "message": "Declinar",
+    "description": "Prechecks CustomNextButtons ExamRules Disagree Text"
+  },
+  "Prechecks_CustomNextButtons_ExamRules_Agree_Text": {
+    "message": "De acuerdo",
+    "description": "Prechecks CustomNextButtons ExamRules Agree Text"
+  },
+  "Prechecks_Tos_Privacy_Link_Text": {
+    "message": "Política de privacidad de ProctorU",
+    "description": "Prechecks Tos Privacy Link Text"
+  },
+  "Prechecks_Tos_Tos_Link_Text": {
+    "message": "Términos de servicio",
+    "description": "Prechecks Tos Tos Link Text"
+  },
+  "Prechecks_Tos_Agreement_Content_1_Text": {
+    "message": "He leído y comprendido las reglas del examen antes de comenzar mi prueba con ProctorU",
+    "description": "Prechecks Tos Content 1 Text"
+  },
+  "Prechecks_Tos_Agreement_Content_e_Text": {
+    "message": "Estoy de acuerdo con los términos establecidos en",
+    "description": "Prechecks Tos Content 2 Text"
+  },
+  "Prechecks_Tos_Agreement_Content_3_Text": {
+    "message": "y",
+    "description": "Prechecks Tos Content 3 Text"
+  },
+  "Prechecks_Tos_Title_Text": {
+    "message": "Revise los Términos de servicio",
+    "description": "Prechecks Tos Content 3 Text"
+  },
+  "Prechecks_Tos_Subtitle_Text": {
+    "message": "Seleccione las casillas de verificación a continuación para aceptar y continuar.",
+    "description": "Prechecks Tos Subtitle Text"
+  },
+  "Prechecks_RecordingNotice_Agreement_1_Text": {
+    "message": "A La grabación y el seguimiento de la sesión de su examen a través de la captura de pantalla, la información del sistema y la cámara y el micrófono de su computadora.",
+    "description": "Prechecks RecordingNotice PreAgreement 1 Text"
+  },
+  "Prechecks_RecordingNotice_Agreement_2_Text": {
+    "message": "Que da su consentimiento para el uso de reconocimiento facial biométrico y / o análisis de pulsaciones de teclas para respaldar la verificación de identidad (si su organización / institución de pruebas ha activado una o ambas de estas funciones).",
+    "description": "Prechecks RecordingNotice PreAgreement 2 Text"
+  },
+  "Prechecks_RecordingNotice_Agreement_3_Html": {
+    "message": "Que ha revisado y acepta la <a target=\"_blank\" href=\"$LINK\">Política de privacidad</a> de ProctorU.",
+    "description": "Prechecks RecordingNotice PreAgreement 3 Text",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Prechecks_RecordingNotice_Agreement_4_Html": {
+    "message": "Que ha revisado y acepta los <a target=\"_blank\" href=\"$LINK$\">Términos de servicio</a> de ProctorU",
+    "description": "Prechecks RecordingNotice PreAgreement 4 Text",
+    "placeholders": {
+      "link": {
+        "content": "$1",
+        "example": "http://example.com/"
+      }
+    }
+  },
+  "Prechecks_RecordingNotice_Title_Text": {
+    "message": "Aviso de grabación de la sesión de examen",
+    "description": "Prechecks RecordingNotice Title Text"
+  },
+  "Prechecks_RecordingNotice_Content_1_Text": {
+    "message": "ProctorU grabará su sesión de examen para fines de revisión. La grabación comenzará una vez que seleccione el botón \"Comenzar a grabar y continuar\" que se encuentra a continuacion. Se capturará una imagen fija al comienzo de la grabación y se utilizará para verificar la identidad.",
+    "description": "Prechecks RecordingNotice Subtitle Text"
+  },
+  "Prechecks_RecordingNotice_Content_2_Text": {
+    "message": "Al seleccionar el botón \"Comenzar a grabar y continuar\" que se encuentra abajo usted acepta;",
+    "description": "Prechecks RecordingNotice Content Text"
+  },
+  "Prechecks_RecordingNotice_Sub_Content_Text": {
+    "message": "Usted Debe cerrar la aplicación LogMeInRescue (si se usa) y su navegador para finalizar la grabación de su sesión de examen. La grabación continuará hasta que se completen AMBAS acciones.",
+    "description": "Prechecks RecordingNotice Sub Content Text"
+  },
+  "Prechecks_ExamConfig_Welcome_Button_Text": {
+    "message": "¡Empecemos!",
+    "description": "Prechecks ExamConfig Welcome Button Test"
+  },
+  "Prechecks_ExamConfig_Payment_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig Payment Button Test"
+  },
+  "Prechecks_ExamConfig_Preflight_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig Preflight Button Test"
+  },
+  "Prechecks_ExamConfig_RunLMI_Button_Text": {
+    "message": "Veo el chatbox",
+    "description": "Prechecks ExamConfig RunLMI Button Test"
+  },
+  "Prechecks_ExamConfig_SystemEnvironment_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig System Environment Button Test"
+  },
+  "Prechecks_ExamConfig_TakePhoto_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig Take Photo Button Test"
+  },
+  "Prechecks_ExamConfig_TakeID_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig Take ID Button Test"
+  },
+  "Prechecks_ExamConfig_Take_Identification_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig Take Identification Button Test"
+  },
+  "Prechecks_ExamConfig_Uauth_Authentication_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig ID Button Test"
+  },
+  "Prechecks_ExamConfig_Authentication_Button_Text": {
+    "message": "Descargar",
+    "description": "Prechecks ExamConfig Authentication Button Test"
+  },
+  "Prechecks_ExamConfig_Verification_Button_Text": {
+    "message": "Descargar",
+    "description": "Prechecks ExamConfig Verification Button Test"
+  },
+  "Prechecks_ExamConfig_Automated_Unintegrated_Verification_Button_Text": {
+    "message": "Descargar",
+    "description": "Prechecks ExamConfig Automated Unintegrated Verifcation Button Test"
+  },
+  "Prechecks_ExamConfig_Verification_Waiting_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig Verification Waiting Screen Button Test"
+  },
+  "Prechecks_ExamConfig_Permitted_Resources_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig Permitted Resources Button Test"
+  },
+  "Prechecks_ExamConfig_Bathroom_Breaks_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig Bathroom Breaks Button Test"
+  },
+  "Prechecks_ExamConfig_Exam_Assistance_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig Exam Assistance Button Test"
+  },
+  "Prechecks_ExamConfig_Exam_Instructions_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig Exam Instructions Button Test"
+  },
+  "Prechecks_ExamConfig_Exam_Rules_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig Exam Rules Button Test"
+  },
+  "Prechecks_ExamConfig_Recording_Notice_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig Recording Notice Button Test"
+  },
+  "Prechecks_ExamConfig_Uauth_Begin_Exam_Button_Text": {
+    "message": "Comenzar examen",
+    "description": "Prechecks ExamConfig Uauth Begin Exam Button Test"
+  },
+  "Prechecks_ExamConfig_Rescheduled_Begin_Exam_Button_Text": {
+    "message": "Comenzar examen",
+    "description": "Prechecks ExamConfig Rescheduled Begin Exam Button Test"
+  },
+  "Prechecks_ExamConfig_Tos_Button_Text": {
+    "message": "Estoy de acuerdo",
+    "description": "Prechecks ExamConfig Tos Button Test"
+  },
+  "Prechecks_ExamConfig_Begin_Exam_Button_Text": {
+    "message": "Ir a mi sitio de prueba",
+    "description": "Prechecks ExamConfig Begin Exam Button Test"
+  },
+  "Prechecks_ExamConfig_Waiting_Screen_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig Waiting Screen Button Test"
+  },
+  "Prechecks_ExamConfig_New_Prechecks_Welcome_Button_Text": {
+    "message": "Seguir",
+    "description": "Prechecks ExamConfig New Prechecks Button Test"
+  },
+  "Prechecks_Help_Button_Notify_Proctor_Text": {
+    "message": "Notificar a Proctor",
+    "description": "Prechecks HelpButton Notify Proctor Button Text"
+  },
+  "Prechecks_Help_Button_Call_Active_Text": {
+    "message": "Llamada activa",
+    "description": "Prechecks HelpButton Call Active Button Text"
+  },
+  "Prechecks_Help_Button_Contacting_Text": {
+    "message": "Contactando...",
+    "description": "Prechecks HelpButton Contacting Button Text"
+  },
+  "Prechecks_UtilityTab_Recording_Header_Text": {
+    "message": "Estás siendo grabado.",
+    "description": "Prechecks UtilityTab Recording Header Text"
+  }
+}

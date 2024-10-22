@@ -1,0 +1,8 @@
+[Adapters]
+D8:80:83:CD:70:0C_powered=true
+
+[Devices]
+connectedDevices=
+
+[Global]
+launchState=enable
