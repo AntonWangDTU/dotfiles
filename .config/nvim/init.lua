@@ -1,9 +1,11 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 require("config.keymaps")
-require("luasnip.loaders.from_vscode").lazy_load()
 
-require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/luasnippets/" })
+-- Two ways to load snippets from both LuaSnip1 and LuaSnip2
+---- Two ways to load snippets from both LuaSnip1 and LuaSnip2
+-- 1. Using a table
+require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/snippets/" })
 
 vim.g.vimtex_compiler_latexmk = {
   build_dir = "latex_out", -- Move auxiliary files to 'latex_out' directory
