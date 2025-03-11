@@ -1,7 +1,7 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 require("config.keymaps")
-
+--
 -- Two ways to load snippets from both LuaSnip1 and LuaSnip2
 ---- Two ways to load snippets from both LuaSnip1 and LuaSnip2
 -- 1. Using a table

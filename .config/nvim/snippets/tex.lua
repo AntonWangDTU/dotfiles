@@ -29,4 +29,12 @@ return {
   s({ trig = "sign", dscr = "Signs the document" }, {
     t("Anton Wang Strandberg"),
   }),
+  s("box", {
+    t("\\fbox{"),
+    t({ "", "  \\begin{minipage}{\\textwidth}" }),
+    t({ "", "    " }),
+    i(1, "Your content here"), -- First insert node
+    t({ "", "  \\end{minipage}" }),
+    t({ "", "}" }),
+  }),
 }

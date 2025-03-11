@@ -37,6 +37,7 @@ end
 --
 --
 --
+
 return {
   -- Expands 'im' into inline math mode '$...$'
   s({ trig = "im", dscr = "Expands 'im' into inline math mode '$...$' and gives guf" }, {
@@ -46,9 +47,9 @@ return {
   }),
   -- Expands 'dm' into display math mode '\\[ ... \\]'
   s({ trig = "dm", dscr = "Expands 'dm' into display math mode '\\[ ... \\]'" }, {
-    t("\\[ "), -- Opening display math mode
+    t("$$ "), -- Opening display math mode
     i(1), -- Cursor position to enter math
-    t("\\]"), -- Closing display math mode
+    t("$$"), -- Closing display math mode
   }),
 
   --MATH MODE ACCENTS (ESSENTIALLY EVERYTHING THAT GOES ABOVE)
@@ -91,4 +92,70 @@ return {
     fmta("\\vec{<>}", { i(1) }),
     { condition = in_mathzone }
   ),
+  s("beg", {
+    t({
+      "\\documentclass{article}",
+      "\\usepackage{stackengine}",
+      "\\def\\delequal{\\mathrel{\\ensurestackMath{\\stackon[1pt]{=}{\\scriptstyle\\Delta}}}}",
+      "\\usepackage{pgfplots}",
+      "\\raggedright",
+      "",
+      "\\begin{document}",
+      "\\today",
+      "\\tableofcontents",
+      "",
+      "\\end{document}",
+    }),
+  }),
+  -- writing powers
+  s({ trig = "ru", dscr = "Opløfter", condition = in_mathzone }, {
+    i(1), -- Cursor starts inside the superscript (after ^{)
+    t("^{"), -- Opening display math mode
+    i(2), -- Cursor starts inside the superscript (after ^{)
+    t("}"), -- Closing the superscript
+  }),
+  s({ trig = "rl", dscr = "ned loefter", condition = in_mathzone }, {
+    i(1), -- Cursor starts inside the superscript (after ^{)
+    t("_{"), -- Opening display math mode
+    i(2), -- Cursor position to enter math
+    t("}"), -- Closing display math mode
+  }),
+
+  -- Lowercase Greek letters (only in math zones)
+  s({ trig = "alp", dscr = "Insert α (alpha)", condition = in_mathzone }, { t("\\alpha") }),
+  s({ trig = "bet", dscr = "Insert β (beta)", condition = in_mathzone }, { t("\\beta") }),
+  s({ trig = "gam", dscr = "Insert γ (gamma)", condition = in_mathzone }, { t("\\gamma") }),
+  s({ trig = "del", dscr = "Insert δ (delta)", condition = in_mathzone }, { t("\\delta") }),
+  s({ trig = "eps", dscr = "Insert ϵ (epsilon)", condition = in_mathzone }, { t("\\epsilon") }),
+  s({ trig = "zet", dscr = "Insert ζ (zeta)", condition = in_mathzone }, { t("\\zeta") }),
+  s({ trig = "eta", dscr = "Insert η (eta)", condition = in_mathzone }, { t("\\eta") }),
+  s({ trig = "the", dscr = "Insert θ (theta)", condition = in_mathzone }, { t("\\theta") }),
+  s({ trig = "iot", dscr = "Insert ι (iota)", condition = in_mathzone }, { t("\\iota") }),
+  s({ trig = "kap", dscr = "Insert κ (kappa)", condition = in_mathzone }, { t("\\kappa") }),
+  s({ trig = "lam", dscr = "Insert λ (lambda)", condition = in_mathzone }, { t("\\lambda") }),
+  s({ trig = "mu", dscr = "Insert μ (mu)", condition = in_mathzone }, { t("\\mu") }),
+  s({ trig = "nu", dscr = "Insert ν (nu)", condition = in_mathzone }, { t("\\nu") }),
+  s({ trig = "xi", dscr = "Insert ξ (xi)", condition = in_mathzone }, { t("\\xi") }),
+  s({ trig = "pi", dscr = "Insert π (pi)", condition = in_mathzone }, { t("\\pi") }),
+  s({ trig = "rho", dscr = "Insert ρ (rho)", condition = in_mathzone }, { t("\\rho") }),
+  s({ trig = "sig", dscr = "Insert σ (sigma)", condition = in_mathzone }, { t("\\sigma") }),
+  s({ trig = "tau", dscr = "Insert τ (tau)", condition = in_mathzone }, { t("\\tau") }),
+  s({ trig = "ups", dscr = "Insert υ (upsilon)", condition = in_mathzone }, { t("\\upsilon") }),
+  s({ trig = "phi", dscr = "Insert φ (phi)", condition = in_mathzone }, { t("\\phi") }),
+  s({ trig = "chi", dscr = "Insert χ (chi)", condition = in_mathzone }, { t("\\chi") }),
+  s({ trig = "psi", dscr = "Insert ψ (psi)", condition = in_mathzone }, { t("\\psi") }),
+  s({ trig = "ome", dscr = "Insert ω (omega)", condition = in_mathzone }, { t("\\omega") }),
+
+  -- Uppercase Greek letters (only in math zones)
+  s({ trig = "Gam", dscr = "Insert Γ (Gamma)", condition = in_mathzone }, { t("\\Gamma") }),
+  s({ trig = "Del", dscr = "Insert Δ (Delta)", condition = in_mathzone }, { t("\\Delta") }),
+  s({ trig = "The", dscr = "Insert Θ (Theta)", condition = in_mathzone }, { t("\\Theta") }),
+  s({ trig = "Lam", dscr = "Insert Λ (Lambda)", condition = in_mathzone }, { t("\\Lambda") }),
+  s({ trig = "Xi", dscr = "Insert Ξ (Xi)", condition = in_mathzone }, { t("\\Xi") }),
+  s({ trig = "Pi", dscr = "Insert Π (Pi)", condition = in_mathzone }, { t("\\Pi") }),
+  s({ trig = "Sig", dscr = "Insert Σ (Sigma)", condition = in_mathzone }, { t("\\Sigma") }),
+  s({ trig = "Ups", dscr = "Insert Υ (Upsilon)", condition = in_mathzone }, { t("\\Upsilon") }),
+  s({ trig = "Phi", dscr = "Insert Φ (Phi)", condition = in_mathzone }, { t("\\Phi") }),
+  s({ trig = "Psi", dscr = "Insert Ψ (Psi)", condition = in_mathzone }, { t("\\Psi") }),
+  s({ trig = "Ome", dscr = "Insert Ω (Omega)", condition = in_mathzone }, { t("\\Omega") }),
 }

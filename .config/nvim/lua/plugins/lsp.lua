@@ -1,22 +1,20 @@
 return {
-  "neovim/nvim-lspconfig",
-  opts = {
-    servers = {
+  -- See: https://github.com/microsoft/pyright/blob/main/docs/settings.md
+  require("lspconfig")["pyright"].setup({
+    settings = {
       pyright = {
-        settings = {
-          python = {
-            analysis = {
-              typeCheckingMode = "off", -- Disable strict type checking
-              diagnosticSeverityOverrides = {
-                reportGeneralTypeIssues = "none",
-                reportOptionalSubscript = "none",
-                reportOptionalMemberAccess = "none",
-                reportUnusedVariable = "none",
-              },
-            },
-          },
+        disableOrganizeImports = true,
+      },
+      python = {
+        analysis = {
+          autoImportCompletions = false,
+          diagnosticMode = "openFilesOnly",
+          useLibraryCodeForTypes = true,
+          stubPath = "/home/jsr-p/typings/",
+          -- typeCheckingMode = "off",
+          -- logLevel = "Trace",
         },
       },
     },
-  },
+  }),
 }
