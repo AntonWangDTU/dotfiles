@@ -8,6 +8,10 @@ require("config.keymaps")
 require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/snippets/" })
 
 vim.g.vimtex_compiler_latexmk = {
+  out_dir = "build",
+}
+
+vim.g.vimtex_compiler_latexmk = {
   build_dir = "latex_out", -- Move auxiliary files to 'latex_out' directory
 }
 -- Go to ~/.config/nvim/lua/user/keymaps.lua (or create it if it doesn't exist)

@@ -41,6 +41,11 @@ output * bg /home/aws/wallpapers/a_house_with_a_chair_and_a_bicycle.jpg fill
 output * scale 1.0
 
 
+# Set gaps between windows
+#
+# gaps inner 4px
+# gaps outer 4px
+
 ### Idle configuration
 #
 # Example configuration:
@@ -79,7 +84,7 @@ exec --no-startup-id nmcli connection up EHP-RESIDENT
     bindsym $mod+Return exec $term
 
     # Start file manager 
-    bindsym $mod+i exec thunar
+    bindsym $mod+i exec alacritty -e zsh -c 'source ~/.zshrc && ranger'
 
     # Kill focused window
     bindsym $mod+Shift+q kill

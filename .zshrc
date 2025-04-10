@@ -4,10 +4,12 @@
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="$HOME/miniconda3/bin:$PATH"
+# export PATH="$HOME/miniconda3/bin:$PATH"  # commented out by conda initialize
 export PATH="/usr/local/texlive/2024/bin/x86_64-linux:$PATH"
 export PATH=/usr/lib/rstudio:$PATH
 
+
+bindkey '^L' forward-char
 
 export LS_COLORS='fi=00:mi=00:mh=00:ln=01;36:or=01;31:di=01;34:ow=04;01;34:st=34:tw=04;34:'
 LS_COLORS+='pi=01;33:so=01;33:do=01;33:bd=01;33:cd=01;33:su=01;35:sg=01;35:ca=01;35:ex=01;32'
@@ -131,7 +133,7 @@ plugins=(git zsh-autosuggestions)
 
 
 source $ZSH/oh-my-zsh.sh
-source ~/miniconda3/etc/profile.d/conda.sh
+# source ~/miniconda3/etc/profile.d/conda.sh  # commented out by conda initialize
 
 # User configuration
 
@@ -146,6 +148,8 @@ source ~/miniconda3/etc/profile.d/conda.sh
 # else
 #   export EDITOR='nvim'
 # fi
+#
+export EDITOR='nvim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
@@ -164,3 +168,19 @@ source ~/miniconda3/etc/profile.d/conda.sh
 
 # Created by `pipx` on 2025-01-05 13:30:56
 export PATH="$PATH:/home/aws/.local/bin"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/aws/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/aws/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/aws/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/aws/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

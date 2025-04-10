@@ -37,4 +37,13 @@ return {
     t({ "", "  \\end{minipage}" }),
     t({ "", "}" }),
   }),
+  s("nw", {
+    t("\\newline"), -- Inserts a newline followed by "line"
+    i(0), -- Moves the cursor to the next line after hittin Tab
+  }),
+  s("bl", {
+    t("\\textbf{"), -- Inserts a newline followed by "line"
+    i(1), -- Moves the cursor to the next line after hittin Tab
+    t("}"), -- Inserts a newline followed by "line"
+  }),
 }
