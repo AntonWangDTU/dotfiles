@@ -11,6 +11,12 @@ export PATH=/usr/lib/rstudio:$PATH
 
 bindkey '^L' forward-char
 
+
+
+bindkey '^K' up-line-or-history
+bindkey '^J' down-line-or-history
+
+
 export LS_COLORS='fi=00:mi=00:mh=00:ln=01;36:or=01;31:di=01;34:ow=04;01;34:st=34:tw=04;34:'
 LS_COLORS+='pi=01;33:so=01;33:do=01;33:bd=01;33:cd=01;33:su=01;35:sg=01;35:ca=01;35:ex=01;32'
 
@@ -21,6 +27,7 @@ alias wifi='nmtui'
 alias clean='latexmk -c'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias wangsync='rclone_sync.sh'
+alias Rsession='tmux attach-session -t Rsession'
 
 function rgp(){
     # Function to grep PDFs using rga and fzf, and open the selected PDF
@@ -129,13 +136,22 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
-plugins=(git zsh-autosuggestions)
+plugins=(git tmux zsh-autosuggestions)
 
 
+ZSH_TMUX_AUTOSTART=true
 source $ZSH/oh-my-zsh.sh
+
 # source ~/miniconda3/etc/profile.d/conda.sh  # commented out by conda initialize
 
 # User configuration
+
+bindkey '^L' forward-char
+
+
+
+bindkey '^K' up-line-or-history
+bindkey '^J' down-line-or-history
 
 # export MANPATH="/usr/local/man:$MANPATH"
 

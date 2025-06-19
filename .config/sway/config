@@ -31,7 +31,7 @@ input * {
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 #output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 
-output * bg /home/aws/wallpapers/a_house_with_a_chair_and_a_bicycle.jpg fill
+output * bg /home/aws/wallpapers/clouds_above_a_mountain.png fill
 #
 # Example configuration:
 #
