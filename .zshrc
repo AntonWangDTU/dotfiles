@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
@@ -28,52 +35,30 @@ alias clean='latexmk -c'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias wangsync='rclone_sync.sh'
 alias Rsession='tmux attach-session -t Rsession'
+alias vpn='/home/aws/Documents/software/vpn.sh'
 
-function rgp(){
-    # Function to grep PDFs using rga and fzf, and open the selected PDF
-    # with the selected match
-    rgall='(?P<file>.*):(?P<line>.*):Page\s(?P<page>\d+):(?P<match>.*)'
-    rgfile='(?P<line>.*):Page\s(?P<page>\d+):(?P<match>.*)'
 
-    if [[ -n $1 ]]; then
-        # Search specified PDF
-        result=$(rga "" --line-number --no-heading $1 |
-                fzf | 
-                rg $rgfile \
-                --only-matching \
-                -r '$file $page $match')
-        filename=$1
-        page=$(echo $result | awk '{print $1}')
-        match=$(echo $result | awk '{for (i=2; i<=NF; i++) printf $i " "; print ""}')
-    else
-        # Search all PDFs in the current directory
-        result=$(rga "" --line-number --no-heading -g '*.pdf' |
-                fzf | 
-                rg $rgall \
-                --only-matching \
-                -r '$file $page $match')
-        filename=$(echo $result | awk '{print $1}')
-        page=$(echo $result | awk '{print $2}')
-        match=$(echo $result | awk '{for (i=3; i<=NF; i++) printf $i " "; print ""}')
-    fi
+# -------- Git Aliases --------
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit -m 'none'"
+alias gp="git pull"
+alias gpom='git push origin main'
+alias gl="git log --oneline --graph --all"
+alias gco="git checkout"
+alias gd="git diff"
+alias gb="git branch"
+ # -----------------------------
 
-    if [[ -z $filename ]]; then
-        echo "No file selected"
-        return
-    fi
 
-    zoom=2.5
-    echo -e "Opening filename $filename with match:\n\"$match\"\n"
-    zathura "$filename" --page "$page" --zoom $zoom > /dev/null 2>&1
-    print -s sioyek "$filename" --page "$page" --zoom $zoom
-}
+
 
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -136,10 +121,21 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
-plugins=(git tmux zsh-autosuggestions)
+plugins=(git zsh-autosuggestions)
 
 
-ZSH_TMUX_AUTOSTART=true
+#ZSH_TMUX_AUTOSTART=true
+ 
+# Custom tmux startup
+if [[ -z "$TMUX" ]] && command -v tmux &> /dev/null; then
+  SESSION="dev"  # <<< set your preferred session name here
+
+  if tmux has-session -t "$SESSION" 2>/dev/null; then
+    exec tmux attach -t "$SESSION"
+  else
+    exec tmux new -s "$SESSION"
+  fi
+fi
 source $ZSH/oh-my-zsh.sh
 
 # source ~/miniconda3/etc/profile.d/conda.sh  # commented out by conda initialize
@@ -147,9 +143,6 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 bindkey '^L' forward-char
-
-
-
 bindkey '^K' up-line-or-history
 bindkey '^J' down-line-or-history
 
@@ -200,3 +193,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

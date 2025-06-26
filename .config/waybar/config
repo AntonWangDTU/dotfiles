@@ -1,58 +1,107 @@
 {
-    "layer": "top", // Waybar at top layer
-    "modules-left": ["sway/workspaces"],
-    "modules-right": ["tray", "cpu", "memory", "backlight", "network", "pulseaudio", "battery", "clock"],
+    "layer": "top",
+    "position": "top",
+    "height": 14,
+    "modules-left": [
+        "sway/workspaces",
+        "sway/mode"
+    ],
+    "modules-center": [
+        "sway/window"
+    ],
+    "modules-right": [
+        "bluetooth",
+        "custom/pixel",
+        "custom/pipewire",
+        "network",
+        "battery",
+        "sway/language",
+        "clock",
+        "tray"
+    ],
+    "sway/window": {
+        "max-length": 35
+    },
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": false,
+        "format": "{icon}",
+        "format-icons": {
+            "1:web": "",
+            "2:code": "",
+            "3:term": "",
+            "4:work": "",
+            "5:music": "",
+            "6:docs": "",
+            "urgent": ""
+        }
+    },
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
     "tray": {
-        // "icon-size": 10,
-        "spacing": 10
+        "spacing": 8
     },
     "clock": {
-        "tooltip-format": "{:%Y-%d-%m | %H:%M}",
-        "format-alt": "{:%Y-%d-%m}",
-        "format": "{:%a %Y-%d-%m %H:%M}"
-        },
-    "cpu": {
-        "format": "　{usage}%"
-    },
-    "memory": {
-        "format": "　{}%"
-    },
-    "backlight": {
-        //"device": "intel_backlight",
-        "format": "　{percent}%",
-        "format-icons": ["", ""]
+        "format": "{:%d-%m-%Y %H:%M}",
+        "format-alt": "{:%d-%m-%Y}",
+        "timezone": "Europe/Copenhagen",
     },
     "battery": {
-        //"states": {
-        //    // "good": 95,
-        //    "warning": 30,
-        //    "critical": 15
-        //},
-        "format": "　{capacity}%"
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
-        //"format-icons": ["", "", "", "", ""]
+        "states": {
+            "good": 95,
+            "warning": 20,
+            "critical": 10
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": "{capacity}%  ",
+        "format-plugged": "{capacity}%  ",
+        "format-alt": "{time} {icon}",
+        "format-icons": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+        ]
     },
     "network": {
-        // "interface": "wlp2s0", // (Optional) To force the use of this interface
-        "format-wifi": "　{signalStrength}%",
-        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ethernet",
-        "format-disconnected": "⚠"
+        "format-wifi": "  {essid} ({signalStrength}%)",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr}  ",
+        "format-disconnected": "Disconnected ⚠ ",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
-    "pulseaudio": {
-        //"scroll-step": 1,
-        "format": "　{volume}%",
-        "format-bluetooth": "{volume}% {icon}",
-        "format-muted": "",
+    "sway/language": {
+        "format": "{short}"
+    },
+    "bluetooth": {
+        "format": "{icon}",
+        "format-alt": "bluetooth: {status}",
         "format-icons": {
-            "headphones": "",
-            "handsfree": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", ""]
+            "enabled": " ",
+            "disabled": ""
         },
-        "on-click": "pavucontrol"
-    }
+        "tooltip-format": "{}",
+        "on-click": "blueman-manager"
+    },
+    "custom/pixel": {
+        "format": "G {} ",
+        "exec": "bash $HOME/dotfiles/scripts/misc/pixelbuds.sh 2> /dev/null",
+        "exec-if": "bash ~/scripts/misc/pixelbuds_con.sh",
+        "interval": 60,
+        "tooltip-format": "Google Pixel Buds: Battery {}"
+    },
+    "custom/pipewire": {
+        "format": "{}",
+        "signal": 8,
+        "interval": "once",
+        "exec": "bash ~/scripts/misc/audio.sh"
+    },
+    "cpu": {
+        "format": "{usage}%  ",
+        "on-click": "alacritty -e btop"
+    },
+    "memory": {
+        "format": "{}%  "
+    },
 }
