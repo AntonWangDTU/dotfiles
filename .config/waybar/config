@@ -45,7 +45,8 @@
     "clock": {
         "format": "{:%d-%m-%Y %H:%M}",
         "format-alt": "{:%d-%m-%Y}",
-        "timezone": "Europe/Copenhagen",
+        "timezone": "Europe/Copenhagen"
+    }
     },
     "battery": {
         "states": {

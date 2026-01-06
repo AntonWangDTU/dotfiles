@@ -84,7 +84,16 @@ exec --no-startup-id nmcli connection up EHP-RESIDENT
     bindsym $mod+Return exec $term
 
     # Start file manager 
-    bindsym $mod+i exec env ZSH_TMUX_AUTOQUIT=true ZSH_TMUX_AUTOLAUNCH=false alacritty -e zsh -c 'ranger'
+  bindsym $mod+i exec env \
+    ZSH_TMUX_AUTOQUIT=true \
+    ZSH_TMUX_AUTOLAUNCH=false \
+    EDITOR=nvim \
+    VISUAL=nvim \
+    alacritty -e zsh -c 'ranger'
+
+
+    # PrintScreen → select region → copy to clipboard
+    bindsym Print exec grim -g "$(slurp)" - | wl-copy
 
     # Kill focused window
     bindsym $mod+Shift+q kill
@@ -128,6 +137,9 @@ exec --no-startup-id nmcli connection up EHP-RESIDENT
     bindsym $mod+Shift+Down move down
     bindsym $mod+Shift+Up move up
     bindsym $mod+Shift+Right move right
+
+
+
 #
 # Workspaces:
 #
@@ -228,7 +240,7 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
     # Special key to take a screenshot with grim
-    bindsym Print exec grim
+    #bindsym Print exec grim
 
 #
 # Status Bar:
@@ -239,3 +251,4 @@ bar {
 }
 
 include /etc/sway/config.d/*
+

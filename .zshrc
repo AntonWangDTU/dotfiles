@@ -1,3 +1,4 @@
+#~/bonsai.sh for making a bonsai in when shell is started
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -27,7 +28,18 @@ bindkey '^J' down-line-or-history
 export LS_COLORS='fi=00:mi=00:mh=00:ln=01;36:or=01;31:di=01;34:ow=04;01;34:st=34:tw=04;34:'
 LS_COLORS+='pi=01;33:so=01;33:do=01;33:bd=01;33:cd=01;33:su=01;35:sg=01;35:ca=01;35:ex=01;32'
 
-alias s='sgpt'
+unalias s 2>/dev/null
+s() {
+  if [[ "$1" == --* ]]; then
+    # Flags/commands mode → pass arguments verbatim
+    sgpt "$@"
+  else
+    # Natural language mode → join into one prompt
+    sgpt "$*"
+  fi
+}
+#alias s='sgpt'
+alias c='clear'
 alias vi='nvim'
 alias py='python3'
 alias wifi='nmtui'
@@ -121,7 +133,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
-plugins=(git zsh-autosuggestions)
+plugins=(git zsh-autosuggestions zsh-vi-mode)
 
 
 #ZSH_TMUX_AUTOSTART=true
@@ -138,13 +150,21 @@ if [[ -z "$TMUX" ]] && command -v tmux &> /dev/null; then
 fi
 source $ZSH/oh-my-zsh.sh
 
+
+# Paste from system clipboard in vi mode
+
 # source ~/miniconda3/etc/profile.d/conda.sh  # commented out by conda initialize
 
 # User configuration
 
-bindkey '^L' forward-char
-bindkey '^K' up-line-or-history
-bindkey '^J' down-line-or-history
+# Re-apply your insert mode bindings after ZVM init
+function zvm_after_init() {
+  bindkey '^L' forward-word         # Move forward one word
+  bindkey '^K' up-line-or-history   # Previous history line
+  bindkey '^J' down-line-or-history # Next history line
+}
+
+
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
