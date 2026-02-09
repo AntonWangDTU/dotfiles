@@ -48,6 +48,7 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias wangsync='rclone_sync.sh'
 alias Rsession='tmux attach-session -t Rsession'
 alias vpn='/home/aws/Documents/software/vpn.sh'
+alias f='cd ~ && fzf | xargs -r "$EDITOR"'
 
 
 # -------- Git Aliases --------
