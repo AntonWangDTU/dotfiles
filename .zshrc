@@ -9,13 +9,16 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
+export DOCKER_BUILDKIT=1
+
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$HOME/.local/bin:$PATH"
 # export PATH="$HOME/miniconda3/bin:$PATH"  # commented out by conda initialize
 export PATH="/usr/local/texlive/2024/bin/x86_64-linux:$PATH"
 export PATH=/usr/lib/rstudio:$PATH
-
+export VISUAL=nvim
+export EDITOR=nvim
 
 bindkey '^L' forward-char
 
@@ -38,6 +41,10 @@ s() {
     sgpt "$*"
   fi
 }
+unalias ss 2>/dev/null
+ss() {
+  s --shell "$*"
+}
 #alias s='sgpt'
 alias c='clear'
 alias vi='nvim'
@@ -49,7 +56,8 @@ alias wangsync='rclone_sync.sh'
 alias Rsession='tmux attach-session -t Rsession'
 alias vpn='/home/aws/Documents/software/vpn.sh'
 alias f='cd ~ && fzf | xargs -r "$EDITOR"'
-
+alias uvr='uv run'
+#alias sioyek='sioyek --new-instance'
 
 # -------- Git Aliases --------
 alias gs="git status"
@@ -164,7 +172,11 @@ function zvm_after_init() {
   bindkey '^K' up-line-or-history   # Previous history line
   bindkey '^J' down-line-or-history # Next history line
 }
-
+# Open a PDF with sioyek via fzf
+function pdf() {
+    find "${1:-.}" -type f -name "*.pdf" | \
+    fzf --preview 'echo {}' --bind 'enter:execute(sioyek {})'
+}
 
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -216,3 +228,32 @@ unset __conda_setup
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Shell-GPT integration ZSH v0.2
+_sgpt_zsh() {
+if [[ -n "$BUFFER" ]]; then
+    _sgpt_prev_cmd=$BUFFER
+    BUFFER+="⌛"
+    zle -I && zle redisplay
+    BUFFER=$(sgpt --shell <<< "$_sgpt_prev_cmd" --no-interaction)
+    zle end-of-line
+fi
+}
+zle -N _sgpt_zsh
+bindkey ^l _sgpt_zsh
+# Shell-GPT integration ZSH v0.2
+
+# Shell-GPT integration ZSH v0.2
+_sgpt_zsh() {
+if [[ -n "$BUFFER" ]]; then
+    _sgpt_prev_cmd=$BUFFER
+    BUFFER+="⌛"
+    zle -I && zle redisplay
+    BUFFER=$(sgpt --shell <<< "$_sgpt_prev_cmd" --no-interaction)
+    zle end-of-line
+fi
+}
+zle -N _sgpt_zsh
+bindkey ^l _sgpt_zsh
+# Shell-GPT integration ZSH v0.2
+export PATH="$HOME/.local/share/gem/ruby/3.4.0/bin:$PATH"
