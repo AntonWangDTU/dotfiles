@@ -37,6 +37,18 @@ local ls = require("luasnip")
 --    end
 --  end, { silent = true })
 
+-- Toggle light/dark theme and persist the choice
+local _theme_file = vim.fn.stdpath("config") .. "/.theme"
+local _dark = "tokyonight-night"
+local _light = "github_light"
+
+vim.keymap.set("n", "<leader>tt", function()
+  local next = (vim.g.colors_name == _dark) and _light or _dark
+  vim.cmd("colorscheme " .. next)
+  local f = io.open(_theme_file, "w")
+  if f then f:write(next); f:close() end
+end, { desc = "Toggle light/dark theme" })
+
 -- navigate within insert mode (with remaps)
 vim.keymap.set("i", "<c-h>", "<Left>", { remap = true })
 vim.keymap.set("i", "<c-l>", "<Right>", { remap = true })
