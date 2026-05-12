@@ -17,5 +17,8 @@ return {
     keys = {
       { "<leader>mp", "<cmd>MarkdownPreviewToggle<cr>", ft = "markdown", desc = "Markdown Preview Toggle" },
     },
+    config = function()
+      vim.g.mkdp_auto_close = 0
+    end,
   },
 }

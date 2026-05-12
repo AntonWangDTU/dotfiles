@@ -21,3 +21,11 @@ vim.api.nvim_create_autocmd("BufWritePost", {
   pattern = "*.tex",
   command = "silent! !latexmk -pdf -interaction=nonstopmode -silent %",
 })
+
+vim.api.nvim_create_autocmd("BufReadCmd", {
+  pattern = "*.pdf",
+  callback = function(args)
+    vim.fn.jobstart({ "sioyek", args.match }, { detach = true })
+    vim.api.nvim_buf_delete(args.buf, { force = true })
+  end,
+})
