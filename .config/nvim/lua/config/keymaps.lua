@@ -49,6 +49,19 @@ vim.keymap.set("n", "<leader>tt", function()
   if f then f:write(next); f:close() end
 end, { desc = "Toggle light/dark theme" })
 
+-- Copy file path to clipboard
+vim.keymap.set("n", "<leader>fy", function()
+  local path = vim.fn.expand("%:.")
+  vim.fn.setreg("+", path)
+  vim.notify("Copied: " .. path)
+end, { desc = "Yank relative path" })
+
+vim.keymap.set("n", "<leader>fY", function()
+  local path = vim.fn.expand("%:p")
+  vim.fn.setreg("+", path)
+  vim.notify("Copied: " .. path)
+end, { desc = "Yank absolute path" })
+
 -- navigate within insert mode (with remaps)
 vim.keymap.set("i", "<c-h>", "<Left>", { remap = true })
 vim.keymap.set("i", "<c-l>", "<Right>", { remap = true })
